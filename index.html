@@ -59,7 +59,6 @@
 								var url = "http://nominatim.openstreetmap.org/search/" +
 									encodeURIComponent(full_add) + "?format=json";
 								var search_coor = httpGet(url);
-								console.log(search_coor);
 								map.panTo(search_coor);
 								map.setZoom(17);
 							}
@@ -71,28 +70,39 @@
 			}
 
 			function httpGet(theUrl) {
-				console.log(theUrl);
-				var httpRequest = new XMLHttpRequest();
-				httpRequest.onreadystatechange = addressCallback;
-				httpRequest.open("GET", theUrl, true);
-				httpRequest.send();
+				var xmlHttp = null;
+				xmlHttp = new XMLHttpRequest();
+				xmlHttp.open("GET", theUrl, false);
+				xmlHttp.send(null);
+				var address_json = JSON.parse(xmlHttp.responseText);
+				var lat = address_json[0]['lat'];
+				var lon = address_json[0]['lon'];
+				return [lat, lon];
 			}
 
-			function addressCallback() {
-				if (httpRequest.readyState === 4) {
-					if (httpRequest.status === 200) {
-						var address_json = JSON.parse(httpRequest.responseText);
-						var lat = address_json[0]['lat'];
-						var lon = address_json[0]['lon'];
-						console.log([lat, lon]);
-						return [lat, lon];
-					} else {
-						console.log(httpRequest.status);
-					}
-				} else {
-					console.log('There was an issue');
-				}
-			}
+			//ASYNC:
+			// function httpGet(theUrl) {
+			// 	console.log(theUrl);
+			// 	var httpRequest = new XMLHttpRequest();
+			// 	httpRequest.onreadystatechange = addressCallback;
+			// 	httpRequest.open("GET", theUrl, false);
+			// 	httpRequest.send();
+			// }
+
+			// function addressCallback() {
+			// 	if (this.readyState === 4) {
+			// 		if (this.status === 200) {
+			// 			var address_json = JSON.parse(this.responseText);
+			// 			var lat = address_json[0]['lat'];
+			// 			var lon = address_json[0]['lon'];
+			// 			return [lat, lon];
+			// 		} else {
+			// 			console.log("Issue here");
+			// 		}
+			// 	} else {
+			// 		console.log('There was another issue');
+			// 	}
+			// }
 
 			function cleanAddress(address) {
 				address = address.toLowerCase().replace(/[;,\.:\?#]/g,"").replace(/( dc| washington)/g,"").replace(/ *$/g,"");
