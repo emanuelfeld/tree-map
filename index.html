@@ -58,10 +58,6 @@
 						map.setZoom(17);
 					};
 
-					var errorCallback = function() {
-						console.log("That search didn't work.");
-					};
-
 					$(document).ready(function() {
 						$("input").on("keydown", function search(e) {
 							if (e.keyCode == 13) {
@@ -82,7 +78,6 @@
 			function httpGet(url, addressCallback) {
 			    var req = new XMLHttpRequest();
 			    req.addEventListener("load", addressCallback, false);
-			    req.addEventListener("error", errorCallback, false);
 			    req.open('GET', url);
 			 	req.send(null);
 			}			
