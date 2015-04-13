@@ -51,10 +51,11 @@
 					$(document).ready(function() {
 						$("input").on("keydown", function search(e) {
 							if (e.keyCode == 13) {
-								var add = $('#search_address').val() + " Washington DC";
-								console.log(add);
+								var add = cleanAddress($('#search_address').val())
+								var full_add = add + " Washington DC";
+								console.log(full_add);
 								var url = "http://nominatim.openstreetmap.org/search/" +
-									encodeURIComponent(add) + "?format=json";
+									encodeURIComponent(full_add) + "?format=json";
 								var search_coor = httpGet(url);
 								map.panTo(search_coor);
 								map.setZoom(17);
@@ -77,6 +78,11 @@
 				return [lat, lon];
 			}
 
+			function cleanAddress(address) {
+				address = address.toLowerCase().replace(/[;,\.:\?#]/,"").replace('( dc| washington)','');
+				return address;
+			}
+			
 			window.onload = main;
 		</script>
 
