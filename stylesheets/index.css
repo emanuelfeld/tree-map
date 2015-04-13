@@ -1,0 +1,56 @@
+
+#logo {
+	padding-right:10px;
+	display:inline-block;
+}
+
+#title {
+	font:40px Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	color:#222;
+	font-weight:300;
+	display:inline-block;
+}
+
+#map {
+	height:75%;
+	position:relative;
+}
+
+#search_address {
+	font:40px Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	max-width:370px;
+	background-color:transparent;
+	border-style:dashed;
+	border-width:0 0 1px;
+	border-color:#222;
+	outline:0
+}
+
+.stButton .chicklets {
+	padding:0 5px 0 5px;
+}
+
+header {
+	padding:15px
+}
+
+footer {
+  font:16px Lato;
+  text-align: center;
+  font-size:14px;
+  padding-top:15px;
+  padding-bottom:15px;
+  bottom:50px;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 0 5px 0 5px;
+}
+
+html,body {
+	height:100%;
+	margin:0
+}
+
+
