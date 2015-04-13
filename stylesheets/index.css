@@ -27,25 +27,23 @@
 }
 
 .stButton .chicklets {
-	padding:0 5px 0 5px;
+	padding:0 10px 0 0px;
 }
 
 header {
-	padding:15px
+	padding:15px;
 }
 
 footer {
   font:16px Lato;
-  text-align: center;
+  text-align: left;
   font-size:14px;
-  padding-top:15px;
-  padding-bottom:15px;
-  bottom:50px;
+  padding:15px;
 }
 
 footer a {
   text-decoration: none;
-  padding: 0 5px 0 5px;
+  padding: 0 10px 0 0px;
 }
 
 html,body {

@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+ 
     <title>dctrees</title>
 
     <link rel="stylesheet" href="stylesheets/index.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <link rel="shortcut icon" type="image/x-icon" href="assets/dc16.ico" >
-		<link href="http://libs.cartocdn.com/cartodb.js/v3/3.13/themes/css/cartodb.css" rel="stylesheet">
-		<meta content="initial-scale=1.0, user-scalable=no" name="viewport">
+	<link href="http://libs.cartocdn.com/cartodb.js/v3/3.13/themes/css/cartodb.css" rel="stylesheet">
+	<meta content="initial-scale=1.0, user-scalable=no" name="viewport">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -17,7 +18,8 @@
   	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
   	<script type="text/javascript">stLight.options({publisher: "45b51a17-fe6c-479b-aab4-28d008c79a84", doNotHash: true, doNotCopy: false, hashAddressBar: false});</script>
   </head>
-<body style="margin:0 auto">
+
+  <body style="margin:0 auto">
 		<header class="header">
 			
 			<div id="logo"><img src="assets/dc64green.png"></div>
@@ -57,6 +59,7 @@
 								var url = "http://nominatim.openstreetmap.org/search/" +
 									encodeURIComponent(full_add) + "?format=json";
 								var search_coor = httpGet(url);
+								console.log(search_coor);
 								map.panTo(search_coor);
 								map.setZoom(17);
 							}
@@ -68,14 +71,32 @@
 			}
 
 			function httpGet(theUrl) {
-				var xmlHttp = null;
-				xmlHttp = new XMLHttpRequest();
-				xmlHttp.open("GET", theUrl, false);
-				xmlHttp.send(null);
-				var address_json = JSON.parse(xmlHttp.responseText);
-				var lat = address_json[0]['lat'];
-				var lon = address_json[0]['lon'];
-				return [lat, lon];
+				console.log(theUrl);
+				var httpRequest = new XMLHttpRequest();
+				httpRequest.onreadystatechange = addressCallback;
+				httpRequest.open("GET", theUrl, true);
+				httpRequest.send();
+			}
+
+			function addressCallback() {
+				if (httpRequest.readyState === 4) {
+					if (httpRequest.status === 200) {
+						var address_json = JSON.parse(httpRequest.responseText);
+						var lat = address_json[0]['lat'];
+						var lon = address_json[0]['lon'];
+						console.log([lat, lon]);
+						return [lat, lon];
+					} else {
+						console.log(httpRequest.status);
+					}
+				} else {
+					console.log('There was an issue');
+				}
+			}
+
+			function cleanAddress(address) {
+				address = address.toLowerCase().replace(/[;,\.:\?#]/g,"").replace(/( dc| washington)/g,"").replace(/ *$/g,"");
+				return address;
 			}
 
 			function cleanAddress(address) {
@@ -92,7 +113,7 @@
 			<a href="about.html"> About </a> 
 			<a href="about.html#contact"> Contact </a>
 			<span class='st_facebook' st_title='Want a tree planted on your DC block? Check out http://getdctrees.org' displayText=''></span>
-			<span class='st_twitter' st_title='Want a tree planted on your DC block? Check out http://getdctrees.org' st_via='' st_url='' displayText=''></span>
+			<span class='st_twitter' st_title='Want a tree planted on your DC block? Check out http://getdctrees.org' st_via='' st_url=null displayText=''></span>
 			<span class='st_reddit' st_title='Want a tree planted on your DC block? Check out http://getdctrees.org' st_url='http://getdctrees.org' displayText=''></span>
 		</footer>	
 
