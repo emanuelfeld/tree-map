@@ -113,6 +113,10 @@ img {
   max-width:100%;
 }
 
+.stButton .chicklets {
+	padding:0 5px 0 5px;
+}
+
 header {
   width:100%;
 }
@@ -198,6 +202,11 @@ footer {
   padding-top:20px;
   padding-bottom:20px;
   bottom:50px;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 0 5px 0 5px;
 }
 
 
