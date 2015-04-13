@@ -25,6 +25,62 @@
 			plant a tree @ <input id="search_address" placeholder="this street address" type="text"></div>
 		</header>
 
+		<div id="map"></div>
+		<script src="http://libs.cartocdn.com/cartodb.js/v3/3.13/cartodb.js"></script>
+
+		<script>
+			function main() {
+				cartodb.createVis('map',
+					'https://evonfriedland.cartodb.com/api/v2/viz/90ac791c-e0de-11e4-84b0-0e43f3deba5a/viz.json', {
+						shareable: false,
+						title: false,
+						description: false,
+						search: false,
+						tiles_loader: true,
+						center_lat: 38.8993488,
+						center_lon: -77.0145665,
+						zoom: 11
+					}).done(function(vis, layers) {
+					layers[1].setInteraction(true);
+					layers[1].on('featureOver', function(e, latlng, pos, data) {
+						cartodb.log.log(e, latlng, pos, data);
+					});
+
+					var map = vis.getNativeMap();
+
+					$(document).ready(function() {
+						$("input").on("keydown", function search(e) {
+							if (e.keyCode == 13) {
+								var add = $('#search_address').val() + " Washington DC";
+								console.log(add);
+								var url = "http://nominatim.openstreetmap.org/search/" +
+									encodeURIComponent(add) + "?format=json";
+								var search_coor = httpGet(url);
+								map.panTo(search_coor);
+								map.setZoom(17);
+							}
+						});
+					});
+				}).error(function(err) {
+					console.log(err);
+				});
+			}
+
+			function httpGet(theUrl) {
+				var xmlHttp = null;
+				xmlHttp = new XMLHttpRequest();
+				xmlHttp.open("GET", theUrl, false);
+				xmlHttp.send(null);
+				var address_json = JSON.parse(xmlHttp.responseText);
+				var lat = address_json[0]['lat'];
+				var lon = address_json[0]['lon'];
+				return [lat, lon];
+			}
+
+			window.onload = main;
+		</script>
+
+
 		<footer class="footer">
 			<a href="index.html"> Map </a> 
 			<a href="about.html"> About </a> 
