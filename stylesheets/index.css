@@ -35,7 +35,7 @@ header {
 }
 
 footer {
-  font:28px Lato;
+  font:28px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: left;
   padding:15px;
 }
