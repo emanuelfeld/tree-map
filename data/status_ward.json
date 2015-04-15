@@ -1,59 +1,59 @@
 [
     {
         "ward": "1",
-        "freq.status.Open": 7.1178,
-        "freq.status.Plant": 92.1946,
-        "freq.status.Proposed": 0.6749,
-        "freq.status.Unknown": 0.0127
+        "freq.status.Open": 7.1,
+        "freq.status.Plant": 92.2,
+        "freq.status.Proposed": 0.7,
+        "freq.status.Unknown": 0
     },
     {
         "ward": "2",
-        "freq.status.Open": 4.2247,
-        "freq.status.Plant": 95.0482,
-        "freq.status.Proposed": 0.7194,
-        "freq.status.Unknown": 0.0077
+        "freq.status.Open": 4.2,
+        "freq.status.Plant": 95,
+        "freq.status.Proposed": 0.7,
+        "freq.status.Unknown": 0
     },
     {
         "ward": "3",
-        "freq.status.Open": 8.0164,
-        "freq.status.Plant": 91.8739,
-        "freq.status.Proposed": 0.0862,
-        "freq.status.Unknown": 0.0235
+        "freq.status.Open": 8,
+        "freq.status.Plant": 91.9,
+        "freq.status.Proposed": 0.1,
+        "freq.status.Unknown": 0
     },
     {
         "ward": "4",
-        "freq.status.Open": 10.4717,
-        "freq.status.Plant": 89.0548,
-        "freq.status.Proposed": 0.4462,
-        "freq.status.Unknown": 0.0273
+        "freq.status.Open": 10.5,
+        "freq.status.Plant": 89.1,
+        "freq.status.Proposed": 0.4,
+        "freq.status.Unknown": 0
     },
     {
         "ward": "5",
-        "freq.status.Open": 17.3949,
-        "freq.status.Plant": 80.9487,
-        "freq.status.Proposed": 1.6124,
-        "freq.status.Unknown": 0.044
+        "freq.status.Open": 17.4,
+        "freq.status.Plant": 80.9,
+        "freq.status.Proposed": 1.6,
+        "freq.status.Unknown": 0
     },
     {
         "ward": "6",
-        "freq.status.Open": 6.89,
-        "freq.status.Plant": 91.1876,
-        "freq.status.Proposed": 1.9067,
-        "freq.status.Unknown": 0.0157
+        "freq.status.Open": 6.9,
+        "freq.status.Plant": 91.2,
+        "freq.status.Proposed": 1.9,
+        "freq.status.Unknown": 0
     },
     {
         "ward": "7",
-        "freq.status.Open": 18.4605,
-        "freq.status.Plant": 80.9466,
-        "freq.status.Proposed": 0.5718,
-        "freq.status.Unknown": 0.0212
+        "freq.status.Open": 18.5,
+        "freq.status.Plant": 80.9,
+        "freq.status.Proposed": 0.6,
+        "freq.status.Unknown": 0
     },
     {
         "ward": "8",
-        "freq.status.Open": 17.0031,
-        "freq.status.Plant": 82.151,
-        "freq.status.Proposed": 0.8335,
-        "freq.status.Unknown": 0.0123
+        "freq.status.Open": 17,
+        "freq.status.Plant": 82.2,
+        "freq.status.Proposed": 0.8,
+        "freq.status.Unknown": 0
     }
 ]
 

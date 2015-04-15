@@ -41,48 +41,6 @@
 				<div id="about">
 					<h2><a class="anchor" href="#about" id="about"><span class="octicon octicon-link"></span></a>About</h2>
 
-					<div id="chart"></div>
-
-					<script>
-
-					var dataCallback = function() {
-						var condition_ward = JSON.parse(this.responseText);
-						var chart = c3.generate({
-						    bindto: '#chart',
-						    data: {
-						        columns: [
-						            ['ward 1', condition_ward[0]['freq.condition.Unknown'],condition_ward[0]['freq.condition.Dead'],condition_ward[0]['freq.condition.Poor'],condition_ward[0]['freq.condition.Fair'],condition_ward[0]['freq.condition.Good'],condition_ward[0]['freq.condition.Excellent']],
-						            ['ward 2', condition_ward[1]['freq.condition.Unknown'],condition_ward[1]['freq.condition.Dead'],condition_ward[1]['freq.condition.Poor'],condition_ward[1]['freq.condition.Fair'],condition_ward[1]['freq.condition.Good'],condition_ward[1]['freq.condition.Excellent']],
-						            ['ward 3', condition_ward[2]['freq.condition.Unknown'],condition_ward[2]['freq.condition.Dead'],condition_ward[2]['freq.condition.Poor'],condition_ward[2]['freq.condition.Fair'],condition_ward[2]['freq.condition.Good'],condition_ward[2]['freq.condition.Excellent']],
-						            ['ward 4', condition_ward[3]['freq.condition.Unknown'],condition_ward[3]['freq.condition.Dead'],condition_ward[3]['freq.condition.Poor'],condition_ward[3]['freq.condition.Fair'],condition_ward[3]['freq.condition.Good'],condition_ward[3]['freq.condition.Excellent']],
-						            ['ward 5', condition_ward[4]['freq.condition.Unknown'],condition_ward[4]['freq.condition.Dead'],condition_ward[4]['freq.condition.Poor'],condition_ward[4]['freq.condition.Fair'],condition_ward[4]['freq.condition.Good'],condition_ward[4]['freq.condition.Excellent']],
-						            ['ward 6', condition_ward[5]['freq.condition.Unknown'],condition_ward[5]['freq.condition.Dead'],condition_ward[5]['freq.condition.Poor'],condition_ward[5]['freq.condition.Fair'],condition_ward[5]['freq.condition.Good'],condition_ward[5]['freq.condition.Excellent']],
-						            ['ward 7', condition_ward[6]['freq.condition.Unknown'],condition_ward[6]['freq.condition.Dead'],condition_ward[6]['freq.condition.Poor'],condition_ward[6]['freq.condition.Fair'],condition_ward[6]['freq.condition.Good'],condition_ward[6]['freq.condition.Excellent']],
-						            ['ward 8', condition_ward[7]['freq.condition.Unknown'],condition_ward[7]['freq.condition.Dead'],condition_ward[7]['freq.condition.Poor'],condition_ward[7]['freq.condition.Fair'],condition_ward[7]['freq.condition.Good'],condition_ward[7]['freq.condition.Excellent']]
-						        ]
-						    },
-						    axis: {
-						        x: {
-						            type: 'category',
-						            categories: ['unknown', 'dead', 'poor', 'fair', 'good', 'excellent']
-						        }
-						    }
-						});
-					};
-
-					function httpGet(url, dataCallback) {
-						 var req = new XMLHttpRequest();
-						 req.addEventListener("load", dataCallback, false);
-						 req.open('GET', url);
-						 req.send(null);
-					}			
-
-					httpGet("http://emanuelfeld.github.io/tree-map/data/condition_ward.json",dataCallback);
-
-
-
-					</script>
-
 					<p>Wish there were more trees in your DC neighborhood?</p>
 
 					<p>Residents can suggest new planting locations to DDOT's <a href="http://ddot.dc.gov/page/ddot-urban-forestry">Urban Forestry
@@ -95,17 +53,11 @@
 
 					<p>Before asking for a new tree, be sure to double check that the space hasn't already been filled by walking over to the location or by checking it out using the Google Street View link.</p>
 
-					<h2><a class="anchor" href="#contact" id="contact"><span class="octicon octicon-link"></span></a>Contact</h2>
-
-					<p>This site was developed by <a href="https://emanuelfeld.github.io" target="_blank">Emanuel Feld</a> and is affiliated with the DC Trees
-					project at <a href="http://codefordc.org/">Code for DC</a>.</p>
-
-					<p>Send questions, issues, ideas, feature requests, rants, or raves on <a href="https://twitter.com/evonfriedland" target="_blank">Twitter</a>
-					or by email at getdctrees at gmail dot com.</p>
-
 					<h2><a class="anchor" href="#more-information" id="more-information"><span class="octicon octicon-link"></span></a>More
 					information</h2>
 					
+					<div id="chart"></div>
+
 					<p>The map on the homepage was built using the <a href="http://opendata.dc.gov/datasets/d6364e8d068e4e558c82040569f5d33a_23" target="_blank">UFA Street Trees</a> and <a href="http://opendata.dc.gov/datasets/071aa9b40a1a4b38a938f8f5058068a8_31" target="_blank">2012 ward boundaries</a> datasets from <a href="http://opendata.dc.gov" target="_blank">opendata.dc.gov</a> and the <a href="http://www.opendatadc.org/dataset/neighborhood-boundaries-217-neighborhoods-washpost-justgrimes" target="_blank">neighborhood boundaries</a> file from Code for DC's <a href="http://www.opendatadc.org/">data catalog</a>.</p>
 
 					<p>In the site's logo you'll find the outline of a leaf from a Sugar Maple tree, one of the most common in the District.</p>
@@ -115,7 +67,17 @@
 					<p>Casey Trees: <a href="http://caseytrees.org/programs/planting/streettrees/">Street tree information</a>
 					<br>DDOT: <a href="http://ddot.dc.gov/page/ddot-urban-forestry">Urban Forestry Administration homepage</a>
 					<br>Greater Greater Washington: <a href="http://greatergreaterwashington.org/post/14542/have-an-empty-street-tree-box-ask-for-a-new-tree-now/">Have an empty street tree box? Ask for a new tree now</a></p>
+
+					<h2><a class="anchor" href="#contact" id="contact"><span class="octicon octicon-link"></span></a>Contact</h2>
+
+					<p>This site was developed by <a href="https://emanuelfeld.github.io" target="_blank">Emanuel Feld</a> and is affiliated with the DC Trees
+					project at <a href="http://codefordc.org/">Code for DC</a>.</p>
+
+					<p>Send questions, issues, ideas, feature requests, rants, or raves on <a href="https://twitter.com/evonfriedland" target="_blank">Twitter</a>
+					or by email at getdctrees at gmail dot com.</p>
+
 				</div>
+
 			</section>
 
 			<footer class="footer">
@@ -126,7 +88,45 @@
 				<span class='st_twitter' st_title='Want a tree planted on your DC block? Check out http://getdctrees.org' st_via='' displayText=''></span>
 				<span class='st_reddit' st_title='Want a tree planted on your DC block? Check out http://getdctrees.org' st_url='http://getdctrees.org' displayText=''></span>
 			</footer>	
+
+			<script>
+
+			var dataCallback = function() {
+				var condition_ward = JSON.parse(this.responseText);
+				var chart = c3.generate({
+				    bindto: '#chart',
+				    data: {
+				        columns: [
+				            ['1', condition_ward[0]['freq.condition.Unknown'],condition_ward[0]['freq.condition.Dead'],condition_ward[0]['freq.condition.Poor'],condition_ward[0]['freq.condition.Fair'],condition_ward[0]['freq.condition.Good'],condition_ward[0]['freq.condition.Excellent']],
+				            ['2', condition_ward[1]['freq.condition.Unknown'],condition_ward[1]['freq.condition.Dead'],condition_ward[1]['freq.condition.Poor'],condition_ward[1]['freq.condition.Fair'],condition_ward[1]['freq.condition.Good'],condition_ward[1]['freq.condition.Excellent']],
+				            ['3', condition_ward[2]['freq.condition.Unknown'],condition_ward[2]['freq.condition.Dead'],condition_ward[2]['freq.condition.Poor'],condition_ward[2]['freq.condition.Fair'],condition_ward[2]['freq.condition.Good'],condition_ward[2]['freq.condition.Excellent']],
+				            ['4', condition_ward[3]['freq.condition.Unknown'],condition_ward[3]['freq.condition.Dead'],condition_ward[3]['freq.condition.Poor'],condition_ward[3]['freq.condition.Fair'],condition_ward[3]['freq.condition.Good'],condition_ward[3]['freq.condition.Excellent']],
+				            ['5', condition_ward[4]['freq.condition.Unknown'],condition_ward[4]['freq.condition.Dead'],condition_ward[4]['freq.condition.Poor'],condition_ward[4]['freq.condition.Fair'],condition_ward[4]['freq.condition.Good'],condition_ward[4]['freq.condition.Excellent']],
+				            ['6', condition_ward[5]['freq.condition.Unknown'],condition_ward[5]['freq.condition.Dead'],condition_ward[5]['freq.condition.Poor'],condition_ward[5]['freq.condition.Fair'],condition_ward[5]['freq.condition.Good'],condition_ward[5]['freq.condition.Excellent']],
+				            ['7', condition_ward[6]['freq.condition.Unknown'],condition_ward[6]['freq.condition.Dead'],condition_ward[6]['freq.condition.Poor'],condition_ward[6]['freq.condition.Fair'],condition_ward[6]['freq.condition.Good'],condition_ward[6]['freq.condition.Excellent']],
+				            ['8', condition_ward[7]['freq.condition.Unknown'],condition_ward[7]['freq.condition.Dead'],condition_ward[7]['freq.condition.Poor'],condition_ward[7]['freq.condition.Fair'],condition_ward[7]['freq.condition.Good'],condition_ward[7]['freq.condition.Excellent']]
+				        ]
+				    },
+				    axis: {
+				        x: {
+				            type: 'category',
+				            categories: ['unknown', 'dead', 'poor', 'fair', 'good', 'excellent']
+				        }
+				    }
+				});
+			};
+
+			function httpGet(url, dataCallback) {
+				 var req = new XMLHttpRequest();
+				 req.addEventListener("load", dataCallback, false);
+				 req.open('GET', url);
+				 req.send(null);
+			}			
+
+			httpGet("http://emanuelfeld.github.io/tree-map/data/condition_ward.json",dataCallback);
+
+			</script>
 		
-    <script src="javascripts/scale.fix.js"></script>
-  </body>
+    		<script src="javascripts/scale.fix.js"></script>
+  	</body>
 </html>

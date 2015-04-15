@@ -1,5 +1,6 @@
 library(rgdal)
 library(jsonlite)
+library(leafletR)
 
 IntersectPtWithPoly <- function(x, y) { 
   # Extracts values from a SpatialPolygonDataFrame with SpatialPointsDataFrame, and appends table (similar to ArcGIS intersect) 
@@ -67,6 +68,10 @@ coordinates(ufa_sub) <- ~longitude+latitude
 
 setwd('~/Code/dctrees/')
 boundaries <- readOGR('boundaries','boundaries')
+
+setwd('~/Code/dctrees/')
+wards <- readOGR('WardPly','WardPly')
+
 ufa_sub <- IntersectPtWithPoly(ufa_sub, boundaries)
 
 colnames(ufa_sub)[colnames(ufa_sub)=="subhood"]<-"neighborhood"
@@ -79,29 +84,29 @@ condition.ward.df <- data.frame(condition.ward)
 colnames(condition.ward.df)<-c("ward","condition","freq.condition")
 condition.ward.df<-reshape(condition.ward.df, timevar="condition", idvar="ward", direction="wide")
 
-
 # write.csv(condition.ward.df,"~/Code/tree-map/data/condition_ward.csv",row.names=FALSE)
 condition.ward.json <- toJSON(condition.ward.df,pretty=TRUE)
 write(condition.ward.json, "~/Code/tree-map/data/condition_ward.json")
 
-condition.neighborhood <- prop.table(table(ufa_sub$neighborhood,ufa_sub$condition), 1)*100
+condition.neighborhood <- round(prop.table(table(ufa_sub$neighborhood,ufa_sub$condition), 1)*100,digits=1)
 condition.neighborhood.df <- data.frame(condition.neighborhood)
 colnames(condition.neighborhood.df)<-c("neighborhood","condition","freq.condition")
 condition.neighborhood.df<-reshape(condition.neighborhood.df, timevar="condition", idvar="neighborhood", direction="wide")
 # write.csv(condition.neighborhood.df,"~/Code/tree-map/data/condition_neighborhood.csv",row.names=FALSE)
 # boundaries@data = data.frame(boundaries@data, condition.neighborhood.df[match(boundaries@data[,"subhood"], condition.neighborhood.df[,"neighborhood"]),])
-# writeOGR(boundaries,"trial","trial", driver='ESRI Shapefile',check_exists=TRUE,overwrite_layer=TRUE)
 
-status.ward <- prop.table(table(ufa_sub$ward,ufa_sub$status), 1)*100
+status.ward <- round(prop.table(table(ufa_sub$ward,ufa_sub$status), 1)*100,digits=1)
 status.ward.df <- data.frame(status.ward)
 colnames(status.ward.df)<-c("ward","status","freq.status")
 status.ward.df<-reshape(status.ward.df, timevar="status", idvar="ward", direction="wide")
 write.csv(status.ward.df,"~/Code/tree-map/data/status_ward.csv",row.names=FALSE)
 status.ward.json <- toJSON(status.ward.df,pretty=TRUE)
 write(status.ward.json, "~/Code/tree-map/data/status_ward.json")
+wards@data = data.frame(wards@data, status.ward.df[match(wards@data[,"WARD"], status.ward.df[,"ward"]),])
+toGeoJSON(data=wards, name="status_ward", dest="~/Code/tree-map/data", lat.lon=c("latitude","longitude"), overwrite=TRUE)
 
 
-status.neighborhood <- prop.table(table(ufa_sub$neighborhood,ufa_sub$status), 1)*100
+status.neighborhood <- round(prop.table(table(ufa_sub$neighborhood,ufa_sub$status), 1)*100,digits=1)
 status.neighborhood.df <- data.frame(status.neighborhood)
 colnames(status.neighborhood.df)<-c("neighborhood","status","freq.status")
 status.neighborhood.df<-reshape(status.neighborhood.df, timevar="status", idvar="neighborhood", direction="wide")
