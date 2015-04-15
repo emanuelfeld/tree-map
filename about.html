@@ -53,7 +53,7 @@
 
 					<p>To help you describe the plot location in your request, you can check it out using the Google Street View link provided. Of course, you can also go look at it outside!</p>
 
-					<p>Wondering where there is the greatest opportunity for tree planting in the District? The chart below shows the percent of total plots that are currently open in each ward:</p>
+					<p>Wondering where there is the most opportunity for tree planting in the District? The chart below shows the <span style="font-weight: bold; color:#055B97">percent</span> and <span style="font-weight: bold; color:#D00046">number</span> of total plots currently open in each ward:</p>
 
 					<div id="status_chart"></div>
 
@@ -139,8 +139,6 @@
 					,
 					    tooltip: {
 					        format: {
-					            title: function (d) { return 'Data ' + d; }
-					            ,
 					            value: function (value, ratio, id) {
 					                var format = id === 'percent' ? d3.format('%') : d3.format(',');
 					                return format(value);
