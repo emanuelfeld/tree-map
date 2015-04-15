@@ -79,7 +79,7 @@ colnames(ufa_sub)[colnames(ufa_sub)=="WARD"]<-"ward"
 
 ufa_sub<-ufa_sub[,c("longitude","latitude","status","address","objectid","facilityid","neighborhood","ward","condition","disease")]
 
-condition.ward <- round(prop.table(table(ufa_sub$ward,ufa_sub$condition), 1)*100,digits=1)
+condition.ward <- round(prop.table(table(ufa_sub$ward,ufa_sub$condition), 1),digits=3)
 condition.ward.df <- data.frame(condition.ward)
 colnames(condition.ward.df)<-c("ward","condition","freq.condition")
 condition.ward.df<-reshape(condition.ward.df, timevar="condition", idvar="ward", direction="wide")
@@ -88,14 +88,14 @@ condition.ward.df<-reshape(condition.ward.df, timevar="condition", idvar="ward",
 condition.ward.json <- toJSON(condition.ward.df,pretty=TRUE)
 write(condition.ward.json, "~/Code/tree-map/data/condition_ward.json")
 
-condition.neighborhood <- round(prop.table(table(ufa_sub$neighborhood,ufa_sub$condition), 1)*100,digits=1)
+condition.neighborhood <- round(prop.table(table(ufa_sub$neighborhood,ufa_sub$condition), 1),digits=3)
 condition.neighborhood.df <- data.frame(condition.neighborhood)
 colnames(condition.neighborhood.df)<-c("neighborhood","condition","freq.condition")
 condition.neighborhood.df<-reshape(condition.neighborhood.df, timevar="condition", idvar="neighborhood", direction="wide")
 # write.csv(condition.neighborhood.df,"~/Code/tree-map/data/condition_neighborhood.csv",row.names=FALSE)
 # boundaries@data = data.frame(boundaries@data, condition.neighborhood.df[match(boundaries@data[,"subhood"], condition.neighborhood.df[,"neighborhood"]),])
 
-status.ward.freq <- round(prop.table(table(ufa_sub$ward,ufa_sub$status), 1)*100,digits=1)
+status.ward.freq <- round(prop.table(table(ufa_sub$ward,ufa_sub$status), 1),digits=3)
 status.ward.freq.df <- data.frame(status.ward.freq)
 colnames(status.ward.freq.df)<-c("ward","status","freq.status")
 status.ward.freq.df<-reshape(status.ward.freq.df, timevar="status", idvar="ward", direction="wide")
@@ -114,7 +114,7 @@ status.ward.df <- merge(status.ward.freq.df, status.ward.count.df, by="ward")
 status.ward.json <- toJSON(status.ward.df,pretty=TRUE)
 write(status.ward.json, "~/Code/tree-map/data/status_ward.json")
 
-status.neighborhood <- round(prop.table(table(ufa_sub$neighborhood,ufa_sub$status), 1)*100,digits=1)
+status.neighborhood <- round(prop.table(table(ufa_sub$neighborhood,ufa_sub$status), 1),digits=3)
 status.neighborhood.df <- data.frame(status.neighborhood)
 colnames(status.neighborhood.df)<-c("neighborhood","status","freq.status")
 status.neighborhood.df<-reshape(status.neighborhood.df, timevar="status", idvar="neighborhood", direction="wide")

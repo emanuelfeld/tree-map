@@ -1,75 +1,75 @@
 [
     {
         "ward": "1",
-        "freq.condition.Unknown": 0.1,
-        "freq.condition.Dead": 2.8,
-        "freq.condition.Poor": 2.6,
-        "freq.condition.Fair": 9.2,
-        "freq.condition.Good": 67.7,
-        "freq.condition.Excellent": 17.5
+        "freq.condition.Unknown": 0.001,
+        "freq.condition.Dead": 0.028,
+        "freq.condition.Poor": 0.026,
+        "freq.condition.Fair": 0.092,
+        "freq.condition.Good": 0.677,
+        "freq.condition.Excellent": 0.175
     },
     {
         "ward": "2",
-        "freq.condition.Unknown": 0.2,
-        "freq.condition.Dead": 1.7,
-        "freq.condition.Poor": 2.8,
-        "freq.condition.Fair": 15,
-        "freq.condition.Good": 62.1,
-        "freq.condition.Excellent": 18.3
+        "freq.condition.Unknown": 0.002,
+        "freq.condition.Dead": 0.017,
+        "freq.condition.Poor": 0.028,
+        "freq.condition.Fair": 0.15,
+        "freq.condition.Good": 0.621,
+        "freq.condition.Excellent": 0.183
     },
     {
         "ward": "3",
-        "freq.condition.Unknown": 0.1,
-        "freq.condition.Dead": 1.6,
-        "freq.condition.Poor": 1.8,
-        "freq.condition.Fair": 9.6,
-        "freq.condition.Good": 61.3,
-        "freq.condition.Excellent": 25.6
+        "freq.condition.Unknown": 0.001,
+        "freq.condition.Dead": 0.016,
+        "freq.condition.Poor": 0.018,
+        "freq.condition.Fair": 0.096,
+        "freq.condition.Good": 0.613,
+        "freq.condition.Excellent": 0.256
     },
     {
         "ward": "4",
-        "freq.condition.Unknown": 0.1,
-        "freq.condition.Dead": 2.6,
-        "freq.condition.Poor": 2.8,
-        "freq.condition.Fair": 8.4,
-        "freq.condition.Good": 79.2,
-        "freq.condition.Excellent": 6.9
+        "freq.condition.Unknown": 0.001,
+        "freq.condition.Dead": 0.026,
+        "freq.condition.Poor": 0.028,
+        "freq.condition.Fair": 0.084,
+        "freq.condition.Good": 0.792,
+        "freq.condition.Excellent": 0.069
     },
     {
         "ward": "5",
-        "freq.condition.Unknown": 0.2,
-        "freq.condition.Dead": 2.9,
-        "freq.condition.Poor": 3,
-        "freq.condition.Fair": 13.5,
-        "freq.condition.Good": 70.5,
-        "freq.condition.Excellent": 9.9
+        "freq.condition.Unknown": 0.002,
+        "freq.condition.Dead": 0.029,
+        "freq.condition.Poor": 0.03,
+        "freq.condition.Fair": 0.135,
+        "freq.condition.Good": 0.705,
+        "freq.condition.Excellent": 0.099
     },
     {
         "ward": "6",
-        "freq.condition.Unknown": 0.1,
-        "freq.condition.Dead": 1.9,
-        "freq.condition.Poor": 2.6,
-        "freq.condition.Fair": 15.1,
-        "freq.condition.Good": 69.9,
-        "freq.condition.Excellent": 10.4
+        "freq.condition.Unknown": 0.001,
+        "freq.condition.Dead": 0.019,
+        "freq.condition.Poor": 0.026,
+        "freq.condition.Fair": 0.151,
+        "freq.condition.Good": 0.699,
+        "freq.condition.Excellent": 0.104
     },
     {
         "ward": "7",
         "freq.condition.Unknown": 0,
-        "freq.condition.Dead": 2.5,
-        "freq.condition.Poor": 3.3,
-        "freq.condition.Fair": 19.5,
-        "freq.condition.Good": 66.8,
-        "freq.condition.Excellent": 7.8
+        "freq.condition.Dead": 0.025,
+        "freq.condition.Poor": 0.033,
+        "freq.condition.Fair": 0.195,
+        "freq.condition.Good": 0.668,
+        "freq.condition.Excellent": 0.078
     },
     {
         "ward": "8",
-        "freq.condition.Unknown": 0.1,
-        "freq.condition.Dead": 2.9,
-        "freq.condition.Poor": 3.6,
-        "freq.condition.Fair": 18.7,
-        "freq.condition.Good": 63.9,
-        "freq.condition.Excellent": 10.9
+        "freq.condition.Unknown": 0.001,
+        "freq.condition.Dead": 0.029,
+        "freq.condition.Poor": 0.036,
+        "freq.condition.Fair": 0.187,
+        "freq.condition.Good": 0.639,
+        "freq.condition.Excellent": 0.109
     }
 ]
 
