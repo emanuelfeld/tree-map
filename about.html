@@ -46,23 +46,25 @@
 					<p>Residents can suggest new planting locations to DDOT's <a href="http://ddot.dc.gov/page/ddot-urban-forestry">Urban Forestry
 					Administration</a> until June 15th. UFA will then prioritize requested areas in its Fall planting season.</p>
 
-					<p>This site can help you investigate where there are empty tree boxes near you.</p> 
+					<p>This site can help you investigate where there are available tree boxes near you.</p> 
 
-					<p>Just search for your address, click on one of the empty plots (shown as orange points on the map), and use the link provided in the pop-up to submit a request through <a href=
+					<p>Just search for your address, click on one of the open plots (shown as orange points on the map), and use the link provided in the pop-up to submit a request through <a href=
 					"http://311.dc.gov/">311.dc.gov</a>.</p>
 
-					<p>Before asking for a new tree, be sure to double check that the space hasn't already been filled by walking over to the location or by checking it out using the Google Street View link.</p>
+					<p>To help you describe the plot location in your request, you can check it out using the Google Street View link provided. Of course, you can also go look at it outside!</p>
+
+					<p>Wondering where there is the greatest potential for tree planting in the District? The chart below shows the percent of total plots that are currently open in each ward:</p>
+
+					<div id="status_chart"></div>
 
 					<h2><a class="anchor" href="#more-information" id="more-information"><span class="octicon octicon-link"></span></a>More
 					information</h2>
 					
-					<div id="chart"></div>
-
-					<p>The map on the homepage was built using the <a href="http://opendata.dc.gov/datasets/d6364e8d068e4e558c82040569f5d33a_23" target="_blank">UFA Street Trees</a> and <a href="http://opendata.dc.gov/datasets/071aa9b40a1a4b38a938f8f5058068a8_31" target="_blank">2012 ward boundaries</a> datasets from <a href="http://opendata.dc.gov" target="_blank">opendata.dc.gov</a> and the <a href="http://www.opendatadc.org/dataset/neighborhood-boundaries-217-neighborhoods-washpost-justgrimes" target="_blank">neighborhood boundaries</a> file from Code for DC's <a href="http://www.opendatadc.org/">data catalog</a>.</p>
+					<p>The map on the homepage and the plot above were built using the <a href="http://opendata.dc.gov/datasets/d6364e8d068e4e558c82040569f5d33a_23" target="_blank">UFA Street Trees</a> and <a href="http://opendata.dc.gov/datasets/071aa9b40a1a4b38a938f8f5058068a8_31" target="_blank">2012 ward boundaries</a> datasets from <a href="http://opendata.dc.gov" target="_blank">opendata.dc.gov</a> and the <a href="http://www.opendatadc.org/dataset/neighborhood-boundaries-217-neighborhoods-washpost-justgrimes" target="_blank">neighborhood boundaries</a> file from Code for DC's <a href="http://www.opendatadc.org/">data catalog</a>.</p>
 
 					<p>In the site's logo you'll find the outline of a leaf from a Sugar Maple tree, one of the most common in the District.</p>
 
-					<p>Curious about DC's urban forest? Check out these links to learn more:</p>
+					<p>Check out these links to learn more about DC's urban forest:</p>
 
 					<p>Casey Trees: <a href="http://caseytrees.org/programs/planting/streettrees/">Street tree information</a>
 					<br>DDOT: <a href="http://ddot.dc.gov/page/ddot-urban-forestry">Urban Forestry Administration homepage</a>
@@ -91,39 +93,41 @@
 
 			<script>
 
-			var dataCallback = function() {
-				var condition_ward = JSON.parse(this.responseText);
+			var statusCallback = function() {
+				var status_ward = JSON.parse(this.responseText);
+				console.log(status_ward);
+				console.log(status_ward[0]['freq.status.Open']);
 				var chart = c3.generate({
-				    bindto: '#chart',
+				    bindto: '#status_chart',
 				    data: {
 				        columns: [
-				            ['1', condition_ward[0]['freq.condition.Unknown'],condition_ward[0]['freq.condition.Dead'],condition_ward[0]['freq.condition.Poor'],condition_ward[0]['freq.condition.Fair'],condition_ward[0]['freq.condition.Good'],condition_ward[0]['freq.condition.Excellent']],
-				            ['2', condition_ward[1]['freq.condition.Unknown'],condition_ward[1]['freq.condition.Dead'],condition_ward[1]['freq.condition.Poor'],condition_ward[1]['freq.condition.Fair'],condition_ward[1]['freq.condition.Good'],condition_ward[1]['freq.condition.Excellent']],
-				            ['3', condition_ward[2]['freq.condition.Unknown'],condition_ward[2]['freq.condition.Dead'],condition_ward[2]['freq.condition.Poor'],condition_ward[2]['freq.condition.Fair'],condition_ward[2]['freq.condition.Good'],condition_ward[2]['freq.condition.Excellent']],
-				            ['4', condition_ward[3]['freq.condition.Unknown'],condition_ward[3]['freq.condition.Dead'],condition_ward[3]['freq.condition.Poor'],condition_ward[3]['freq.condition.Fair'],condition_ward[3]['freq.condition.Good'],condition_ward[3]['freq.condition.Excellent']],
-				            ['5', condition_ward[4]['freq.condition.Unknown'],condition_ward[4]['freq.condition.Dead'],condition_ward[4]['freq.condition.Poor'],condition_ward[4]['freq.condition.Fair'],condition_ward[4]['freq.condition.Good'],condition_ward[4]['freq.condition.Excellent']],
-				            ['6', condition_ward[5]['freq.condition.Unknown'],condition_ward[5]['freq.condition.Dead'],condition_ward[5]['freq.condition.Poor'],condition_ward[5]['freq.condition.Fair'],condition_ward[5]['freq.condition.Good'],condition_ward[5]['freq.condition.Excellent']],
-				            ['7', condition_ward[6]['freq.condition.Unknown'],condition_ward[6]['freq.condition.Dead'],condition_ward[6]['freq.condition.Poor'],condition_ward[6]['freq.condition.Fair'],condition_ward[6]['freq.condition.Good'],condition_ward[6]['freq.condition.Excellent']],
-				            ['8', condition_ward[7]['freq.condition.Unknown'],condition_ward[7]['freq.condition.Dead'],condition_ward[7]['freq.condition.Poor'],condition_ward[7]['freq.condition.Fair'],condition_ward[7]['freq.condition.Good'],condition_ward[7]['freq.condition.Excellent']]
-				        ]
+				            ['percent of tree boxes open', status_ward[0]['freq.status.Open'],status_ward[1]['freq.status.Open'],status_ward[2]['freq.status.Open'],status_ward[3]['freq.status.Open'],status_ward[4]['freq.status.Open'],status_ward[5]['freq.status.Open'],status_ward[6]['freq.status.Open'],status_ward[7]['freq.status.Open']]
+				        ],
+				        type: "bar"
+				    },
+				    bar: {
+				    	width: {
+				    		ratio: 0.5
+				    	}
 				    },
 				    axis: {
 				        x: {
 				            type: 'category',
-				            categories: ['unknown', 'dead', 'poor', 'fair', 'good', 'excellent']
+				            categories: ['ward 1', 'ward 2', 'ward 3', 'ward 4', 'ward 5', 'ward 6', 'ward 7', 'ward 8']
 				        }
 				    }
 				});
 			};
 
-			function httpGet(url, dataCallback) {
+
+			function httpGet(url, callback) {
 				 var req = new XMLHttpRequest();
-				 req.addEventListener("load", dataCallback, false);
+				 req.addEventListener("load", callback, false);
 				 req.open('GET', url);
 				 req.send(null);
 			}			
 
-			httpGet("http://emanuelfeld.github.io/tree-map/data/condition_ward.json",dataCallback);
+			httpGet("http://emanuelfeld.github.io/tree-map/data/status_ward.json",statusCallback);
 
 			</script>
 		

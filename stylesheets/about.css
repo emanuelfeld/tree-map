@@ -10,6 +10,10 @@ body {
   padding:20px 0 0 0;
 }
 
+#status_chart {
+  margin:0 0 20px;
+}
+
 .title {
   font-size:40px;
   margin:0 0 10px;
