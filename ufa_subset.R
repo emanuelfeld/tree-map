@@ -95,16 +95,24 @@ condition.neighborhood.df<-reshape(condition.neighborhood.df, timevar="condition
 # write.csv(condition.neighborhood.df,"~/Code/tree-map/data/condition_neighborhood.csv",row.names=FALSE)
 # boundaries@data = data.frame(boundaries@data, condition.neighborhood.df[match(boundaries@data[,"subhood"], condition.neighborhood.df[,"neighborhood"]),])
 
-status.ward <- round(prop.table(table(ufa_sub$ward,ufa_sub$status), 1)*100,digits=1)
-status.ward.df <- data.frame(status.ward)
-colnames(status.ward.df)<-c("ward","status","freq.status")
-status.ward.df<-reshape(status.ward.df, timevar="status", idvar="ward", direction="wide")
-write.csv(status.ward.df,"~/Code/tree-map/data/status_ward.csv",row.names=FALSE)
+status.ward.freq <- round(prop.table(table(ufa_sub$ward,ufa_sub$status), 1)*100,digits=1)
+status.ward.freq.df <- data.frame(status.ward.freq)
+colnames(status.ward.freq.df)<-c("ward","status","freq.status")
+status.ward.freq.df<-reshape(status.ward.freq.df, timevar="status", idvar="ward", direction="wide")
+write.csv(status.ward.freq.df,"~/Code/tree-map/data/status_ward.csv",row.names=FALSE)
+status.ward.freq.json <- toJSON(status.ward.freq.df,pretty=TRUE)
+write(status.ward.freq.json, "~/Code/tree-map/data/status_ward_freq.json")
+wards@data = data.frame(wards@data, status.ward.freq.df[match(wards@data[,"WARD"], status.ward.freq.df[,"ward"]),])
+toGeoJSON(data=wards, name="status_ward_freq", dest="~/Code/tree-map/data", lat.lon=c("latitude","longitude"), overwrite=TRUE)
+
+status.ward.count <- table(ufa_sub$ward,ufa_sub$status)
+status.ward.count.df <- data.frame(status.ward.count)
+colnames(status.ward.count.df)<-c("ward","status","count.status")
+status.ward.count.df<-reshape(status.ward.count.df, timevar="status", idvar="ward", direction="wide")
+
+status.ward.df <- merge(status.ward.freq.df, status.ward.count.df, by="ward")
 status.ward.json <- toJSON(status.ward.df,pretty=TRUE)
 write(status.ward.json, "~/Code/tree-map/data/status_ward.json")
-wards@data = data.frame(wards@data, status.ward.df[match(wards@data[,"WARD"], status.ward.df[,"ward"]),])
-toGeoJSON(data=wards, name="status_ward", dest="~/Code/tree-map/data", lat.lon=c("latitude","longitude"), overwrite=TRUE)
-
 
 status.neighborhood <- round(prop.table(table(ufa_sub$neighborhood,ufa_sub$status), 1)*100,digits=1)
 status.neighborhood.df <- data.frame(status.neighborhood)
