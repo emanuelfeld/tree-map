@@ -74,10 +74,12 @@ colnames(ufa_sub)[colnames(ufa_sub)=="WARD"]<-"ward"
 
 ufa_sub<-ufa_sub[,c("longitude","latitude","status","address","objectid","facilityid","neighborhood","ward","condition","disease")]
 
-condition.ward <- prop.table(table(ufa_sub$ward,ufa_sub$condition), 1)*100
+condition.ward <- round(prop.table(table(ufa_sub$ward,ufa_sub$condition), 1)*100,digits=1)
 condition.ward.df <- data.frame(condition.ward)
 colnames(condition.ward.df)<-c("ward","condition","freq.condition")
 condition.ward.df<-reshape(condition.ward.df, timevar="condition", idvar="ward", direction="wide")
+
+
 # write.csv(condition.ward.df,"~/Code/tree-map/data/condition_ward.csv",row.names=FALSE)
 condition.ward.json <- toJSON(condition.ward.df,pretty=TRUE)
 write(condition.ward.json, "~/Code/tree-map/data/condition_ward.json")
