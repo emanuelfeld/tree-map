@@ -45,6 +45,20 @@
 
 					<script>
 
+					var dataCallback = function() {
+						var json = JSON.parse(this.responseText);
+						console.log(json);
+					};
+
+					function httpGet(url, dataCallback) {
+						 var req = new XMLHttpRequest();
+						 req.addEventListener("load", dataCallback, false);
+						 req.open('GET', url);
+						 req.send(null);
+					}			
+
+					httpGet("https://raw.githubusercontent.com/emanuelfeld/tree-map/gh-pages/data/condition_ward.json",dataCallback);
+
 					var chart = c3.generate({
 					    bindto: '#chart',
 					    data: {
