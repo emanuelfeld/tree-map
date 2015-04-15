@@ -1,131 +1,130 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>plant the district</title>
-
-    <link rel="stylesheet" href="stylesheets/about.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/dc16.ico" >
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  	<script type="text/javascript">var switchTo5x=true;</script>
-  	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-  	<script type="text/javascript">stLight.options({publisher: "45b51a17-fe6c-479b-aab4-28d008c79a84", doNotHash: true, doNotCopy: false, hashAddressBar: false});</script>
-  	<!-- Load c3.css -->
-<link href="stylesheets/c3.css" rel="stylesheet" type="text/css">
-
-<!-- Load d3.js and c3.js -->
-<script src="javascripts/d3.v3.min.js" charset="utf-8"></script>
-<script src="javascripts/c3.min.js"></script>
-
-  </head>
-<body style="margin:0 auto">
-	<header>
-		<div id="logo"><a href="/"><img alt="dctrees_logo" src="assets/dc64white.png"></a></div>
-	</header>
-
-	<section>
-		<div id="about">
-			<h2><a class="anchor" href="#about" id="about"><span class="octicon octicon-link"></span></a>About</h2>
-
-<div id="chart"></div>
-
-
-<script>
-
-var chart = c3.generate({
-    bindto: '#chart',
-    data: {
-        x: 'x',
-        columns: [
-            ['x', 30, 50, 100, 230, 300, 310],
-            ['data1', 30, 200, 100, 400, 150, 250],
-            ['data2', 130, 300, 200, 300, 250, 450]
-        ]
-    }
-});
-
-setTimeout(function () {
-    chart.load({
-        columns: [
-            ['data1', 100, 250, 150, 200, 100, 350]
-        ]
-    });
-}, 1000);
-
-setTimeout(function () {
-    chart.load({
-        columns: [
-            ['data3', 80, 150, 100, 180, 80, 150]
-        ]
-    });
-}, 1500);
-
-setTimeout(function () {
-    chart.unload({
-        ids: 'data2'
-    });
-}, 2000);
-
-</script>
-			<p>Wish there were more trees in your DC neighborhood?</p>
-
-			<p>Residents can suggest new planting locations to DDOT's <a href="http://ddot.dc.gov/page/ddot-urban-forestry">Urban Forestry
-			Administration</a> until June 15th. UFA will then prioritize requested areas in its Fall planting season.</p>
-
-			<p>This site can help you investigate where there are empty tree boxes near you.</p> 
-
-			<p>Just search for your address, click on one of the empty plots (shown as orange points on the map), and use the link provided in the pop-up to submit a request through <a href=
-			"http://311.dc.gov/">311.dc.gov</a>.</p>
-
-			<p>Before asking for a new tree, be sure to double check that the space hasn't already been filled by walking over to the location or by checking it out using the Google Street View link.</p>
-
-			<h2><a class="anchor" href="#contact" id="contact"><span class="octicon octicon-link"></span></a>Contact</h2>
-
-			<p>This site was developed by <a href="https://emanuelfeld.github.io" target="_blank">Emanuel Feld</a> and is affiliated with the DC Trees
-			project at <a href="http://codefordc.org/">Code for DC</a>.</p>
-
-			<p>Send questions, issues, ideas, feature requests, rants, or raves on <a href="https://twitter.com/evonfriedland" target="_blank">Twitter</a>
-			or by email at getdctrees at gmail dot com.</p>
-
-			<h2><a class="anchor" href="#more-information" id="more-information"><span class="octicon octicon-link"></span></a>More
-			information</h2>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<title>plant the district</title>
+		
+		<link rel="stylesheet" href="stylesheets/about.css">
+		<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/dc16.ico" >
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script type="text/javascript">var switchTo5x=true;</script>
+		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+		<script type="text/javascript">stLight.options({publisher: "45b51a17-fe6c-479b-aab4-28d008c79a84", doNotHash: true, doNotCopy: false, hashAddressBar: false});</script>
+		<!-- Load c3.css -->
+		<link href="stylesheets/c3.css" rel="stylesheet" type="text/css">
+		<!-- Load d3.js and c3.js -->
+		<script src="javascripts/d3.v3.min.js" charset="utf-8"></script>
+		<script src="javascripts/c3.min.js"></script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 			
-			<p>The map on the homepage was built using the <a href="http://opendata.dc.gov/datasets/d6364e8d068e4e558c82040569f5d33a_23" target="_blank">UFA Street Trees</a> and <a href="http://opendata.dc.gov/datasets/071aa9b40a1a4b38a938f8f5058068a8_31" target="_blank">2012 ward boundaries</a> datasets from <a href="http://opendata.dc.gov" target="_blank">opendata.dc.gov</a> and the <a href="http://www.opendatadc.org/dataset/neighborhood-boundaries-217-neighborhoods-washpost-justgrimes" target="_blank">neighborhood boundaries</a> file from Code for DC's <a href="http://www.opendatadc.org/">data catalog</a>.</p>
+			ga('create', 'UA-61856433-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+	</head>
+	
+	<body style="margin:0 auto">
 
-			<p>In the site's logo you'll find the outline of a leaf from a Sugar Maple tree, one of the most common in the District.</p>
+		<header>
+			<div id="logo"><a href="/"><img alt="dctrees_logo" src="assets/dc64white.png"></a></div>
+		</header>
 
-			<p>Curious about DC's urban forest? Check out these links to learn more:</p>
+			<section>
+				<div id="about">
+					<h2><a class="anchor" href="#about" id="about"><span class="octicon octicon-link"></span></a>About</h2>
 
-			<p>Casey Trees: <a href="http://caseytrees.org/programs/planting/streettrees/">Street tree information</a>
-			<br>DDOT: <a href="http://ddot.dc.gov/page/ddot-urban-forestry">Urban Forestry Administration homepage</a>
-			<br>Greater Greater Washington: <a href="http://greatergreaterwashington.org/post/14542/have-an-empty-street-tree-box-ask-for-a-new-tree-now/">Have an empty street tree box? Ask for a new tree now</a></p>
+					<div id="chart"></div>
 
-		</div>
-	</section>
+					<script>
 
-		<footer class="footer">
-			<a href="index.html"> map </a> 
-			<a href="about.html"> about </a> 
-			<a href="about.html#contact"> contact </a>
-			<span class='st_facebook' st_title='Want a tree planted on your DC block? Check out http://getdctrees.org' displayText=''></span>
-			<span class='st_twitter' st_title='Want a tree planted on your DC block? Check out http://getdctrees.org' st_via='' displayText=''></span>
-			<span class='st_reddit' st_title='Want a tree planted on your DC block? Check out http://getdctrees.org' st_url='http://getdctrees.org' displayText=''></span>
-		</footer>	
+					var chart = c3.generate({
+					    bindto: '#chart',
+					    data: {
+					        x: 'x',
+					        columns: [
+					            ['x', 30, 50, 100, 230, 300, 310],
+					            ['data1', 30, 200, 100, 400, 150, 250],
+					            ['data2', 130, 300, 200, 300, 250, 450]
+					        ]
+					    }
+					});
 
+					setTimeout(function () {
+					    chart.load({
+					        columns: [
+					            ['data1', 100, 250, 150, 200, 100, 350]
+					        ]
+					    });
+					}, 1000);
+
+					setTimeout(function () {
+					    chart.load({
+					        columns: [
+					            ['data3', 80, 150, 100, 180, 80, 150]
+					        ]
+					    });
+					}, 1500);
+
+					setTimeout(function () {
+					    chart.unload({
+					        ids: 'data2'
+					    });
+					}, 2000);
+
+					</script>
+
+					<p>Wish there were more trees in your DC neighborhood?</p>
+
+					<p>Residents can suggest new planting locations to DDOT's <a href="http://ddot.dc.gov/page/ddot-urban-forestry">Urban Forestry
+					Administration</a> until June 15th. UFA will then prioritize requested areas in its Fall planting season.</p>
+
+					<p>This site can help you investigate where there are empty tree boxes near you.</p> 
+
+					<p>Just search for your address, click on one of the empty plots (shown as orange points on the map), and use the link provided in the pop-up to submit a request through <a href=
+					"http://311.dc.gov/">311.dc.gov</a>.</p>
+
+					<p>Before asking for a new tree, be sure to double check that the space hasn't already been filled by walking over to the location or by checking it out using the Google Street View link.</p>
+
+					<h2><a class="anchor" href="#contact" id="contact"><span class="octicon octicon-link"></span></a>Contact</h2>
+
+					<p>This site was developed by <a href="https://emanuelfeld.github.io" target="_blank">Emanuel Feld</a> and is affiliated with the DC Trees
+					project at <a href="http://codefordc.org/">Code for DC</a>.</p>
+
+					<p>Send questions, issues, ideas, feature requests, rants, or raves on <a href="https://twitter.com/evonfriedland" target="_blank">Twitter</a>
+					or by email at getdctrees at gmail dot com.</p>
+
+					<h2><a class="anchor" href="#more-information" id="more-information"><span class="octicon octicon-link"></span></a>More
+					information</h2>
+					
+					<p>The map on the homepage was built using the <a href="http://opendata.dc.gov/datasets/d6364e8d068e4e558c82040569f5d33a_23" target="_blank">UFA Street Trees</a> and <a href="http://opendata.dc.gov/datasets/071aa9b40a1a4b38a938f8f5058068a8_31" target="_blank">2012 ward boundaries</a> datasets from <a href="http://opendata.dc.gov" target="_blank">opendata.dc.gov</a> and the <a href="http://www.opendatadc.org/dataset/neighborhood-boundaries-217-neighborhoods-washpost-justgrimes" target="_blank">neighborhood boundaries</a> file from Code for DC's <a href="http://www.opendatadc.org/">data catalog</a>.</p>
+
+					<p>In the site's logo you'll find the outline of a leaf from a Sugar Maple tree, one of the most common in the District.</p>
+
+					<p>Curious about DC's urban forest? Check out these links to learn more:</p>
+
+					<p>Casey Trees: <a href="http://caseytrees.org/programs/planting/streettrees/">Street tree information</a>
+					<br>DDOT: <a href="http://ddot.dc.gov/page/ddot-urban-forestry">Urban Forestry Administration homepage</a>
+					<br>Greater Greater Washington: <a href="http://greatergreaterwashington.org/post/14542/have-an-empty-street-tree-box-ask-for-a-new-tree-now/">Have an empty street tree box? Ask for a new tree now</a></p>
+				</div>
+			</section>
+
+			<footer class="footer">
+				<a href="index.html"> map </a> 
+				<a href="about.html"> about </a> 
+				<a href="about.html#contact"> contact </a>
+				<span class='st_facebook' st_title='Want a tree planted on your DC block? Check out http://getdctrees.org' displayText=''></span>
+				<span class='st_twitter' st_title='Want a tree planted on your DC block? Check out http://getdctrees.org' st_via='' displayText=''></span>
+				<span class='st_reddit' st_title='Want a tree planted on your DC block? Check out http://getdctrees.org' st_url='http://getdctrees.org' displayText=''></span>
+			</footer>	
+		
     <script src="javascripts/scale.fix.js"></script>
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-61856433-1', 'auto');
-	  ga('send', 'pageview');
-	</script>
   </body>
 </html>
