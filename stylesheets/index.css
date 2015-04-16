@@ -9,11 +9,16 @@
 	color:#222;
 	font-weight:300;
 	display:inline-block;
+	height:40px;
 }
 
 #map {
-	height:75%;
-	position:relative;
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+    height: -moz-calc(100% - 173px);  
+    height: -webkit-calc(100% - 173px);     
+    height: calc(100% - 173px); 
 }
 
 #search_address {
@@ -31,13 +36,15 @@
 }
 
 header {
+	height:75px;
 	padding:15px;
 }
 
 footer {
+    height:28px;
   font:28px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: left;
-  padding:15px;
+  padding:15px 15px 25px 15px;
 }
 
 footer a {
@@ -51,4 +58,51 @@ html,body {
 	margin:0
 }
 
+@media (max-width: 714px) {
+  
+    header {
+        height:115px;
+        padding:15px;
+    }
 
+    #map {
+        top:40px;
+        height: 100%;
+        width:100%;
+        overflow: hidden;
+        height: -moz-calc(100% - 213px);  
+        height: -webkit-calc(100% - 213px);     
+        height: calc(100% - 213px); 
+    }
+}
+
+@media (max-width: 648px) {
+  
+    header {
+        height:165px;
+        padding:15px;
+    }
+
+    #map {
+        top:40px;
+        height: 100%;
+        width:100%;
+        overflow: hidden;
+        height: -moz-calc(100% - 263px);  
+        height: -webkit-calc(100% - 263px);     
+        height: calc(100% - 263px); 
+    }
+}
+
+@media (max-width: 400px) {
+  
+    #search_address {
+        font:40px Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        width:100%;
+        background-color:transparent;
+        border-style:dashed;
+        border-width:0 0 1px 0;
+        border-color:#222;
+        outline:0
+    }
+}
