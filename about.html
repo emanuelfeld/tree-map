@@ -51,7 +51,7 @@
 					<p>Use the <a href="/">map page</a> to search for your address, click on one of the open plots (shown as orange points), and use the link provided in the pop-up to submit a request through <a href=
 					"http://311.dc.gov/">311.dc.gov</a>. Just copy-paste the address you see into the 311 form.</p>
 
-					<p>To help you describe the plot location in your request, you can check it out using the Google Street View link provided. Of course, you can also go look at it outside!</p>
+					<p>To help you describe the plot location in your request, you can check it out using the Google Street View link provided. Of course, you could also go look at it outside!</p>
 
 					<p>Wondering where there is the most opportunity for tree planting in the District? The chart below shows the <span style="font-weight: bold; color:#055B97">percent</span> and <span style="font-weight: bold; color:#D00046">number</span> of plots currently open in each ward:</p>
 
@@ -83,9 +83,7 @@
 			</section>
 
 			<footer class="footer">
-				<p>
-					<a href="/"> back to the map </a>
-				</p>
+				<p><a href="/"> back to the map </a></p>
 				<p>
 					<span class='st_facebook' st_title='Want a tree planted on your DC block? Check out http://getdctrees.org' displayText=''></span>
 					<span class='st_twitter' st_title='Want a tree planted on your DC block? Check out http://getdctrees.org' st_via='' displayText=''></span>
@@ -95,70 +93,68 @@
 
 			<script>
 
-			var statusCallback = function() {
-				var status_ward = JSON.parse(this.responseText);
-				console.log(status_ward);
-				var chart = c3.generate({
-				    bindto: '#status_chart',
-					padding: {
-        				left: 30,
-					},
-					data: {
-				        columns: [
-			            ['percent', status_ward[0]['freq.status.Open'],status_ward[1]['freq.status.Open'],status_ward[2]['freq.status.Open'],status_ward[3]['freq.status.Open'],status_ward[4]['freq.status.Open'],status_ward[5]['freq.status.Open'],status_ward[6]['freq.status.Open'],status_ward[7]['freq.status.Open']],
-			            ['number', status_ward[0]['count.status.Open'],status_ward[1]['count.status.Open'],status_ward[2]['count.status.Open'],status_ward[3]['count.status.Open'],status_ward[4]['count.status.Open'],status_ward[5]['count.status.Open'],status_ward[6]['count.status.Open'],status_ward[7]['count.status.Open']]
-				        ],
-				        type: "bar",
-				        axes: {
-				            number: 'y2'
-				        },			    
-				        colors: {
-				            percent: '#055B97',
-				            number: '#D00046'
-				        },
-				    },
-				    bar: {
-				    	width: {
-				    		ratio: 0.5
-				    	}
-				    },
-				    axis: {
-				        x: {
-				            type: 'category',
-				            categories: ['ward 1', 'ward 2', 'ward 3', 'ward 4', 'ward 5', 'ward 6', 'ward 7', 'ward 8']
-				        },
-				        y: {
-				            label: 'percent',
-				            tick: {
-				                format: d3.format("%")
-				            }
-            			},
-				        y2: {
-				        	show: true,
-				            label: 'number'
-				        }
-				    }
-					,
-					    tooltip: {
-					        format: {
-					            value: function (value, ratio, id) {
-					                var format = id === 'percent' ? d3.format('%') : d3.format(',');
-					                return format(value);
+				var statusCallback = function() {
+					var status_ward = JSON.parse(this.responseText);
+					var chart = c3.generate({
+					    bindto: '#status_chart',
+						padding: {
+	        				left: 30,
+						},
+						data: {
+					        columns: [
+				            ['percent', status_ward[0]['freq.status.Open'],status_ward[1]['freq.status.Open'],status_ward[2]['freq.status.Open'],status_ward[3]['freq.status.Open'],status_ward[4]['freq.status.Open'],status_ward[5]['freq.status.Open'],status_ward[6]['freq.status.Open'],status_ward[7]['freq.status.Open']],
+				            ['number', status_ward[0]['count.status.Open'],status_ward[1]['count.status.Open'],status_ward[2]['count.status.Open'],status_ward[3]['count.status.Open'],status_ward[4]['count.status.Open'],status_ward[5]['count.status.Open'],status_ward[6]['count.status.Open'],status_ward[7]['count.status.Open']]
+					        ],
+					        type: "bar",
+					        axes: {
+					            number: 'y2'
+					        },			    
+					        colors: {
+					            percent: '#055B97',
+					            number: '#D00046'
+					        },
+					    },
+					    bar: {
+					    	width: {
+					    		ratio: 0.5
+					    	}
+					    },
+					    axis: {
+					        x: {
+					            type: 'category',
+					            categories: ['ward 1', 'ward 2', 'ward 3', 'ward 4', 'ward 5', 'ward 6', 'ward 7', 'ward 8']
+					        },
+					        y: {
+					            label: 'percent',
+					            tick: {
+					                format: d3.format("%")
 					            }
+	            			},
+					        y2: {
+					        	show: true,
+					            label: 'number'
 					        }
 					    }
-    				});
-			};
+						,
+						    tooltip: {
+						        format: {
+						            value: function (value, ratio, id) {
+						                var format = id === 'percent' ? d3.format('%') : d3.format(',');
+						                return format(value);
+						            }
+						        }
+						    }
+	    				});
+				};
 
+				function httpGet(url, callback) {
+					 var req = new XMLHttpRequest();
+					 req.addEventListener("load", callback, false);
+					 req.open('GET', url);
+					 req.send(null);
+				}			
 
-			function httpGet(url, callback) {
-				 var req = new XMLHttpRequest();
-				 req.addEventListener("load", callback, false);
-				 req.open('GET', url);
-				 req.send(null);
-			}			
-
-			httpGet("http://emanuelfeld.github.io/tree-map/data/status_ward.json",statusCallback);
+				httpGet("http://emanuelfeld.github.io/tree-map/data/status_ward.json",statusCallback);
 
 			</script>
 		
