@@ -28,7 +28,7 @@ IntersectPtWithPoly <- function(x, y) {
 } 
 
 
-ufa <- read.csv('~/Desktop/ufa.csv')
+# ufa <- read.csv('~/Desktop/ufa.csv')
 
 ufa_sub <- ufa[which(ufa$TBOX_STAT!='Retired'),]
 ufa_sub <- ufa_sub[which(ufa_sub$TBOX_STAT!='Conflict'),]
@@ -68,17 +68,20 @@ colnames(ufa_sub)[colnames(ufa_sub)=="CONDITION"]<-"condition"
 coordinates(ufa_sub) <- ~longitude+latitude
 
 setwd('~/Code/dctrees/')
-boundaries <- readOGR('boundaries','boundaries')
+neighborhoods <- readOGR('neighborhoods','neighborhoods')
 
 setwd('~/Code/dctrees/')
-wards <- readOGR('WardPly','WardPly')
+wards <- readOGR('wards','wards')
 
-ufa_sub <- IntersectPtWithPoly(ufa_sub, boundaries)
+ufa_sub <- IntersectPtWithPoly(ufa_sub, wards)
 
-colnames(ufa_sub)[colnames(ufa_sub)=="subhood"]<-"neighborhood"
 colnames(ufa_sub)[colnames(ufa_sub)=="WARD"]<-"ward"
 
-ufa_sub<-ufa_sub[,c("longitude","latitude","status","address","objectid","facilityid","neighborhood","ward","condition","disease")]
+coordinates(ufa_sub) <- ~longitude+latitude
+ufa_sub <- IntersectPtWithPoly(ufa_sub, neighborhoods)
+colnames(ufa_sub)[colnames(ufa_sub)=="subhood"]<-"neighborhood"
+
+ufa_sub<-ufa_sub[,c("longitude","latitude","status","address","objectid","facilityid","neighborhood","condition","disease","ward")]
 
 condition.ward <- round(prop.table(table(ufa_sub$ward,ufa_sub$condition), 1),digits=3)
 condition.ward.df <- data.frame(condition.ward)
