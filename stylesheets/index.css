@@ -43,13 +43,14 @@ header {
 footer {
     height:28px;
   font:28px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-align: left;
+  text-align: center;
   padding:15px 15px 25px 15px;
 }
 
 footer a {
   text-decoration: none;
   color:#222;
+  text-align: left;
   padding: 0 10px 0 0px;
 }
 
