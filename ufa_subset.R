@@ -33,6 +33,7 @@ ufa <- read.csv('~/Desktop/ufa.csv')
 ufa_sub <- ufa[which(ufa$TBOX_STAT!='Retired'),]
 ufa_sub <- ufa_sub[which(ufa_sub$TBOX_STAT!='Conflict'),]
 ufa_sub <- ufa_sub[which(ufa_sub$TBOX_STAT!='Delete'),]
+ufa_sub <- ufa_sub[which(ufa_sub$TBOX_STAT!='Proposed'),]
 ufa_sub$TBOX_STAT <- sub("Open","Open",ufa_sub$TBOX_STAT,ignore.case=TRUE)
 ufa_sub$TBOX_STAT <- sub("^$","Unknown",ufa_sub$TBOX_STAT,ignore.case=TRUE)
 
