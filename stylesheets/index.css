@@ -98,9 +98,15 @@ html,body {
 
 @media (max-width: 400px) {
   
+  #logo {
+    text-align:center;
+    display:inline-block;
+}
+
   #title {
     font:30px Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color:#222;
+     text-align:center;
+   color:#222;
     font-weight:300;
     display:inline-block;
     height:40px;
@@ -108,7 +114,8 @@ html,body {
 
     #search_address {
         -webkit-appearance: none;
-        border-radius: 0;
+       text-align:center;
+     border-radius: 0;
         font:30px Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
         width:100%;
         width: -moz-calc(100% - 30px); 
@@ -138,7 +145,20 @@ footer {
 }
 
 @media (max-width: 380px) {
-  
+
+#logo {
+    text-align:center;
+    display:inline-block;
+}
+    #title {
+    font:30px Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#222;
+    text-align:center;
+    font-weight:300;
+    display:inline-block;
+    height:40px;
+}
+
     #search_address {
         -webkit-appearance: none;
         left:-15px;
@@ -148,7 +168,7 @@ footer {
         width: -moz-calc(100% - 30px); 
         width: -webkit-calc(100% - 30px); 
         width: calc(100% - 30px); 
-        text-align:left;
+        text-align:center;
         background-color:transparent;
         border-style:dashed;
         border-width:0 0 1px 0;
@@ -164,5 +184,9 @@ footer {
         height: -webkit-calc(100% - 298px);     
         height: calc(100% - 298px); 
     }
+footer {
+    text-align:center;
+}
+
 }
 
