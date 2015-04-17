@@ -111,9 +111,9 @@ html,body {
         border-radius: 0;
         font:30px Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
         width:100%;
-        width: -moz-calc(100% - 30); 
-        width: -webkit-calc(100% - 30); 
-        width: calc(100% - 30); 
+        width: -moz-calc(100% - 30px); 
+        width: -webkit-calc(100% - 30px); 
+        width: calc(100% - 30px); 
         background-color:transparent;
         border-style:dashed;
         border-width:0 0 1px 0;
@@ -145,9 +145,9 @@ footer {
         border-radius: 0;
         font:30px Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
         width:100%;
-        width: -moz-calc(100% - 30); 
-        width: -webkit-calc(100% - 30); 
-        width: calc(100% - 30); 
+        width: -moz-calc(100% - 30px); 
+        width: -webkit-calc(100% - 30px); 
+        width: calc(100% - 30px); 
         text-align:left;
         background-color:transparent;
         border-style:dashed;
