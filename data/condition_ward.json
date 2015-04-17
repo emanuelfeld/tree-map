@@ -1,0 +1,75 @@
+[
+    {
+        "ward": "1",
+        "freq.condition.Unknown": 0,
+        "freq.condition.Dead": 0.017,
+        "freq.condition.Poor": 0.019,
+        "freq.condition.Fair": 0.111,
+        "freq.condition.Good": 0.509,
+        "freq.condition.Excellent": 0.345
+    },
+    {
+        "ward": "2",
+        "freq.condition.Unknown": 0,
+        "freq.condition.Dead": 0.01,
+        "freq.condition.Poor": 0.022,
+        "freq.condition.Fair": 0.188,
+        "freq.condition.Good": 0.655,
+        "freq.condition.Excellent": 0.124
+    },
+    {
+        "ward": "3",
+        "freq.condition.Unknown": 0,
+        "freq.condition.Dead": 0.009,
+        "freq.condition.Poor": 0.015,
+        "freq.condition.Fair": 0.097,
+        "freq.condition.Good": 0.576,
+        "freq.condition.Excellent": 0.304
+    },
+    {
+        "ward": "4",
+        "freq.condition.Unknown": 0,
+        "freq.condition.Dead": 0.021,
+        "freq.condition.Poor": 0.022,
+        "freq.condition.Fair": 0.078,
+        "freq.condition.Good": 0.78,
+        "freq.condition.Excellent": 0.099
+    },
+    {
+        "ward": "5",
+        "freq.condition.Unknown": 0,
+        "freq.condition.Dead": 0.021,
+        "freq.condition.Poor": 0.028,
+        "freq.condition.Fair": 0.161,
+        "freq.condition.Good": 0.678,
+        "freq.condition.Excellent": 0.112
+    },
+    {
+        "ward": "6",
+        "freq.condition.Unknown": 0,
+        "freq.condition.Dead": 0.012,
+        "freq.condition.Poor": 0.021,
+        "freq.condition.Fair": 0.126,
+        "freq.condition.Good": 0.713,
+        "freq.condition.Excellent": 0.128
+    },
+    {
+        "ward": "7",
+        "freq.condition.Unknown": 0,
+        "freq.condition.Dead": 0.016,
+        "freq.condition.Poor": 0.025,
+        "freq.condition.Fair": 0.191,
+        "freq.condition.Good": 0.614,
+        "freq.condition.Excellent": 0.155
+    },
+    {
+        "ward": "8",
+        "freq.condition.Unknown": 0,
+        "freq.condition.Dead": 0.024,
+        "freq.condition.Poor": 0.03,
+        "freq.condition.Fair": 0.168,
+        "freq.condition.Good": 0.627,
+        "freq.condition.Excellent": 0.151
+    }
+]
+
