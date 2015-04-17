@@ -22,6 +22,7 @@
 }
 
 #search_address {
+    -webkit-appearance: none;
 	font:40px Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	max-width:370px;
 	background-color:transparent;
@@ -105,6 +106,7 @@ html,body {
 }
 
     #search_address {
+        -webkit-appearance: none;
         font:30px Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
         width:100%;
         background-color:transparent;
@@ -133,7 +135,8 @@ footer {
 @media (max-width: 380px) {
   
     #search_address {
-        font:30px Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        -webkit-appearance: none;
+       font:30px Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
         width:100%;
         text-align:left;
         background-color:transparent;
