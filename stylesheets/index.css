@@ -108,7 +108,8 @@ html,body {
 
     #search_address {
         -webkit-appearance: none;
-        border-radius: 0;
+         left:-15px;
+       border-radius: 0;
        font:30px Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
         width:100%;
         background-color:transparent;
@@ -138,8 +139,9 @@ footer {
   
     #search_address {
         -webkit-appearance: none;
-     border-radius: 0;
-      font:30px Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        left:-15px;
+        border-radius: 0;
+        font:30px Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
         width:100%;
         text-align:left;
         background-color:transparent;
