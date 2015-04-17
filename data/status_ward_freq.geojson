@@ -23,6 +23,10 @@
         "freq.status.Open": "0.144",
         "freq.status.Plant": "0.856",
         "freq.status.Unknown": "0",
+        "ward.1": "8",
+        "freq.status.Open.1": "0.144",
+        "freq.status.Plant.1": "0.856",
+        "freq.status.Unknown.1": "0",
         "ID": "0"
       },
       "geometry": {
@@ -52,6 +56,10 @@
         "freq.status.Open": "0.036",
         "freq.status.Plant": "0.964",
         "freq.status.Unknown": "0",
+        "ward.1": "6",
+        "freq.status.Open.1": "0.036",
+        "freq.status.Plant.1": "0.964",
+        "freq.status.Unknown.1": "0",
         "ID": "1"
       },
       "geometry": {
@@ -81,6 +89,10 @@
         "freq.status.Open": "0.134",
         "freq.status.Plant": "0.866",
         "freq.status.Unknown": "0",
+        "ward.1": "7",
+        "freq.status.Open.1": "0.134",
+        "freq.status.Plant.1": "0.866",
+        "freq.status.Unknown.1": "0",
         "ID": "2"
       },
       "geometry": {
@@ -110,6 +122,10 @@
         "freq.status.Open": "0.029",
         "freq.status.Plant": "0.971",
         "freq.status.Unknown": "0",
+        "ward.1": "2",
+        "freq.status.Open.1": "0.029",
+        "freq.status.Plant.1": "0.971",
+        "freq.status.Unknown.1": "0",
         "ID": "3"
       },
       "geometry": {
@@ -139,6 +155,10 @@
         "freq.status.Open": "0.019",
         "freq.status.Plant": "0.981",
         "freq.status.Unknown": "0",
+        "ward.1": "1",
+        "freq.status.Open.1": "0.019",
+        "freq.status.Plant.1": "0.981",
+        "freq.status.Unknown.1": "0",
         "ID": "4"
       },
       "geometry": {
@@ -168,6 +188,10 @@
         "freq.status.Open": "0.172",
         "freq.status.Plant": "0.828",
         "freq.status.Unknown": "0",
+        "ward.1": "5",
+        "freq.status.Open.1": "0.172",
+        "freq.status.Plant.1": "0.828",
+        "freq.status.Unknown.1": "0",
         "ID": "5"
       },
       "geometry": {
@@ -197,6 +221,10 @@
         "freq.status.Open": "0.061",
         "freq.status.Plant": "0.939",
         "freq.status.Unknown": "0",
+        "ward.1": "3",
+        "freq.status.Open.1": "0.061",
+        "freq.status.Plant.1": "0.939",
+        "freq.status.Unknown.1": "0",
         "ID": "6"
       },
       "geometry": {
@@ -226,6 +254,10 @@
         "freq.status.Open": "0.096",
         "freq.status.Plant": "0.904",
         "freq.status.Unknown": "0",
+        "ward.1": "4",
+        "freq.status.Open.1": "0.096",
+        "freq.status.Plant.1": "0.904",
+        "freq.status.Unknown.1": "0",
         "ID": "7"
       },
       "geometry": {
