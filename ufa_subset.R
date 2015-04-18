@@ -155,4 +155,5 @@ ufa_open<-ufa_sub[which(ufa_sub$status=='Open' | ufa_sub$status=='OPEN'),]
 
 ufa_open<-ufa_open[,c("longitude","latitude","address","objectid","facilityid","neighborhood","ward")]
 
+write.csv(ufa_open,"~/Code/tree-map/data/ufa_open.csv",row.names=FALSE)
 write.csv(ufa_open,"~/Dropbox/ufa_open.csv",row.names=FALSE)
