@@ -27,30 +27,39 @@ IntersectPtWithPoly <- function(x, y) {
   return(x2) 
 } 
 
-getUFA <- function(start, end) {
-  for(i in start:end){
-    index_bottom <- as.integer(i*1000)
-    index_top <- as.integer((i+1)*1000)
-    url <- paste0("http://maps2.dcgis.dc.gov/dcgis/rest/services/DDOT/UFATrees2/MapServer/0/query?where=OBJECTID+%3E+",index_bottom,"+AND+OBJECTID+%3C+",index_top,"&text=&objectIds=&time=&geometry=&geometryType=esriGeometryPoint&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=OBJECTID%2CFACILITYID%2CVICINITY%2CTBOX_STAT%2CDATE_PLANT%2CDISEASE%2CPESTS%2CCONDITION%2CCONDITIODT%2COWNERSHIP&returnGeometry=true&maxAllowableOffset=&geometryPrecision=&outSR=%7B\"wkid\"+%3A+4326%7D&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&returnDistinctValues=false&f=pjson")
-    cat(i)
-    cat('\n')
-    Sys.sleep(5)
-    mydata <- fromJSON(readLines(url))
-    plots <- data.frame(mydata[6])
-    plots <- cbind(plots[,1],plots[,2])
-    if (exists("ufa")) {
-      ufa <- rbind(ufa,plots)    
-    } else {
-      ufa <- plots
-    }
+#Pulls in UFA Street Trees data from JSON API
+for(i in 0:226){
+  index_bottom <- as.integer(i*1000)
+  index_top <- as.integer((i+1)*1000)
+  url <- paste0("http://maps2.dcgis.dc.gov/dcgis/rest/services/DDOT/UFATrees2/MapServer/0/query?where=OBJECTID+%3E+",index_bottom,"+AND+OBJECTID+%3C+",index_top,"&text=&objectIds=&time=&geometry=&geometryType=esriGeometryPoint&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=OBJECTID%2CFACILITYID%2CVICINITY%2CTBOX_STAT%2CDATE_PLANT%2CDISEASE%2CPESTS%2CCONDITION%2CCONDITIODT%2COWNERSHIP&returnGeometry=true&maxAllowableOffset=&geometryPrecision=&outSR=%7B\"wkid\"+%3A+4326%7D&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&returnDistinctValues=false&f=pjson")
+  cat(i)
+  cat('\n')
+  mydata <- NULL
+  times <- 0
+  while(length(mydata) < 6) {
+    times <- times + 1
+    cat(paste0("Tries: ",times,"\n"))
+    tryCatch({
+      mydata <- readLines(url)
+      mydata <- fromJSON(mydata) 
+      cat(paste0("Length: ",length(mydata),"\n"))
+    }, error = function(e) {
+      cat('There was an error\n')
+    })
+    Sys.sleep(1)
   }
-  write.csv(ufa,'~/Desktop/ufa_new.csv',row.names=FALSE)
-  return(csv)
+  plots <- data.frame(mydata[6])
+  plots <- cbind(plots[,1],plots[,2])
+  if (exists("ufa")) {
+    ufa <- rbind(ufa,plots)    
+  } else {
+    ufa <- plots
+  }
 }
 
-ufa <- getUFA(0, 227)
-  
-ufa_sub <- ufa[which(ufa$TBOX_STAT!='Retired' & ufa_sub$TBOX_STAT!='Conflict' & ufa_sub$TBOX_STAT!='Delete' & ufa_sub$TBOX_STAT!='Proposed'),]
+write.csv(ufa,'~/Code/tree-map/data/ufa_all.csv',row.names=FALSE)
+
+ufa_sub <- ufa[which(ufa$TBOX_STAT!='Retired' & ufa$TBOX_STAT!='Conflict' & ufa$TBOX_STAT!='Delete' & ufa$TBOX_STAT!='Proposed'),]
 ufa_sub$TBOX_STAT <- sub("Open","Open",ufa_sub$TBOX_STAT,ignore.case=TRUE)
 ufa_sub$TBOX_STAT <- sub("^$","Unknown",ufa_sub$TBOX_STAT,ignore.case=TRUE)
 
@@ -58,18 +67,18 @@ ufa_sub<-ufa_sub[which(ufa_sub$OWNERSHIP=='UFA' | is.na(ufa_sub$OWNERSHIP) | ufa
 ufa_sub$OWNERSHIP <- sub("^$","UFA",ufa_sub$OWNERSHIP)
 
 #Clean disease information
-  ufa_sub$DISEASE <- sub(".*Root Rot.*","Root Rot",ufa_sub$DISEASE)
-  ufa_sub$DISEASE <- sub(".*None.*","None",ufa_sub$DISEASE)
-  ufa_sub$DISEASE <- sub("^$","None",ufa_sub$DISEASE)
-  ufa_sub$DISEASE <- sub("^DED$","Dutch Elm Disease",ufa_sub$DISEASE)
-  ufa_sub$DISEASE <- sub("^BLS$","Bacterial Leaf Scorch",ufa_sub$DISEASE)
-  ufa_sub$DISEASE <- sub(".*Trunk.*","Trunk Rot",ufa_sub$DISEASE)
-  ufa_sub$DISEASE <- sub(".*Hypoxylon*","Hypoxylon Canker",ufa_sub$DISEASE)
+ufa_sub$DISEASE <- sub(".*Root Rot.*","Root Rot",ufa_sub$DISEASE)
+ufa_sub$DISEASE <- sub(".*None.*","None",ufa_sub$DISEASE)
+ufa_sub$DISEASE <- sub("^$","None",ufa_sub$DISEASE)
+ufa_sub$DISEASE <- sub("^DED$","Dutch Elm Disease",ufa_sub$DISEASE)
+ufa_sub$DISEASE <- sub("^BLS$","Bacterial Leaf Scorch",ufa_sub$DISEASE)
+ufa_sub$DISEASE <- sub(".*Trunk.*","Trunk Rot",ufa_sub$DISEASE)
+ufa_sub$DISEASE <- sub(".*Hypoxylon*","Hypoxylon Canker",ufa_sub$DISEASE)
 
 #Clean and order condition information
-  ufa_sub$CONDITION <- sub("^$","Unknown",ufa_sub$CONDITION)
-  ufa_sub$CONDITION[which(ufa_sub$TBOX_STAT=="Proposed"|ufa_sub$TBOX_STAT=="Open")]<-""
-  ufa_sub$CONDITION <- factor(ufa_sub$CONDITION, levels = c("Unknown","Dead","Poor","Fair","Good","Excellent"))
+ufa_sub$CONDITION <- sub("^$","Unknown",ufa_sub$CONDITION)
+ufa_sub$CONDITION[which(ufa_sub$TBOX_STAT=="Proposed"|ufa_sub$TBOX_STAT=="Open")]<-""
+ufa_sub$CONDITION <- factor(ufa_sub$CONDITION, levels = c("Unknown","Dead","Poor","Fair","Good","Excellent"))
 
 ufa <- ufa[,c("x","y","OBJECTID","FACILITYID","VICINITY","TBOX_STAT","DATE_PLANT","DISEASE","PESTS","CONDITION","CONDITIODT","OWNERSHIP")]
 
