@@ -93,13 +93,13 @@ colnames(ufa_sub)[colnames(ufa_sub)=="CONDITION"]<-"condition"
 
 ufa_sub <- ufa_sub[which(!is.na(ufa_sub$longitude)),]
 
-setwd('~/Code/dctrees/')
+setwd('~/Code/tree-map/data/')
 coordinates(ufa_sub) <- ~longitude+latitude
 wards <- readOGR('wards','wards')
 ufa_sub <- IntersectPtWithPoly(ufa_sub, wards)
 colnames(ufa_sub)[colnames(ufa_sub)=="WARD"]<-"ward"
 
-setwd('~/Code/dctrees/')
+setwd('~/Code/tree-map/data/')
 coordinates(ufa_sub) <- ~longitude+latitude
 neighborhoods <- readOGR('neighborhoods','neighborhoods')
 ufa_sub <- IntersectPtWithPoly(ufa_sub, neighborhoods)
