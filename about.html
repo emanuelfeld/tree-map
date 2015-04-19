@@ -71,7 +71,7 @@
 
 					<h2><a class="anchor" href="#more-information" id="more-information"><span class="octicon octicon-link"></span></a>More information</h2>
 					
-					<p>The map on the homepage and the plot above were built using the <a href="http://maps2.dcgis.dc.gov/dcgis/rest/services/DDOT/UFATrees2/MapServer/0/" target="_blank">UFA Street Trees</a> dataset from DDOT, the <a href="http://opendata.dc.gov/datasets/071aa9b40a1a4b38a938f8f5058068a8_31" target="_blank">2012 ward boundaries</a> dataset from the DC GIS, and the <a href="http://www.opendatadc.org/dataset/neighborhood-boundaries-217-neighborhoods-washpost-justgrimes" target="_blank">neighborhood boundaries</a> file from Code for DC's <a href="http://www.opendatadc.org/">data catalog</a>. Updates are being pulled in daily.</p>
+					<p>The map on the homepage and the plot above were built using the <a href="http://maps2.dcgis.dc.gov/dcgis/rest/services/DDOT/UFATrees2/MapServer/0/" target="_blank">UFA Street Trees</a> dataset from DDOT, the <a href="http://opendata.dc.gov/datasets/071aa9b40a1a4b38a938f8f5058068a8_31" target="_blank">2012 ward boundaries</a> dataset from DC GIS, and the <a href="http://www.opendatadc.org/dataset/neighborhood-boundaries-217-neighborhoods-washpost-justgrimes" target="_blank">neighborhood boundaries</a> file from Code for DC's <a href="http://www.opendatadc.org/">data catalog</a>. Updates are being pulled in daily.</p>
 
 					<p>In the site's logo you'll find the outline of a leaf from a Sugar Maple tree, one of the most common in the District.</p>
 
@@ -146,17 +146,16 @@
 					        	show: true,
 					            label: 'number'
 					        }
+					    },
+					    tooltip: {
+					        format: {
+					            value: function (value, ratio, id) {
+					                var format = id === 'percent' ? d3.format('%') : d3.format(',');
+					                return format(value);
+					            }
+					        }
 					    }
-						,
-						    tooltip: {
-						        format: {
-						            value: function (value, ratio, id) {
-						                var format = id === 'percent' ? d3.format('%') : d3.format(',');
-						                return format(value);
-						            }
-						        }
-						    }
-	    				});
+    				});
 				};
 
 				function httpGet(url, callback) {
