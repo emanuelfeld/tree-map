@@ -1,3 +1,5 @@
+#!/usr/bin/env Rscript
+
 library(rgdal)
 library(jsonlite)
 library(leafletR)
@@ -28,7 +30,7 @@ IntersectPtWithPoly <- function(x, y) {
 } 
 
 #Pulls in UFA Street Trees data from JSON API
-for(i in 0:226){
+for(i in 225:228){
   index_bottom <- as.integer(i*1000)
   index_top <- as.integer((i+1)*1000)
   url <- paste0("http://maps2.dcgis.dc.gov/dcgis/rest/services/DDOT/UFATrees2/MapServer/0/query?where=OBJECTID+%3E+",index_bottom,"+AND+OBJECTID+%3C+",index_top,"&text=&objectIds=&time=&geometry=&geometryType=esriGeometryPoint&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=OBJECTID%2CFACILITYID%2CVICINITY%2CTBOX_STAT%2CDATE_PLANT%2CDISEASE%2CPESTS%2CCONDITION%2CCONDITIODT%2COWNERSHIP&returnGeometry=true&maxAllowableOffset=&geometryPrecision=&outSR=%7B\"wkid\"+%3A+4326%7D&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&returnDistinctValues=false&f=pjson")
@@ -49,11 +51,15 @@ for(i in 0:226){
     Sys.sleep(1)
   }
   plots <- data.frame(mydata[6])
-  plots <- cbind(plots[,1],plots[,2])
-  if (exists("ufa")) {
-    ufa <- rbind(ufa,plots)    
+  if (length(plots)>0){
+    plots <- cbind(plots[,1],plots[,2])
+    if (exists("ufa")) {
+      ufa <- rbind(ufa,plots)    
+    } else {
+      ufa <- plots
+    }    
   } else {
-    ufa <- plots
+    cat("No observations in this OBJECTID range\n")
   }
 }
 
@@ -128,9 +134,9 @@ status.ward.freq <- round(prop.table(table(ufa_sub$ward,ufa_sub$status), 1),digi
 status.ward.freq.df <- data.frame(status.ward.freq)
 colnames(status.ward.freq.df)<-c("ward","status","freq.status")
 status.ward.freq.df<-reshape(status.ward.freq.df, timevar="status", idvar="ward", direction="wide")
-write.csv(status.ward.freq.df,"~/Code/tree-map/data/status_ward.csv",row.names=FALSE)
-status.ward.freq.json <- toJSON(status.ward.freq.df,pretty=TRUE)
-write(status.ward.freq.json, "~/Code/tree-map/data/status_ward_freq.json")
+# write.csv(status.ward.freq.df,"~/Code/tree-map/data/status_ward.csv",row.names=FALSE)
+# status.ward.freq.json <- toJSON(status.ward.freq.df,pretty=TRUE)
+# write(status.ward.freq.json, "~/Code/tree-map/data/status_ward_freq.json")
 # wards@data = data.frame(wards@data, status.ward.freq.df[match(wards@data[,"WARD"], status.ward.freq.df[,"ward"]),])
 # toGeoJSON(data=wards, name="status_ward_freq", dest="~/Code/tree-map/data", lat.lon=c("latitude","longitude"), overwrite=TRUE)
 
@@ -147,7 +153,7 @@ status.neighborhood <- round(prop.table(table(ufa_sub$neighborhood,ufa_sub$statu
 status.neighborhood.df <- data.frame(status.neighborhood)
 colnames(status.neighborhood.df)<-c("neighborhood","status","freq.status")
 status.neighborhood.df<-reshape(status.neighborhood.df, timevar="status", idvar="neighborhood", direction="wide")
-write.csv(status.neighborhood.df,"~/Code/tree-map/data/status_neighborhood.csv",row.names=FALSE)
+# write.csv(status.neighborhood.df,"~/Code/tree-map/data/status_neighborhood.csv",row.names=FALSE)
 # neighborhoods@data = data.frame(neighborhoods@data, status.neighborhood.df[match(neighborhoods@data[,"subhood"], status.neighborhood.df[,"neighborhood"]),])
 # toGeoJSON(data=neighborhoods, name="status_ward_freq", dest="~/Code/tree-map/data", lat.lon=c("latitude","longitude"), overwrite=TRUE)
 
