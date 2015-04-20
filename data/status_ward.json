@@ -5,7 +5,7 @@
         "freq.status.Plant": 0.981,
         "freq.status.Unknown": 0,
         "count.status.Open": 162,
-        "count.status.Plant": 8508,
+        "count.status.Plant": 8510,
         "count.status.Unknown": 0
     },
     {
@@ -31,8 +31,8 @@
         "freq.status.Open": 0.096,
         "freq.status.Plant": 0.904,
         "freq.status.Unknown": 0,
-        "count.status.Open": 2440,
-        "count.status.Plant": 22925,
+        "count.status.Open": 2446,
+        "count.status.Plant": 22921,
         "count.status.Unknown": 1
     },
     {
@@ -40,8 +40,8 @@
         "freq.status.Open": 0.172,
         "freq.status.Plant": 0.828,
         "freq.status.Unknown": 0,
-        "count.status.Open": 3727,
-        "count.status.Plant": 17964,
+        "count.status.Open": 3728,
+        "count.status.Plant": 17963,
         "count.status.Unknown": 0
     },
     {

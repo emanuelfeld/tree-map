@@ -1,5 +1,5 @@
 "neighborhood","freq.status.Open","freq.status.Plant","freq.status.Unknown","count.status.Open","count.status.Plant","count.status.Unknown"
-"16th Street Heights",0.108,0.892,0,428,3535,0
+"16th Street Heights",0.108,0.892,0,429,3535,0
 "American University",0.122,0.878,0,19,137,0
 "American University Park",0.061,0.939,0,189,2926,0
 "Anacostia",0.225,0.775,0,216,746,0
@@ -22,7 +22,7 @@
 "Blue Plains",NA,NA,NA,0,0,0
 "Brentwood",0.304,0.696,0,242,554,0
 "Brentwood Railyard",NA,NA,NA,0,0,0
-"Brightwood",0.092,0.908,0,279,2746,0
+"Brightwood",0.092,0.908,0,277,2745,0
 "Brightwood Park",0.06,0.94,0,29,457,0
 "Brookland",0.136,0.864,0,368,2334,0
 "Buena Vista",0.16,0.84,0,81,425,0
@@ -124,7 +124,7 @@
 "McMillan Reservoir",0.031,0.969,0,2,62,0
 "McMillan Sand Filtration Site",0.303,0.697,0,20,46,0
 "Melvin C. Hazen Park",0.125,0.875,0,4,28,0
-"Michigan Park",0.183,0.817,0,132,591,0
+"Michigan Park",0.184,0.816,0,133,590,0
 "Mt. Olivet Cemetery",0.317,0.683,0,13,28,0
 "Mt. Pleasant",0.014,0.986,0,19,1299,0
 "Mt. Vernon Square",0.046,0.954,0,20,419,0
@@ -154,7 +154,7 @@
 "Parkside",0.165,0.835,0,45,227,0
 "Penn Branch section of Dupont Park",0.071,0.929,0,47,613,0
 "Pepco Benning Road Plant",0.267,0.733,0,8,22,0
-"Petworth",0.086,0.914,0,399,4242,0
+"Petworth",0.087,0.913,0,406,4239,0
 "Pinehurst Parkway",0,1,0,0,1,0
 "Pleasant Hills",0.177,0.823,0,55,255,0
 "Pleasant Plains",0.013,0.987,0,6,455,0
@@ -194,7 +194,7 @@
 "Trinidad",0.165,0.835,0,230,1164,0
 "Truxton Circle",0.077,0.923,0,51,613,0
 "Twining",0.1,0.9,0,64,573,0
-"U Street",0.014,0.986,0,20,1367,0
+"U Street",0.014,0.986,0,20,1369,0
 "Union Station",0,1,0,0,8,0
 "University Heights",0.121,0.879,0,95,688,0
 "Wakefield",0.039,0.961,0,30,742,0

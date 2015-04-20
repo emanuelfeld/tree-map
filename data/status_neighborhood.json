@@ -4,7 +4,7 @@
         "freq.status.Open": 0.108,
         "freq.status.Plant": 0.892,
         "freq.status.Unknown": 0,
-        "count.status.Open": 428,
+        "count.status.Open": 429,
         "count.status.Plant": 3535,
         "count.status.Unknown": 0
     },
@@ -199,8 +199,8 @@
         "freq.status.Open": 0.092,
         "freq.status.Plant": 0.908,
         "freq.status.Unknown": 0,
-        "count.status.Open": 279,
-        "count.status.Plant": 2746,
+        "count.status.Open": 277,
+        "count.status.Plant": 2745,
         "count.status.Unknown": 0
     },
     {
@@ -1105,11 +1105,11 @@
     },
     {
         "neighborhood": "Michigan Park",
-        "freq.status.Open": 0.183,
-        "freq.status.Plant": 0.817,
+        "freq.status.Open": 0.184,
+        "freq.status.Plant": 0.816,
         "freq.status.Unknown": 0,
-        "count.status.Open": 132,
-        "count.status.Plant": 591,
+        "count.status.Open": 133,
+        "count.status.Plant": 590,
         "count.status.Unknown": 0
     },
     {
@@ -1375,11 +1375,11 @@
     },
     {
         "neighborhood": "Petworth",
-        "freq.status.Open": 0.086,
-        "freq.status.Plant": 0.914,
+        "freq.status.Open": 0.087,
+        "freq.status.Plant": 0.913,
         "freq.status.Unknown": 0,
-        "count.status.Open": 399,
-        "count.status.Plant": 4242,
+        "count.status.Open": 406,
+        "count.status.Plant": 4239,
         "count.status.Unknown": 0
     },
     {
@@ -1736,7 +1736,7 @@
         "freq.status.Plant": 0.986,
         "freq.status.Unknown": 0,
         "count.status.Open": 20,
-        "count.status.Plant": 1367,
+        "count.status.Plant": 1369,
         "count.status.Unknown": 0
     },
     {
