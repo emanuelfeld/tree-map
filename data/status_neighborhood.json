@@ -1,0 +1,1929 @@
+[
+    {
+        "neighborhood": "16th Street Heights",
+        "freq.status.Open": 0.108,
+        "freq.status.Plant": 0.892,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 428,
+        "count.status.Plant": 3535,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "American University",
+        "freq.status.Open": 0.122,
+        "freq.status.Plant": 0.878,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 19,
+        "count.status.Plant": 137,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "American University Park",
+        "freq.status.Open": 0.061,
+        "freq.status.Plant": 0.939,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 189,
+        "count.status.Plant": 2926,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Anacostia",
+        "freq.status.Open": 0.225,
+        "freq.status.Plant": 0.775,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 216,
+        "count.status.Plant": 746,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Anacostia Boat Clubs",
+        "count.status.Open": 0,
+        "count.status.Plant": 0,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Anacostia Park",
+        "freq.status.Open": 1,
+        "freq.status.Plant": 0,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 19,
+        "count.status.Plant": 0,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Anacostia River",
+        "freq.status.Open": 0.067,
+        "freq.status.Plant": 0.933,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 1,
+        "count.status.Plant": 14,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Anacostia River Islands",
+        "count.status.Open": 0,
+        "count.status.Plant": 0,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Arboretum",
+        "freq.status.Open": 0.25,
+        "freq.status.Plant": 0.75,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 47,
+        "count.status.Plant": 141,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Barnaby Woods",
+        "freq.status.Open": 0.089,
+        "freq.status.Plant": 0.911,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 49,
+        "count.status.Plant": 503,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Barnard Hill Park",
+        "freq.status.Open": 0.163,
+        "freq.status.Plant": 0.837,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 15,
+        "count.status.Plant": 77,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Barney Circle",
+        "freq.status.Open": 0.007,
+        "freq.status.Plant": 0.993,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 1,
+        "count.status.Plant": 144,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Barry Farm",
+        "freq.status.Open": 0.249,
+        "freq.status.Plant": 0.751,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 63,
+        "count.status.Plant": 190,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Battery Kemble Park",
+        "freq.status.Open": 0,
+        "freq.status.Plant": 1,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 0,
+        "count.status.Plant": 6,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Bellevue",
+        "freq.status.Open": 0.157,
+        "freq.status.Plant": 0.843,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 234,
+        "count.status.Plant": 1252,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Benning",
+        "freq.status.Open": 0.142,
+        "freq.status.Plant": 0.858,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 109,
+        "count.status.Plant": 659,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Benning Heights/Simple City",
+        "freq.status.Open": 0.064,
+        "freq.status.Plant": 0.936,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 19,
+        "count.status.Plant": 280,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Benning Ridge",
+        "freq.status.Open": 0.064,
+        "freq.status.Plant": 0.936,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 117,
+        "count.status.Plant": 1704,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Berkley/Foxhall Crescents",
+        "freq.status.Open": 0.132,
+        "freq.status.Plant": 0.868,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 70,
+        "count.status.Plant": 461,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Bloomingdale",
+        "freq.status.Open": 0.093,
+        "freq.status.Plant": 0.907,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 118,
+        "count.status.Plant": 1152,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Blue Plains",
+        "count.status.Open": 0,
+        "count.status.Plant": 0,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Brentwood",
+        "freq.status.Open": 0.304,
+        "freq.status.Plant": 0.696,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 242,
+        "count.status.Plant": 554,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Brentwood Railyard",
+        "count.status.Open": 0,
+        "count.status.Plant": 0,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Brightwood",
+        "freq.status.Open": 0.092,
+        "freq.status.Plant": 0.908,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 279,
+        "count.status.Plant": 2746,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Brightwood Park",
+        "freq.status.Open": 0.06,
+        "freq.status.Plant": 0.94,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 29,
+        "count.status.Plant": 457,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Brookland",
+        "freq.status.Open": 0.136,
+        "freq.status.Plant": 0.864,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 368,
+        "count.status.Plant": 2334,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Buena Vista",
+        "freq.status.Open": 0.16,
+        "freq.status.Plant": 0.84,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 81,
+        "count.status.Plant": 425,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Burleith",
+        "freq.status.Open": 0.036,
+        "freq.status.Plant": 0.964,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 17,
+        "count.status.Plant": 449,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Burrville",
+        "freq.status.Open": 0.138,
+        "freq.status.Plant": 0.862,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 38,
+        "count.status.Plant": 237,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Buzzard Point",
+        "freq.status.Open": 0,
+        "freq.status.Plant": 1,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 0,
+        "count.status.Plant": 99,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "C&O Canal Park",
+        "freq.status.Open": 0.182,
+        "freq.status.Plant": 0.818,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 2,
+        "count.status.Plant": 9,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Capital City Market",
+        "freq.status.Open": 0.143,
+        "freq.status.Plant": 0.857,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 2,
+        "count.status.Plant": 12,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Capitol Hill",
+        "freq.status.Open": 0.024,
+        "freq.status.Plant": 0.976,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 215,
+        "count.status.Plant": 8829,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Capitol View",
+        "freq.status.Open": 0.173,
+        "freq.status.Plant": 0.827,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 247,
+        "count.status.Plant": 1181,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Carver Langston",
+        "freq.status.Open": 0.205,
+        "freq.status.Plant": 0.795,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 226,
+        "count.status.Plant": 874,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Cathedral Heights",
+        "freq.status.Open": 0.035,
+        "freq.status.Plant": 0.965,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 29,
+        "count.status.Plant": 792,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Catholic University and other Catholic Institutions",
+        "freq.status.Open": 0.25,
+        "freq.status.Plant": 0.75,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 108,
+        "count.status.Plant": 324,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Chevy Chase",
+        "freq.status.Open": 0.084,
+        "freq.status.Plant": 0.916,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 469,
+        "count.status.Plant": 5124,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Civic Betterment",
+        "freq.status.Open": 0.173,
+        "freq.status.Plant": 0.827,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 44,
+        "count.status.Plant": 210,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Cleveland Park",
+        "freq.status.Open": 0.067,
+        "freq.status.Plant": 0.933,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 111,
+        "count.status.Plant": 1537,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Colonial Village",
+        "freq.status.Open": 0.127,
+        "freq.status.Plant": 0.873,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 58,
+        "count.status.Plant": 400,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Colony Hill",
+        "freq.status.Open": 0.08,
+        "freq.status.Plant": 0.92,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 9,
+        "count.status.Plant": 104,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Columbia Heights",
+        "freq.status.Open": 0.021,
+        "freq.status.Plant": 0.979,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 54,
+        "count.status.Plant": 2499,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Congress Heights",
+        "freq.status.Open": 0.114,
+        "freq.status.Plant": 0.886,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 306,
+        "count.status.Plant": 2379,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Congressional Cemetery",
+        "freq.status.Open": 0.034,
+        "freq.status.Plant": 0.966,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 1,
+        "count.status.Plant": 28,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Crestwood",
+        "freq.status.Open": 0.081,
+        "freq.status.Plant": 0.919,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 104,
+        "count.status.Plant": 1179,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "D.C. General Hospital and Prison",
+        "freq.status.Open": 0.111,
+        "freq.status.Plant": 0.889,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 5,
+        "count.status.Plant": 40,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Dalecarlia Reservoir",
+        "freq.status.Open": 0.07,
+        "freq.status.Plant": 0.93,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 15,
+        "count.status.Plant": 198,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "DC Village",
+        "freq.status.Open": 0,
+        "freq.status.Plant": 1,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 0,
+        "count.status.Plant": 17,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Deanwood",
+        "freq.status.Open": 0.276,
+        "freq.status.Plant": 0.724,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 520,
+        "count.status.Plant": 1367,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "DHS",
+        "freq.status.Open": 0.054,
+        "freq.status.Plant": 0.946,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 2,
+        "count.status.Plant": 35,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Douglas",
+        "freq.status.Open": 0.087,
+        "freq.status.Plant": 0.913,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 63,
+        "count.status.Plant": 663,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Downtown",
+        "freq.status.Open": 0.025,
+        "freq.status.Plant": 0.975,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 87,
+        "count.status.Plant": 3434,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Dumbarton Oaks Park",
+        "count.status.Open": 0,
+        "count.status.Plant": 0,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Dupont Circle",
+        "freq.status.Open": 0.025,
+        "freq.status.Plant": 0.975,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 52,
+        "count.status.Plant": 2000,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Dupont Park",
+        "freq.status.Open": 0.039,
+        "freq.status.Plant": 0.961,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 6,
+        "count.status.Plant": 146,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "East Potomac Park",
+        "freq.status.Open": 0,
+        "freq.status.Plant": 1,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 0,
+        "count.status.Plant": 6,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "East Village Georgetown",
+        "freq.status.Open": 0.051,
+        "freq.status.Plant": 0.949,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 78,
+        "count.status.Plant": 1464,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Eastland Gardens",
+        "freq.status.Open": 0.098,
+        "freq.status.Plant": 0.902,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 61,
+        "count.status.Plant": 564,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Eckington",
+        "freq.status.Open": 0.107,
+        "freq.status.Plant": 0.893,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 122,
+        "count.status.Plant": 1014,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Edgewood",
+        "freq.status.Open": 0.204,
+        "freq.status.Plant": 0.796,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 173,
+        "count.status.Plant": 674,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Ellipse",
+        "count.status.Open": 0,
+        "count.status.Plant": 0,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Fairfax Village",
+        "freq.status.Open": 0.056,
+        "freq.status.Plant": 0.944,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 19,
+        "count.status.Plant": 321,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Fairlawn",
+        "freq.status.Open": 0.069,
+        "freq.status.Plant": 0.931,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 127,
+        "count.status.Plant": 1706,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Federal Triangle",
+        "freq.status.Open": 0.008,
+        "freq.status.Plant": 0.992,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 1,
+        "count.status.Plant": 130,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Foggy Bottom",
+        "freq.status.Open": 0.025,
+        "freq.status.Plant": 0.975,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 32,
+        "count.status.Plant": 1234,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Forest Hills",
+        "freq.status.Open": 0.096,
+        "freq.status.Plant": 0.904,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 150,
+        "count.status.Plant": 1420,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Fort Chaplin Park",
+        "freq.status.Open": 0.22,
+        "freq.status.Plant": 0.78,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 18,
+        "count.status.Plant": 64,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Fort Circle Parkland",
+        "freq.status.Open": 0.053,
+        "freq.status.Plant": 0.947,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 8,
+        "count.status.Plant": 143,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Fort Davis",
+        "freq.status.Open": 0.101,
+        "freq.status.Plant": 0.899,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 96,
+        "count.status.Plant": 858,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Fort Davis Park",
+        "freq.status.Open": 0.06,
+        "freq.status.Plant": 0.94,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 3,
+        "count.status.Plant": 47,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Fort Dupont",
+        "freq.status.Open": 0.111,
+        "freq.status.Plant": 0.889,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 65,
+        "count.status.Plant": 518,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Fort Dupont Park",
+        "freq.status.Open": 0.164,
+        "freq.status.Plant": 0.836,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 21,
+        "count.status.Plant": 107,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Fort Lincoln",
+        "freq.status.Open": 0.27,
+        "freq.status.Plant": 0.73,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 99,
+        "count.status.Plant": 268,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Fort Mahan Park",
+        "freq.status.Open": 0.023,
+        "freq.status.Plant": 0.977,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 1,
+        "count.status.Plant": 42,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Fort Slocum Park",
+        "freq.status.Open": 0.085,
+        "freq.status.Plant": 0.915,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 6,
+        "count.status.Plant": 65,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Fort Stanton",
+        "freq.status.Open": 0.05,
+        "freq.status.Plant": 0.95,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 13,
+        "count.status.Plant": 246,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Fort Stanton Park",
+        "freq.status.Open": 0.165,
+        "freq.status.Plant": 0.835,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 15,
+        "count.status.Plant": 76,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Fort Totten",
+        "freq.status.Open": 0.136,
+        "freq.status.Plant": 0.864,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 56,
+        "count.status.Plant": 357,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Fort Totten Park",
+        "freq.status.Open": 1,
+        "freq.status.Plant": 0,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 1,
+        "count.status.Plant": 0,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Foxhall Village",
+        "freq.status.Open": 0.025,
+        "freq.status.Plant": 0.975,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 8,
+        "count.status.Plant": 315,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Friendship Heights",
+        "freq.status.Open": 0.051,
+        "freq.status.Plant": 0.949,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 79,
+        "count.status.Plant": 1457,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Ft. McNair",
+        "freq.status.Open": 0,
+        "freq.status.Plant": 1,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 0,
+        "count.status.Plant": 28,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Gallaudet University",
+        "freq.status.Open": 0.265,
+        "freq.status.Plant": 0.735,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 31,
+        "count.status.Plant": 86,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Garfield Heights",
+        "freq.status.Open": 0.148,
+        "freq.status.Plant": 0.852,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 88,
+        "count.status.Plant": 508,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Gateway",
+        "freq.status.Open": 0.351,
+        "freq.status.Plant": 0.649,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 142,
+        "count.status.Plant": 262,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Georgetown University",
+        "freq.status.Open": 0.138,
+        "freq.status.Plant": 0.862,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 9,
+        "count.status.Plant": 56,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Glenwood/St. Mary's Cemeteries",
+        "freq.status.Open": 0.379,
+        "freq.status.Plant": 0.621,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 22,
+        "count.status.Plant": 36,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Glover Park",
+        "freq.status.Open": 0.021,
+        "freq.status.Plant": 0.979,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 26,
+        "count.status.Plant": 1186,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Glover-Archbold Parkway",
+        "freq.status.Open": 0.186,
+        "freq.status.Plant": 0.814,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 16,
+        "count.status.Plant": 70,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Good Hope",
+        "freq.status.Open": 0.051,
+        "freq.status.Plant": 0.949,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 41,
+        "count.status.Plant": 758,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Gov Fleet Parking",
+        "freq.status.Open": 0.268,
+        "freq.status.Plant": 0.732,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 11,
+        "count.status.Plant": 30,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Greenway",
+        "freq.status.Open": 0.089,
+        "freq.status.Plant": 0.911,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 93,
+        "count.status.Plant": 953,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "GWU-MV",
+        "freq.status.Open": 0.037,
+        "freq.status.Plant": 0.963,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 1,
+        "count.status.Plant": 26,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Hains Point",
+        "count.status.Open": 0,
+        "count.status.Plant": 0,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Hawthorne",
+        "freq.status.Open": 0.148,
+        "freq.status.Plant": 0.852,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 26,
+        "count.status.Plant": 150,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Hillandale",
+        "freq.status.Open": 0.062,
+        "freq.status.Plant": 0.938,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 1,
+        "count.status.Plant": 15,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Hillbrook",
+        "freq.status.Open": 0.163,
+        "freq.status.Plant": 0.837,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 137,
+        "count.status.Plant": 706,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Hillcrest",
+        "freq.status.Open": 0.062,
+        "freq.status.Plant": 0.938,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 52,
+        "count.status.Plant": 791,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Howard University",
+        "freq.status.Open": 0.038,
+        "freq.status.Plant": 0.962,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 10,
+        "count.status.Plant": 252,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Ivy City",
+        "freq.status.Open": 0.298,
+        "freq.status.Plant": 0.702,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 48,
+        "count.status.Plant": 113,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Ivy City Railyard",
+        "freq.status.Open": 0.256,
+        "freq.status.Plant": 0.744,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 10,
+        "count.status.Plant": 29,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Joint Base Anacostia Bolling Naval Research Laboratory",
+        "freq.status.Open": 0.062,
+        "freq.status.Plant": 0.938,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 5,
+        "count.status.Plant": 76,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Kalorama Triangle",
+        "freq.status.Open": 0.004,
+        "freq.status.Plant": 0.996,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 2,
+        "count.status.Plant": 522,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Kenilworth",
+        "freq.status.Open": 0.118,
+        "freq.status.Plant": 0.882,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 45,
+        "count.status.Plant": 335,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Kenilworth Aquatic Gardens",
+        "freq.status.Open": 0.043,
+        "freq.status.Plant": 0.957,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 1,
+        "count.status.Plant": 22,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Kent",
+        "freq.status.Open": 0.07,
+        "freq.status.Plant": 0.93,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 67,
+        "count.status.Plant": 896,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Kingman Park/Rosedale",
+        "freq.status.Open": 0.08,
+        "freq.status.Plant": 0.92,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 121,
+        "count.status.Plant": 1386,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Knox Hill",
+        "freq.status.Open": 0.107,
+        "freq.status.Plant": 0.893,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 21,
+        "count.status.Plant": 176,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Lafayette Square",
+        "freq.status.Open": 0,
+        "freq.status.Plant": 1,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 0,
+        "count.status.Plant": 24,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Lamond Riggs",
+        "freq.status.Open": 0.113,
+        "freq.status.Plant": 0.886,
+        "freq.status.Unknown": 0.002,
+        "count.status.Open": 73,
+        "count.status.Plant": 574,
+        "count.status.Unknown": 1
+    },
+    {
+        "neighborhood": "Langdon",
+        "freq.status.Open": 0.209,
+        "freq.status.Plant": 0.791,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 312,
+        "count.status.Plant": 1180,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Langston Golf Course",
+        "freq.status.Open": 0.208,
+        "freq.status.Plant": 0.792,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 5,
+        "count.status.Plant": 19,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Lanier Heights",
+        "freq.status.Open": 0.021,
+        "freq.status.Plant": 0.979,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 7,
+        "count.status.Plant": 320,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Ledroit Park",
+        "freq.status.Open": 0.064,
+        "freq.status.Plant": 0.936,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 23,
+        "count.status.Plant": 334,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Logan Circle",
+        "freq.status.Open": 0.013,
+        "freq.status.Plant": 0.987,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 18,
+        "count.status.Plant": 1350,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Mahaning Heights/Central Northeast",
+        "freq.status.Open": 0.221,
+        "freq.status.Plant": 0.779,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 136,
+        "count.status.Plant": 479,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Manor Park",
+        "freq.status.Open": 0.088,
+        "freq.status.Plant": 0.912,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 152,
+        "count.status.Plant": 1580,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Marshall Heights",
+        "freq.status.Open": 0.153,
+        "freq.status.Plant": 0.847,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 216,
+        "count.status.Plant": 1196,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Mass. Ave. Heights",
+        "freq.status.Open": 0.025,
+        "freq.status.Plant": 0.975,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 5,
+        "count.status.Plant": 197,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Mayfair",
+        "freq.status.Open": 0.363,
+        "freq.status.Plant": 0.637,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 62,
+        "count.status.Plant": 109,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "McLean Gardens",
+        "freq.status.Open": 0.007,
+        "freq.status.Plant": 0.993,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 2,
+        "count.status.Plant": 291,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "McMillan Reservoir",
+        "freq.status.Open": 0.031,
+        "freq.status.Plant": 0.969,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 2,
+        "count.status.Plant": 62,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "McMillan Sand Filtration Site",
+        "freq.status.Open": 0.303,
+        "freq.status.Plant": 0.697,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 20,
+        "count.status.Plant": 46,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Melvin C. Hazen Park",
+        "freq.status.Open": 0.125,
+        "freq.status.Plant": 0.875,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 4,
+        "count.status.Plant": 28,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Michigan Park",
+        "freq.status.Open": 0.183,
+        "freq.status.Plant": 0.817,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 132,
+        "count.status.Plant": 591,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Mt. Olivet Cemetery",
+        "freq.status.Open": 0.317,
+        "freq.status.Plant": 0.683,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 13,
+        "count.status.Plant": 28,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Mt. Pleasant",
+        "freq.status.Open": 0.014,
+        "freq.status.Plant": 0.986,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 19,
+        "count.status.Plant": 1299,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Mt. Vernon Square",
+        "freq.status.Open": 0.046,
+        "freq.status.Plant": 0.954,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 20,
+        "count.status.Plant": 419,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Mt. Vernon Triangle",
+        "freq.status.Open": 0.067,
+        "freq.status.Plant": 0.933,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 36,
+        "count.status.Plant": 501,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "National Arboretum",
+        "freq.status.Open": 0.1,
+        "freq.status.Plant": 0.9,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 2,
+        "count.status.Plant": 18,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "National Cathedral Grounds",
+        "freq.status.Open": 0.054,
+        "freq.status.Plant": 0.946,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 6,
+        "count.status.Plant": 105,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "National Mall",
+        "freq.status.Open": 0.069,
+        "freq.status.Plant": 0.931,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 10,
+        "count.status.Plant": 135,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "National Zoological Park",
+        "freq.status.Open": 0.038,
+        "freq.status.Plant": 0.962,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 1,
+        "count.status.Plant": 25,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Navy Yard",
+        "freq.status.Open": 0.233,
+        "freq.status.Plant": 0.767,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 10,
+        "count.status.Plant": 33,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Naylor Gardens",
+        "freq.status.Open": 0.041,
+        "freq.status.Plant": 0.959,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 15,
+        "count.status.Plant": 353,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Near Northeast",
+        "freq.status.Open": 0.044,
+        "freq.status.Plant": 0.956,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 115,
+        "count.status.Plant": 2484,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Near South East",
+        "freq.status.Open": 0.036,
+        "freq.status.Plant": 0.964,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 32,
+        "count.status.Plant": 859,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "NoMa",
+        "freq.status.Open": 0.048,
+        "freq.status.Plant": 0.952,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 26,
+        "count.status.Plant": 518,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Normanstone Parkway",
+        "freq.status.Open": 0,
+        "freq.status.Plant": 1,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 0,
+        "count.status.Plant": 31,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "North Cleveland Park",
+        "freq.status.Open": 0.066,
+        "freq.status.Plant": 0.934,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 98,
+        "count.status.Plant": 1389,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "North Michigan Park",
+        "freq.status.Open": 0.107,
+        "freq.status.Plant": 0.893,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 127,
+        "count.status.Plant": 1055,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "North Portal Estates",
+        "freq.status.Open": 0.186,
+        "freq.status.Plant": 0.814,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 39,
+        "count.status.Plant": 171,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Northeast Boundary",
+        "freq.status.Open": 0.218,
+        "freq.status.Plant": 0.782,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 272,
+        "count.status.Plant": 976,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Northwest One",
+        "freq.status.Open": 0.052,
+        "freq.status.Plant": 0.948,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 18,
+        "count.status.Plant": 325,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Northwest Rectangle",
+        "freq.status.Open": 0.027,
+        "freq.status.Plant": 0.973,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 10,
+        "count.status.Plant": 356,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Observatory Circle",
+        "freq.status.Open": 0.028,
+        "freq.status.Plant": 0.972,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 15,
+        "count.status.Plant": 513,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Old Soldiers Home",
+        "freq.status.Open": 0.189,
+        "freq.status.Plant": 0.811,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 18,
+        "count.status.Plant": 77,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Oxon Run Parkway",
+        "freq.status.Open": 0.382,
+        "freq.status.Plant": 0.618,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 122,
+        "count.status.Plant": 197,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Palisades",
+        "freq.status.Open": 0.059,
+        "freq.status.Plant": 0.941,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 50,
+        "count.status.Plant": 800,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Park Place/Cloisters",
+        "freq.status.Open": 0.429,
+        "freq.status.Plant": 0.571,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 9,
+        "count.status.Plant": 12,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Park View",
+        "freq.status.Open": 0.003,
+        "freq.status.Plant": 0.997,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 2,
+        "count.status.Plant": 594,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Parkside",
+        "freq.status.Open": 0.165,
+        "freq.status.Plant": 0.835,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 45,
+        "count.status.Plant": 227,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Penn Branch section of Dupont Park",
+        "freq.status.Open": 0.071,
+        "freq.status.Plant": 0.929,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 47,
+        "count.status.Plant": 613,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Pepco Benning Road Plant",
+        "freq.status.Open": 0.267,
+        "freq.status.Plant": 0.733,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 8,
+        "count.status.Plant": 22,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Petworth",
+        "freq.status.Open": 0.086,
+        "freq.status.Plant": 0.914,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 399,
+        "count.status.Plant": 4242,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Pinehurst Parkway",
+        "freq.status.Open": 0,
+        "freq.status.Plant": 1,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 0,
+        "count.status.Plant": 1,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Pleasant Hills",
+        "freq.status.Open": 0.177,
+        "freq.status.Plant": 0.823,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 55,
+        "count.status.Plant": 255,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Pleasant Plains",
+        "freq.status.Open": 0.013,
+        "freq.status.Plant": 0.987,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 6,
+        "count.status.Plant": 455,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Pope Branch Park",
+        "freq.status.Open": 0.455,
+        "freq.status.Plant": 0.545,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 5,
+        "count.status.Plant": 6,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Poplar Point",
+        "freq.status.Open": 0.375,
+        "freq.status.Plant": 0.625,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 12,
+        "count.status.Plant": 20,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Potomac Heights",
+        "freq.status.Open": 0.074,
+        "freq.status.Plant": 0.926,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 33,
+        "count.status.Plant": 412,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Queens Chapel",
+        "freq.status.Open": 0.118,
+        "freq.status.Plant": 0.882,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 50,
+        "count.status.Plant": 375,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Randle Highlands",
+        "freq.status.Open": 0.098,
+        "freq.status.Plant": 0.902,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 78,
+        "count.status.Plant": 720,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Reed-Cooke",
+        "freq.status.Open": 0.018,
+        "freq.status.Plant": 0.982,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 11,
+        "count.status.Plant": 609,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Riggs Park",
+        "freq.status.Open": 0.112,
+        "freq.status.Plant": 0.888,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 184,
+        "count.status.Plant": 1464,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "River Terrace",
+        "freq.status.Open": 0.116,
+        "freq.status.Plant": 0.884,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 69,
+        "count.status.Plant": 527,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Rock Creek and  Potomac Parkway",
+        "freq.status.Open": 0.146,
+        "freq.status.Plant": 0.854,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 7,
+        "count.status.Plant": 41,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Rock Creek Cemetery",
+        "freq.status.Open": 0.207,
+        "freq.status.Plant": 0.793,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 6,
+        "count.status.Plant": 23,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Rock Creek Gardens",
+        "freq.status.Open": 0.167,
+        "freq.status.Plant": 0.833,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 52,
+        "count.status.Plant": 259,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Rock Creek Park (north)",
+        "freq.status.Open": 0.156,
+        "freq.status.Plant": 0.844,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 15,
+        "count.status.Plant": 81,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Rock Creek Park (south)",
+        "freq.status.Open": 0.05,
+        "freq.status.Plant": 0.95,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 3,
+        "count.status.Plant": 57,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Shaw",
+        "freq.status.Open": 0.02,
+        "freq.status.Plant": 0.98,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 28,
+        "count.status.Plant": 1397,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Shepherd Park",
+        "freq.status.Open": 0.104,
+        "freq.status.Plant": 0.896,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 209,
+        "count.status.Plant": 1809,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Shepherd Parkway",
+        "freq.status.Open": 0.294,
+        "freq.status.Plant": 0.706,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 35,
+        "count.status.Plant": 84,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Sheridan-Kalorama",
+        "freq.status.Open": 0.037,
+        "freq.status.Plant": 0.963,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 39,
+        "count.status.Plant": 1024,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Shipley Terrace",
+        "freq.status.Open": 0.157,
+        "freq.status.Plant": 0.843,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 219,
+        "count.status.Plant": 1175,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Sibley Hospital",
+        "freq.status.Open": 0.083,
+        "freq.status.Plant": 0.917,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 3,
+        "count.status.Plant": 33,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Skyland",
+        "freq.status.Open": 0.135,
+        "freq.status.Plant": 0.865,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 46,
+        "count.status.Plant": 296,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Soapstone Valley Park",
+        "freq.status.Open": 1,
+        "freq.status.Plant": 0,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 1,
+        "count.status.Plant": 0,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Southwest Federal Center",
+        "freq.status.Open": 0.08,
+        "freq.status.Plant": 0.92,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 59,
+        "count.status.Plant": 675,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Southwest Waterfront",
+        "freq.status.Open": 0.031,
+        "freq.status.Plant": 0.969,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 47,
+        "count.status.Plant": 1456,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Spring Valley",
+        "freq.status.Open": 0.079,
+        "freq.status.Plant": 0.921,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 116,
+        "count.status.Plant": 1344,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "St. Elizabeths Hospital East",
+        "freq.status.Open": 0.131,
+        "freq.status.Plant": 0.869,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 8,
+        "count.status.Plant": 53,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "St. Elizabeths Hospital West",
+        "freq.status.Open": 0.038,
+        "freq.status.Plant": 0.962,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 2,
+        "count.status.Plant": 51,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Stadium/Armory Area",
+        "freq.status.Open": 0.062,
+        "freq.status.Plant": 0.938,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 5,
+        "count.status.Plant": 75,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Strivers Section",
+        "freq.status.Open": 0.017,
+        "freq.status.Plant": 0.983,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 7,
+        "count.status.Plant": 399,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Stronghold",
+        "freq.status.Open": 0.257,
+        "freq.status.Plant": 0.743,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 39,
+        "count.status.Plant": 113,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Takoma",
+        "freq.status.Open": 0.077,
+        "freq.status.Plant": 0.923,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 133,
+        "count.status.Plant": 1590,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Tenleytown",
+        "freq.status.Open": 0.091,
+        "freq.status.Plant": 0.909,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 82,
+        "count.status.Plant": 822,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "The Capitol Grounds",
+        "freq.status.Open": 0.077,
+        "freq.status.Plant": 0.923,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 2,
+        "count.status.Plant": 24,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Tidal Basin",
+        "count.status.Open": 0,
+        "count.status.Plant": 0,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Trinidad",
+        "freq.status.Open": 0.165,
+        "freq.status.Plant": 0.835,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 230,
+        "count.status.Plant": 1164,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Truxton Circle",
+        "freq.status.Open": 0.077,
+        "freq.status.Plant": 0.923,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 51,
+        "count.status.Plant": 613,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Twining",
+        "freq.status.Open": 0.1,
+        "freq.status.Plant": 0.9,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 64,
+        "count.status.Plant": 573,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "U Street",
+        "freq.status.Open": 0.014,
+        "freq.status.Plant": 0.986,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 20,
+        "count.status.Plant": 1367,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Union Station",
+        "freq.status.Open": 0,
+        "freq.status.Plant": 1,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 0,
+        "count.status.Plant": 8,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "University Heights",
+        "freq.status.Open": 0.121,
+        "freq.status.Plant": 0.879,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 95,
+        "count.status.Plant": 688,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Wakefield",
+        "freq.status.Open": 0.039,
+        "freq.status.Plant": 0.961,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 30,
+        "count.status.Plant": 742,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Walter Reed Medical Center",
+        "freq.status.Open": 0.104,
+        "freq.status.Plant": 0.896,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 5,
+        "count.status.Plant": 43,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Washington Hebrew Congregation Cemetery",
+        "freq.status.Open": 0,
+        "freq.status.Plant": 1,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 0,
+        "count.status.Plant": 9,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Washington Heights",
+        "freq.status.Open": 0.016,
+        "freq.status.Plant": 0.984,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 5,
+        "count.status.Plant": 304,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Washington Highlands",
+        "freq.status.Open": 0.169,
+        "freq.status.Plant": 0.831,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 337,
+        "count.status.Plant": 1659,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Washington Hospital Center",
+        "freq.status.Open": 0.723,
+        "freq.status.Plant": 0.277,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 125,
+        "count.status.Plant": 48,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Washington Monument Grounds",
+        "freq.status.Open": 0,
+        "freq.status.Plant": 1,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 0,
+        "count.status.Plant": 6,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Waterfront Georgetown",
+        "freq.status.Open": 0.027,
+        "freq.status.Plant": 0.973,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 5,
+        "count.status.Plant": 178,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Wesley Heights",
+        "freq.status.Open": 0.055,
+        "freq.status.Plant": 0.945,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 54,
+        "count.status.Plant": 933,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "West End",
+        "freq.status.Open": 0.017,
+        "freq.status.Plant": 0.983,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 7,
+        "count.status.Plant": 398,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "West Potomac Park",
+        "freq.status.Open": 0,
+        "freq.status.Plant": 1,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 0,
+        "count.status.Plant": 15,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "West Village Georgetown",
+        "freq.status.Open": 0.037,
+        "freq.status.Plant": 0.963,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 40,
+        "count.status.Plant": 1055,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "White House Grounds",
+        "freq.status.Open": 0,
+        "freq.status.Plant": 1,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 0,
+        "count.status.Plant": 44,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Whitehaven Parkway",
+        "freq.status.Open": 0,
+        "freq.status.Plant": 1,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 0,
+        "count.status.Plant": 9,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Woodland",
+        "freq.status.Open": 0.142,
+        "freq.status.Plant": 0.858,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 17,
+        "count.status.Plant": 103,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Woodland-Normanstone Terrace",
+        "freq.status.Open": 0.089,
+        "freq.status.Plant": 0.911,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 47,
+        "count.status.Plant": 481,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Woodlawn/Payne Cemetery",
+        "count.status.Open": 0,
+        "count.status.Plant": 0,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Woodley Park",
+        "freq.status.Open": 0.029,
+        "freq.status.Plant": 0.971,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 38,
+        "count.status.Plant": 1276,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Woodridge",
+        "freq.status.Open": 0.147,
+        "freq.status.Plant": 0.853,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 464,
+        "count.status.Plant": 2697,
+        "count.status.Unknown": 0
+    }
+]
+
