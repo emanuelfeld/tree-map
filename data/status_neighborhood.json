@@ -411,15 +411,6 @@
         "count.status.Unknown": 0
     },
     {
-        "neighborhood": "Dalecarlia Reservoir",
-        "freq.status.Open": 0.07,
-        "freq.status.Plant": 0.93,
-        "freq.status.Unknown": 0,
-        "count.status.Open": 15,
-        "count.status.Plant": 198,
-        "count.status.Unknown": 0
-    },
-    {
         "neighborhood": "DC Village",
         "freq.status.Open": 0,
         "freq.status.Plant": 1,
@@ -429,21 +420,30 @@
         "count.status.Unknown": 0
     },
     {
-        "neighborhood": "Deanwood",
-        "freq.status.Open": 0.276,
-        "freq.status.Plant": 0.724,
-        "freq.status.Unknown": 0,
-        "count.status.Open": 520,
-        "count.status.Plant": 1367,
-        "count.status.Unknown": 0
-    },
-    {
         "neighborhood": "DHS",
         "freq.status.Open": 0.054,
         "freq.status.Plant": 0.946,
         "freq.status.Unknown": 0,
         "count.status.Open": 2,
         "count.status.Plant": 35,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Dalecarlia Reservoir",
+        "freq.status.Open": 0.07,
+        "freq.status.Plant": 0.93,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 15,
+        "count.status.Plant": 198,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Deanwood",
+        "freq.status.Open": 0.276,
+        "freq.status.Plant": 0.724,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 520,
+        "count.status.Plant": 1367,
         "count.status.Unknown": 0
     },
     {
@@ -729,6 +729,15 @@
         "count.status.Unknown": 0
     },
     {
+        "neighborhood": "GWU-MV",
+        "freq.status.Open": 0.037,
+        "freq.status.Plant": 0.963,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 1,
+        "count.status.Plant": 26,
+        "count.status.Unknown": 0
+    },
+    {
         "neighborhood": "Gallaudet University",
         "freq.status.Open": 0.265,
         "freq.status.Plant": 0.735,
@@ -816,15 +825,6 @@
         "freq.status.Unknown": 0,
         "count.status.Open": 93,
         "count.status.Plant": 953,
-        "count.status.Unknown": 0
-    },
-    {
-        "neighborhood": "GWU-MV",
-        "freq.status.Open": 0.037,
-        "freq.status.Plant": 0.963,
-        "freq.status.Unknown": 0,
-        "count.status.Open": 1,
-        "count.status.Plant": 26,
         "count.status.Unknown": 0
     },
     {
@@ -1375,11 +1375,11 @@
     },
     {
         "neighborhood": "Petworth",
-        "freq.status.Open": 0.087,
-        "freq.status.Plant": 0.913,
+        "freq.status.Open": 0.088,
+        "freq.status.Plant": 0.912,
         "freq.status.Unknown": 0,
-        "count.status.Open": 406,
-        "count.status.Plant": 4239,
+        "count.status.Open": 410,
+        "count.status.Plant": 4235,
         "count.status.Unknown": 0
     },
     {
@@ -1482,15 +1482,6 @@
         "count.status.Unknown": 0
     },
     {
-        "neighborhood": "Rock Creek and  Potomac Parkway",
-        "freq.status.Open": 0.146,
-        "freq.status.Plant": 0.854,
-        "freq.status.Unknown": 0,
-        "count.status.Open": 7,
-        "count.status.Plant": 41,
-        "count.status.Unknown": 0
-    },
-    {
         "neighborhood": "Rock Creek Cemetery",
         "freq.status.Open": 0.207,
         "freq.status.Plant": 0.793,
@@ -1524,6 +1515,15 @@
         "freq.status.Unknown": 0,
         "count.status.Open": 3,
         "count.status.Plant": 57,
+        "count.status.Unknown": 0
+    },
+    {
+        "neighborhood": "Rock Creek and  Potomac Parkway",
+        "freq.status.Open": 0.146,
+        "freq.status.Plant": 0.854,
+        "freq.status.Unknown": 0,
+        "count.status.Open": 7,
+        "count.status.Plant": 41,
         "count.status.Unknown": 0
     },
     {
@@ -1582,10 +1582,10 @@
     },
     {
         "neighborhood": "Skyland",
-        "freq.status.Open": 0.164,
-        "freq.status.Plant": 0.836,
+        "freq.status.Open": 0.169,
+        "freq.status.Plant": 0.831,
         "freq.status.Unknown": 0,
-        "count.status.Open": 58,
+        "count.status.Open": 60,
         "count.status.Plant": 296,
         "count.status.Unknown": 0
     },

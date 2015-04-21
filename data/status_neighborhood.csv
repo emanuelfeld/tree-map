@@ -46,10 +46,10 @@
 "Congressional Cemetery",0.034,0.966,0,1,28,0
 "Crestwood",0.081,0.919,0,104,1179,0
 "D.C. General Hospital and Prison",0.089,0.911,0,4,41,0
-"Dalecarlia Reservoir",0.07,0.93,0,15,198,0
 "DC Village",0,1,0,0,17,0
-"Deanwood",0.276,0.724,0,520,1367,0
 "DHS",0.054,0.946,0,2,35,0
+"Dalecarlia Reservoir",0.07,0.93,0,15,198,0
+"Deanwood",0.276,0.724,0,520,1367,0
 "Douglas",0.087,0.913,0,63,663,0
 "Downtown",0.025,0.975,0,87,3432,0
 "Dumbarton Oaks Park",NA,NA,NA,0,0,0
@@ -82,6 +82,7 @@
 "Foxhall Village",0.025,0.975,0,8,315,0
 "Friendship Heights",0.051,0.949,0,79,1457,0
 "Ft. McNair",0,1,0,0,28,0
+"GWU-MV",0.037,0.963,0,1,26,0
 "Gallaudet University",0.265,0.735,0,31,86,0
 "Garfield Heights",0.148,0.852,0,88,508,0
 "Gateway",0.351,0.649,0,142,262,0
@@ -92,7 +93,6 @@
 "Good Hope",0.055,0.945,0,44,758,0
 "Gov Fleet Parking",0.268,0.732,0,11,30,0
 "Greenway",0.089,0.911,0,93,953,0
-"GWU-MV",0.037,0.963,0,1,26,0
 "Hains Point",NA,NA,NA,0,0,0
 "Hawthorne",0.148,0.852,0,26,150,0
 "Hillandale",0.062,0.938,0,1,15,0
@@ -154,7 +154,7 @@
 "Parkside",0.165,0.835,0,45,227,0
 "Penn Branch section of Dupont Park",0.071,0.929,0,47,613,0
 "Pepco Benning Road Plant",0.267,0.733,0,8,22,0
-"Petworth",0.087,0.913,0,406,4239,0
+"Petworth",0.088,0.912,0,410,4235,0
 "Pinehurst Parkway",0,1,0,0,1,0
 "Pleasant Hills",0.177,0.823,0,55,255,0
 "Pleasant Plains",0.013,0.987,0,6,455,0
@@ -166,18 +166,18 @@
 "Reed-Cooke",0.018,0.982,0,11,609,0
 "Riggs Park",0.112,0.888,0,184,1464,0
 "River Terrace",0.116,0.884,0,69,527,0
-"Rock Creek and  Potomac Parkway",0.146,0.854,0,7,41,0
 "Rock Creek Cemetery",0.207,0.793,0,6,23,0
 "Rock Creek Gardens",0.167,0.833,0,52,259,0
 "Rock Creek Park (north)",0.156,0.844,0,15,81,0
 "Rock Creek Park (south)",0.05,0.95,0,3,57,0
+"Rock Creek and  Potomac Parkway",0.146,0.854,0,7,41,0
 "Shaw",0.019,0.981,0,27,1398,0
 "Shepherd Park",0.104,0.896,0,209,1809,0
 "Shepherd Parkway",0.294,0.706,0,35,84,0
 "Sheridan-Kalorama",0.037,0.963,0,39,1024,0
 "Shipley Terrace",0.157,0.843,0,219,1175,0
 "Sibley Hospital",0.083,0.917,0,3,33,0
-"Skyland",0.164,0.836,0,58,296,0
+"Skyland",0.169,0.831,0,60,296,0
 "Soapstone Valley Park",1,0,0,1,0,0
 "Southwest Federal Center",0.08,0.92,0,59,675,0
 "Southwest Waterfront",0.031,0.969,0,47,1456,0
