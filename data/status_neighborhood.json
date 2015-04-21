@@ -76,11 +76,11 @@
     },
     {
         "neighborhood": "Barnaby Woods",
-        "freq.status.Open": 0.089,
-        "freq.status.Plant": 0.911,
+        "freq.status.Open": 0.094,
+        "freq.status.Plant": 0.906,
         "freq.status.Unknown": 0,
-        "count.status.Open": 49,
-        "count.status.Plant": 503,
+        "count.status.Open": 52,
+        "count.status.Plant": 502,
         "count.status.Unknown": 0
     },
     {
@@ -166,11 +166,11 @@
     },
     {
         "neighborhood": "Bloomingdale",
-        "freq.status.Open": 0.093,
-        "freq.status.Plant": 0.907,
+        "freq.status.Open": 0.094,
+        "freq.status.Plant": 0.906,
         "freq.status.Unknown": 0,
-        "count.status.Open": 118,
-        "count.status.Plant": 1152,
+        "count.status.Open": 119,
+        "count.status.Plant": 1151,
         "count.status.Unknown": 0
     },
     {
@@ -199,8 +199,8 @@
         "freq.status.Open": 0.092,
         "freq.status.Plant": 0.908,
         "freq.status.Unknown": 0,
-        "count.status.Open": 277,
-        "count.status.Plant": 2745,
+        "count.status.Open": 278,
+        "count.status.Plant": 2743,
         "count.status.Unknown": 0
     },
     {
@@ -217,8 +217,8 @@
         "freq.status.Open": 0.136,
         "freq.status.Plant": 0.864,
         "freq.status.Unknown": 0,
-        "count.status.Open": 368,
-        "count.status.Plant": 2334,
+        "count.status.Open": 367,
+        "count.status.Plant": 2335,
         "count.status.Unknown": 0
     },
     {
@@ -280,7 +280,7 @@
         "freq.status.Open": 0.024,
         "freq.status.Plant": 0.976,
         "freq.status.Unknown": 0,
-        "count.status.Open": 215,
+        "count.status.Open": 214,
         "count.status.Plant": 8829,
         "count.status.Unknown": 0
     },
@@ -367,11 +367,11 @@
     },
     {
         "neighborhood": "Columbia Heights",
-        "freq.status.Open": 0.021,
-        "freq.status.Plant": 0.979,
+        "freq.status.Open": 0.023,
+        "freq.status.Plant": 0.977,
         "freq.status.Unknown": 0,
-        "count.status.Open": 54,
-        "count.status.Plant": 2499,
+        "count.status.Open": 58,
+        "count.status.Plant": 2494,
         "count.status.Unknown": 0
     },
     {
@@ -403,11 +403,11 @@
     },
     {
         "neighborhood": "D.C. General Hospital and Prison",
-        "freq.status.Open": 0.111,
-        "freq.status.Plant": 0.889,
+        "freq.status.Open": 0.089,
+        "freq.status.Plant": 0.911,
         "freq.status.Unknown": 0,
-        "count.status.Open": 5,
-        "count.status.Plant": 40,
+        "count.status.Open": 4,
+        "count.status.Plant": 41,
         "count.status.Unknown": 0
     },
     {
@@ -461,7 +461,7 @@
         "freq.status.Plant": 0.975,
         "freq.status.Unknown": 0,
         "count.status.Open": 87,
-        "count.status.Plant": 3434,
+        "count.status.Plant": 3432,
         "count.status.Unknown": 0
     },
     {
@@ -550,11 +550,11 @@
     },
     {
         "neighborhood": "Fairlawn",
-        "freq.status.Open": 0.069,
-        "freq.status.Plant": 0.931,
+        "freq.status.Open": 0.07,
+        "freq.status.Plant": 0.93,
         "freq.status.Unknown": 0,
-        "count.status.Open": 127,
-        "count.status.Plant": 1706,
+        "count.status.Open": 128,
+        "count.status.Plant": 1705,
         "count.status.Unknown": 0
     },
     {
@@ -793,10 +793,10 @@
     },
     {
         "neighborhood": "Good Hope",
-        "freq.status.Open": 0.051,
-        "freq.status.Plant": 0.949,
+        "freq.status.Open": 0.055,
+        "freq.status.Plant": 0.945,
         "freq.status.Unknown": 0,
-        "count.status.Open": 41,
+        "count.status.Open": 44,
         "count.status.Plant": 758,
         "count.status.Unknown": 0
     },
@@ -1240,11 +1240,11 @@
     },
     {
         "neighborhood": "North Cleveland Park",
-        "freq.status.Open": 0.066,
-        "freq.status.Plant": 0.934,
+        "freq.status.Open": 0.067,
+        "freq.status.Plant": 0.933,
         "freq.status.Unknown": 0,
-        "count.status.Open": 98,
-        "count.status.Plant": 1389,
+        "count.status.Open": 99,
+        "count.status.Plant": 1388,
         "count.status.Unknown": 0
     },
     {
@@ -1289,7 +1289,7 @@
         "freq.status.Plant": 0.973,
         "freq.status.Unknown": 0,
         "count.status.Open": 10,
-        "count.status.Plant": 356,
+        "count.status.Plant": 354,
         "count.status.Unknown": 0
     },
     {
@@ -1528,11 +1528,11 @@
     },
     {
         "neighborhood": "Shaw",
-        "freq.status.Open": 0.02,
-        "freq.status.Plant": 0.98,
+        "freq.status.Open": 0.019,
+        "freq.status.Plant": 0.981,
         "freq.status.Unknown": 0,
-        "count.status.Open": 28,
-        "count.status.Plant": 1397,
+        "count.status.Open": 27,
+        "count.status.Plant": 1398,
         "count.status.Unknown": 0
     },
     {
@@ -1582,10 +1582,10 @@
     },
     {
         "neighborhood": "Skyland",
-        "freq.status.Open": 0.135,
-        "freq.status.Plant": 0.865,
+        "freq.status.Open": 0.164,
+        "freq.status.Plant": 0.836,
         "freq.status.Unknown": 0,
-        "count.status.Open": 46,
+        "count.status.Open": 58,
         "count.status.Plant": 296,
         "count.status.Unknown": 0
     },
@@ -1618,10 +1618,10 @@
     },
     {
         "neighborhood": "Spring Valley",
-        "freq.status.Open": 0.079,
-        "freq.status.Plant": 0.921,
+        "freq.status.Open": 0.08,
+        "freq.status.Plant": 0.92,
         "freq.status.Unknown": 0,
-        "count.status.Open": 116,
+        "count.status.Open": 117,
         "count.status.Plant": 1344,
         "count.status.Unknown": 0
     },
@@ -1672,11 +1672,11 @@
     },
     {
         "neighborhood": "Takoma",
-        "freq.status.Open": 0.077,
-        "freq.status.Plant": 0.923,
+        "freq.status.Open": 0.079,
+        "freq.status.Plant": 0.921,
         "freq.status.Unknown": 0,
-        "count.status.Open": 133,
-        "count.status.Plant": 1590,
+        "count.status.Open": 136,
+        "count.status.Plant": 1586,
         "count.status.Unknown": 0
     },
     {

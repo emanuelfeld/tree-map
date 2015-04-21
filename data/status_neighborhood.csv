@@ -8,7 +8,7 @@
 "Anacostia River",0.067,0.933,0,1,14,0
 "Anacostia River Islands",NA,NA,NA,0,0,0
 "Arboretum",0.25,0.75,0,47,141,0
-"Barnaby Woods",0.089,0.911,0,49,503,0
+"Barnaby Woods",0.094,0.906,0,52,502,0
 "Barnard Hill Park",0.163,0.837,0,15,77,0
 "Barney Circle",0.007,0.993,0,1,144,0
 "Barry Farm",0.249,0.751,0,63,190,0
@@ -18,20 +18,20 @@
 "Benning Heights/Simple City",0.064,0.936,0,19,280,0
 "Benning Ridge",0.064,0.936,0,117,1704,0
 "Berkley/Foxhall Crescents",0.132,0.868,0,70,461,0
-"Bloomingdale",0.093,0.907,0,118,1152,0
+"Bloomingdale",0.094,0.906,0,119,1151,0
 "Blue Plains",NA,NA,NA,0,0,0
 "Brentwood",0.304,0.696,0,242,554,0
 "Brentwood Railyard",NA,NA,NA,0,0,0
-"Brightwood",0.092,0.908,0,277,2745,0
+"Brightwood",0.092,0.908,0,278,2743,0
 "Brightwood Park",0.06,0.94,0,29,457,0
-"Brookland",0.136,0.864,0,368,2334,0
+"Brookland",0.136,0.864,0,367,2335,0
 "Buena Vista",0.16,0.84,0,81,425,0
 "Burleith",0.036,0.964,0,17,449,0
 "Burrville",0.138,0.862,0,38,237,0
 "Buzzard Point",0,1,0,0,99,0
 "C&O Canal Park",0.182,0.818,0,2,9,0
 "Capital City Market",0.143,0.857,0,2,12,0
-"Capitol Hill",0.024,0.976,0,215,8829,0
+"Capitol Hill",0.024,0.976,0,214,8829,0
 "Capitol View",0.173,0.827,0,247,1181,0
 "Carver Langston",0.205,0.795,0,226,874,0
 "Cathedral Heights",0.035,0.965,0,29,792,0
@@ -41,17 +41,17 @@
 "Cleveland Park",0.067,0.933,0,111,1537,0
 "Colonial Village",0.127,0.873,0,58,400,0
 "Colony Hill",0.08,0.92,0,9,104,0
-"Columbia Heights",0.021,0.979,0,54,2499,0
+"Columbia Heights",0.023,0.977,0,58,2494,0
 "Congress Heights",0.114,0.886,0,306,2379,0
 "Congressional Cemetery",0.034,0.966,0,1,28,0
 "Crestwood",0.081,0.919,0,104,1179,0
-"D.C. General Hospital and Prison",0.111,0.889,0,5,40,0
+"D.C. General Hospital and Prison",0.089,0.911,0,4,41,0
 "Dalecarlia Reservoir",0.07,0.93,0,15,198,0
 "DC Village",0,1,0,0,17,0
 "Deanwood",0.276,0.724,0,520,1367,0
 "DHS",0.054,0.946,0,2,35,0
 "Douglas",0.087,0.913,0,63,663,0
-"Downtown",0.025,0.975,0,87,3434,0
+"Downtown",0.025,0.975,0,87,3432,0
 "Dumbarton Oaks Park",NA,NA,NA,0,0,0
 "Dupont Circle",0.025,0.975,0,52,2000,0
 "Dupont Park",0.039,0.961,0,6,146,0
@@ -62,7 +62,7 @@
 "Edgewood",0.204,0.796,0,173,674,0
 "Ellipse",NA,NA,NA,0,0,0
 "Fairfax Village",0.056,0.944,0,19,321,0
-"Fairlawn",0.069,0.931,0,127,1706,0
+"Fairlawn",0.07,0.93,0,128,1705,0
 "Federal Triangle",0.008,0.992,0,1,130,0
 "Foggy Bottom",0.025,0.975,0,32,1234,0
 "Forest Hills",0.096,0.904,0,150,1420,0
@@ -89,7 +89,7 @@
 "Glenwood/St. Mary's Cemeteries",0.379,0.621,0,22,36,0
 "Glover Park",0.021,0.979,0,26,1186,0
 "Glover-Archbold Parkway",0.186,0.814,0,16,70,0
-"Good Hope",0.051,0.949,0,41,758,0
+"Good Hope",0.055,0.945,0,44,758,0
 "Gov Fleet Parking",0.268,0.732,0,11,30,0
 "Greenway",0.089,0.911,0,93,953,0
 "GWU-MV",0.037,0.963,0,1,26,0
@@ -139,12 +139,12 @@
 "Near South East",0.036,0.964,0,32,859,0
 "NoMa",0.048,0.952,0,26,518,0
 "Normanstone Parkway",0,1,0,0,31,0
-"North Cleveland Park",0.066,0.934,0,98,1389,0
+"North Cleveland Park",0.067,0.933,0,99,1388,0
 "North Michigan Park",0.107,0.893,0,127,1055,0
 "North Portal Estates",0.186,0.814,0,39,171,0
 "Northeast Boundary",0.218,0.782,0,272,976,0
 "Northwest One",0.052,0.948,0,18,325,0
-"Northwest Rectangle",0.027,0.973,0,10,356,0
+"Northwest Rectangle",0.027,0.973,0,10,354,0
 "Observatory Circle",0.028,0.972,0,15,513,0
 "Old Soldiers Home",0.189,0.811,0,18,77,0
 "Oxon Run Parkway",0.382,0.618,0,122,197,0
@@ -171,23 +171,23 @@
 "Rock Creek Gardens",0.167,0.833,0,52,259,0
 "Rock Creek Park (north)",0.156,0.844,0,15,81,0
 "Rock Creek Park (south)",0.05,0.95,0,3,57,0
-"Shaw",0.02,0.98,0,28,1397,0
+"Shaw",0.019,0.981,0,27,1398,0
 "Shepherd Park",0.104,0.896,0,209,1809,0
 "Shepherd Parkway",0.294,0.706,0,35,84,0
 "Sheridan-Kalorama",0.037,0.963,0,39,1024,0
 "Shipley Terrace",0.157,0.843,0,219,1175,0
 "Sibley Hospital",0.083,0.917,0,3,33,0
-"Skyland",0.135,0.865,0,46,296,0
+"Skyland",0.164,0.836,0,58,296,0
 "Soapstone Valley Park",1,0,0,1,0,0
 "Southwest Federal Center",0.08,0.92,0,59,675,0
 "Southwest Waterfront",0.031,0.969,0,47,1456,0
-"Spring Valley",0.079,0.921,0,116,1344,0
+"Spring Valley",0.08,0.92,0,117,1344,0
 "St. Elizabeths Hospital East",0.131,0.869,0,8,53,0
 "St. Elizabeths Hospital West",0.038,0.962,0,2,51,0
 "Stadium/Armory Area",0.062,0.938,0,5,75,0
 "Strivers Section",0.017,0.983,0,7,399,0
 "Stronghold",0.257,0.743,0,39,113,0
-"Takoma",0.077,0.923,0,133,1590,0
+"Takoma",0.079,0.921,0,136,1586,0
 "Tenleytown",0.091,0.909,0,82,822,0
 "The Capitol Grounds",0.077,0.923,0,2,24,0
 "Tidal Basin",NA,NA,NA,0,0,0
