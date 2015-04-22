@@ -59,7 +59,7 @@ html,body {
     margin:0
 }
 
-@media (max-width: 714px) {
+@media (max-width: 713px) {
     header {
         text-align:center;
         height:115px;
