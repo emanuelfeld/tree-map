@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta property="og:title" content="getdctrees.org" />
+		<meta property="og:site_name" content="getdctrees.org" />
+		<meta property="og:description" content="Me gustaría que hubiese más árboles en su vecindario DC? Este sitio puede ayudarle a solicitar la plantación de árboles cerca de usted." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://getdctrees.org/" />
+		<meta property="og:image" content="http://getdctrees.org/assets/dc300green.png" />
+		
+		<title>plant the district</title>
+		
+		<link rel="stylesheet" href="stylesheets/index.css">
+		<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/dc16.ico" >
+		<link href="http://libs.cartocdn.com/cartodb.js/v3/3.13/themes/css/cartodb.css" rel="stylesheet">
+		<meta content="initial-scale=1.0, user-scalable=no" name="viewport">
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!-- Go to www.addthis.com/dashboard to customize your tools -->
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-553071fc49386392" async="async"></script>
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		ga('create', 'UA-61856433-1', 'auto');
+		ga('send', 'pageview');
+		</script>
+	</head>
+
+	<body style="margin:0 auto">
+		
+		<header class="header">
+			<div id="logo"><img src="assets/dc64green.png"></div>
+			<div id="title"> 
+			planta un árbol @ <input id="search_address" placeholder="esta dirección de la calle" type="text"></div>
+		</header>
+
+		<div id="map" style="display: table; overflow: hidden; text-align:center; width:100%;">
+			<div style="display: table-cell; vertical-align: middle;">
+				<img src="assets/loading.svg">
+			</div>
+		</div>
+		
+		<script src="http://libs.cartocdn.com/cartodb.js/v3/3.13/cartodb.js"></script>
+
+		<script>
+
+			function main() {
+
+			    document.getElementById('map').innerHTML = "";
+			    document.getElementById('map').removeAttribute('style');
+
+				cartodb.createVis('map',
+					'https://evonfriedland.cartodb.com/api/v2/viz/90ac791c-e0de-11e4-84b0-0e43f3deba5a/viz.json', {
+						shareable: false,
+						title: false,
+						description: false,
+						search: false,
+						tiles_loader: true,
+						center_lat: 38.8993488,
+						center_lon: -77.0145665,
+						zoom: 13
+					}).done(function(vis, layers) {
+					layers[1].setInteraction(true);
+					layers[1].on('featureOver', function(e, latlng, pos, data) {
+						cartodb.log.log(e, latlng, pos, data);
+					});
+
+					var map = vis.getNativeMap();
+
+					var addressCallback = function() {
+						var address_json = JSON.parse(this.responseText);
+						var lat = address_json[0]['lat'];
+						var lon = address_json[0]['lon'];
+						map.panTo([lat, lon]);
+						map.setZoom(17);
+					};
+
+					$(document).ready(function() {
+						$("input").on("keydown", function search(e) {
+							if (e.keyCode == 13) {
+								var add = cleanAddress($('#search_address').val())
+								var full_add = add + " Washington DC";
+								console.log(full_add);
+								var url = "http://nominatim.openstreetmap.org/search/" +
+									encodeURIComponent(full_add) + "?format=json";
+								httpGet(url, addressCallback);
+							}
+						});
+					});
+				}).error(function(err) {
+					console.log(err);
+				});
+			}
+
+			function httpGet(url, addressCallback) {
+				 var req = new XMLHttpRequest();
+				 req.addEventListener("load", addressCallback, false);
+				 req.open('GET', url);
+				 req.send(null);
+			}			
+
+			function cleanAddress(address) {
+				address = address.toLowerCase().replace(/[;,\.:\?#]/g,"").replace(/( dc| washington)/g,"").replace(/ *$/g,"");
+				return address;
+			}
+			
+			window.onload = main;
+
+		</script>
+
+		<footer class="footer">
+			<a href="acerca.html" class="link"> acerca </a> 
+			<a href="acerca.html#contact" class="link"> contacto </a>
+			<!-- Go to www.addthis.com/dashboard to customize your tools -->
+			<div style="display:inline-block">
+				<div class="addthis_sharing_toolbox"></div>	
+			</div>
+		</footer>	
+
+		<script src="javascripts/scale.fix.js"></script>
+		<!-- Go to www.addthis.com/dashboard to customize your tools -->
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-553071fc49386392" async="async"></script>
+
+  	</body>
+</html>
