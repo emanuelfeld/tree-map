@@ -103,6 +103,15 @@ html,body {
         height:-webkit-calc(100% - 263px);
         height:calc(100% - 263px)
     }
+
+    .link {
+        height:20px;
+        font:20px Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-decoration:none;
+        color:#222;
+        text-align:left;
+        padding:0 10px 0 0
+    }
 }
 
 @media (max-width: 400px) {
