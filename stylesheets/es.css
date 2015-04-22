@@ -59,7 +59,7 @@ html,body {
     margin:0
 }
 
-@media (max-width: 714px) {
+@media (max-width: 776px) {
     header {
         text-align:center;
         height:115px;
@@ -83,7 +83,7 @@ html,body {
     }
 }
 
-@media (max-width: 648px) {
+@media (max-width: 711px) {
     header {
         text-align:center;
         height:165px;
