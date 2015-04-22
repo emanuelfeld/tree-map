@@ -4,17 +4,17 @@
         "freq.status.Open": 0.019,
         "freq.status.Plant": 0.981,
         "freq.status.Unknown": 0,
-        "count.status.Open": 166,
-        "count.status.Plant": 8505,
+        "count.status.Open": 167,
+        "count.status.Plant": 8504,
         "count.status.Unknown": 0
     },
     {
         "ward": "2",
-        "freq.status.Open": 0.029,
-        "freq.status.Plant": 0.971,
+        "freq.status.Open": 0.028,
+        "freq.status.Plant": 0.972,
         "freq.status.Unknown": 0,
-        "count.status.Open": 416,
-        "count.status.Plant": 14059,
+        "count.status.Open": 411,
+        "count.status.Plant": 14063,
         "count.status.Unknown": 0
     },
     {
@@ -23,7 +23,7 @@
         "freq.status.Plant": 0.939,
         "freq.status.Unknown": 0,
         "count.status.Open": 1532,
-        "count.status.Plant": 23574,
+        "count.status.Plant": 23575,
         "count.status.Unknown": 0
     },
     {
@@ -40,8 +40,8 @@
         "freq.status.Open": 0.172,
         "freq.status.Plant": 0.828,
         "freq.status.Unknown": 0,
-        "count.status.Open": 3728,
-        "count.status.Plant": 17963,
+        "count.status.Open": 3732,
+        "count.status.Plant": 17959,
         "count.status.Unknown": 0
     },
     {
@@ -50,7 +50,7 @@
         "freq.status.Plant": 0.965,
         "freq.status.Unknown": 0,
         "count.status.Open": 685,
-        "count.status.Plant": 18613,
+        "count.status.Plant": 18614,
         "count.status.Unknown": 0
     },
     {
@@ -58,8 +58,8 @@
         "freq.status.Open": 0.134,
         "freq.status.Plant": 0.866,
         "freq.status.Unknown": 0,
-        "count.status.Open": 2824,
-        "count.status.Plant": 18237,
+        "count.status.Open": 2829,
+        "count.status.Plant": 18236,
         "count.status.Unknown": 0
     },
     {
@@ -67,8 +67,8 @@
         "freq.status.Open": 0.145,
         "freq.status.Plant": 0.855,
         "freq.status.Unknown": 0,
-        "count.status.Open": 2065,
-        "count.status.Plant": 12198,
+        "count.status.Open": 2066,
+        "count.status.Plant": 12197,
         "count.status.Unknown": 0
     }
 ]

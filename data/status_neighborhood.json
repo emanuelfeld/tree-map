@@ -280,8 +280,8 @@
         "freq.status.Open": 0.024,
         "freq.status.Plant": 0.976,
         "freq.status.Unknown": 0,
-        "count.status.Open": 214,
-        "count.status.Plant": 8829,
+        "count.status.Open": 213,
+        "count.status.Plant": 8830,
         "count.status.Unknown": 0
     },
     {
@@ -295,11 +295,11 @@
     },
     {
         "neighborhood": "Carver Langston",
-        "freq.status.Open": 0.205,
-        "freq.status.Plant": 0.795,
+        "freq.status.Open": 0.208,
+        "freq.status.Plant": 0.792,
         "freq.status.Unknown": 0,
-        "count.status.Open": 226,
-        "count.status.Plant": 874,
+        "count.status.Open": 229,
+        "count.status.Plant": 871,
         "count.status.Unknown": 0
     },
     {
@@ -371,7 +371,7 @@
         "freq.status.Plant": 0.977,
         "freq.status.Unknown": 0,
         "count.status.Open": 58,
-        "count.status.Plant": 2494,
+        "count.status.Plant": 2495,
         "count.status.Unknown": 0
     },
     {
@@ -457,10 +457,10 @@
     },
     {
         "neighborhood": "Downtown",
-        "freq.status.Open": 0.025,
-        "freq.status.Plant": 0.975,
+        "freq.status.Open": 0.024,
+        "freq.status.Plant": 0.976,
         "freq.status.Unknown": 0,
-        "count.status.Open": 87,
+        "count.status.Open": 86,
         "count.status.Plant": 3432,
         "count.status.Unknown": 0
     },
@@ -517,11 +517,11 @@
     },
     {
         "neighborhood": "Eckington",
-        "freq.status.Open": 0.107,
-        "freq.status.Plant": 0.893,
+        "freq.status.Open": 0.108,
+        "freq.status.Plant": 0.892,
         "freq.status.Unknown": 0,
-        "count.status.Open": 122,
-        "count.status.Plant": 1014,
+        "count.status.Open": 123,
+        "count.status.Plant": 1013,
         "count.status.Unknown": 0
     },
     {
@@ -568,11 +568,11 @@
     },
     {
         "neighborhood": "Foggy Bottom",
-        "freq.status.Open": 0.025,
-        "freq.status.Plant": 0.975,
+        "freq.status.Open": 0.024,
+        "freq.status.Plant": 0.976,
         "freq.status.Unknown": 0,
-        "count.status.Open": 32,
-        "count.status.Plant": 1234,
+        "count.status.Open": 31,
+        "count.status.Plant": 1238,
         "count.status.Unknown": 0
     },
     {
@@ -667,11 +667,11 @@
     },
     {
         "neighborhood": "Fort Stanton",
-        "freq.status.Open": 0.05,
-        "freq.status.Plant": 0.95,
+        "freq.status.Open": 0.054,
+        "freq.status.Plant": 0.946,
         "freq.status.Unknown": 0,
-        "count.status.Open": 13,
-        "count.status.Plant": 246,
+        "count.status.Open": 14,
+        "count.status.Plant": 245,
         "count.status.Unknown": 0
     },
     {
@@ -853,10 +853,10 @@
     },
     {
         "neighborhood": "Hillbrook",
-        "freq.status.Open": 0.163,
-        "freq.status.Plant": 0.837,
+        "freq.status.Open": 0.164,
+        "freq.status.Plant": 0.836,
         "freq.status.Unknown": 0,
-        "count.status.Open": 137,
+        "count.status.Open": 138,
         "count.status.Plant": 706,
         "count.status.Unknown": 0
     },
@@ -907,11 +907,11 @@
     },
     {
         "neighborhood": "Kalorama Triangle",
-        "freq.status.Open": 0.004,
-        "freq.status.Plant": 0.996,
+        "freq.status.Open": 0.006,
+        "freq.status.Plant": 0.994,
         "freq.status.Unknown": 0,
-        "count.status.Open": 2,
-        "count.status.Plant": 522,
+        "count.status.Open": 3,
+        "count.status.Plant": 521,
         "count.status.Unknown": 0
     },
     {
@@ -1015,20 +1015,20 @@
     },
     {
         "neighborhood": "Logan Circle",
-        "freq.status.Open": 0.013,
-        "freq.status.Plant": 0.987,
+        "freq.status.Open": 0.012,
+        "freq.status.Plant": 0.988,
         "freq.status.Unknown": 0,
-        "count.status.Open": 18,
-        "count.status.Plant": 1350,
+        "count.status.Open": 17,
+        "count.status.Plant": 1351,
         "count.status.Unknown": 0
     },
     {
         "neighborhood": "Mahaning Heights/Central Northeast",
-        "freq.status.Open": 0.221,
-        "freq.status.Plant": 0.779,
+        "freq.status.Open": 0.227,
+        "freq.status.Plant": 0.773,
         "freq.status.Unknown": 0,
-        "count.status.Open": 136,
-        "count.status.Plant": 479,
+        "count.status.Open": 140,
+        "count.status.Plant": 478,
         "count.status.Unknown": 0
     },
     {
@@ -1204,10 +1204,10 @@
     },
     {
         "neighborhood": "Near Northeast",
-        "freq.status.Open": 0.044,
-        "freq.status.Plant": 0.956,
+        "freq.status.Open": 0.045,
+        "freq.status.Plant": 0.955,
         "freq.status.Unknown": 0,
-        "count.status.Open": 115,
+        "count.status.Open": 116,
         "count.status.Plant": 2484,
         "count.status.Unknown": 0
     },
@@ -1244,7 +1244,7 @@
         "freq.status.Plant": 0.933,
         "freq.status.Unknown": 0,
         "count.status.Open": 99,
-        "count.status.Plant": 1388,
+        "count.status.Plant": 1389,
         "count.status.Unknown": 0
     },
     {
@@ -1285,11 +1285,11 @@
     },
     {
         "neighborhood": "Northwest Rectangle",
-        "freq.status.Open": 0.027,
-        "freq.status.Plant": 0.973,
+        "freq.status.Open": 0.03,
+        "freq.status.Plant": 0.97,
         "freq.status.Unknown": 0,
-        "count.status.Open": 10,
-        "count.status.Plant": 354,
+        "count.status.Open": 11,
+        "count.status.Plant": 353,
         "count.status.Unknown": 0
     },
     {
@@ -1528,10 +1528,10 @@
     },
     {
         "neighborhood": "Shaw",
-        "freq.status.Open": 0.019,
-        "freq.status.Plant": 0.981,
+        "freq.status.Open": 0.018,
+        "freq.status.Plant": 0.982,
         "freq.status.Unknown": 0,
-        "count.status.Open": 27,
+        "count.status.Open": 26,
         "count.status.Plant": 1398,
         "count.status.Unknown": 0
     },
@@ -1654,10 +1654,10 @@
     },
     {
         "neighborhood": "Strivers Section",
-        "freq.status.Open": 0.017,
-        "freq.status.Plant": 0.983,
+        "freq.status.Open": 0.015,
+        "freq.status.Plant": 0.985,
         "freq.status.Unknown": 0,
-        "count.status.Open": 7,
+        "count.status.Open": 6,
         "count.status.Plant": 399,
         "count.status.Unknown": 0
     },
@@ -1735,8 +1735,8 @@
         "freq.status.Open": 0.014,
         "freq.status.Plant": 0.986,
         "freq.status.Unknown": 0,
-        "count.status.Open": 20,
-        "count.status.Plant": 1369,
+        "count.status.Open": 19,
+        "count.status.Plant": 1368,
         "count.status.Unknown": 0
     },
     {
