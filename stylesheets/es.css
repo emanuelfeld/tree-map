@@ -1,6 +1,10 @@
 #logo {
-    padding-right:10px;
     display:inline-block
+}
+
+#plant{
+    padding-left:13px;
+    padding-right:13px;
 }
 
 #title {
@@ -59,7 +63,7 @@ html,body {
     margin:0
 }
 
-@media (max-width: 776px) {
+@media (max-width: 784px) {
     header {
         text-align:center;
         height:115px;
@@ -83,7 +87,7 @@ html,body {
     }
 }
 
-@media (max-width: 711px) {
+@media (max-width: 729px) {
     header {
         text-align:center;
         height:165px;

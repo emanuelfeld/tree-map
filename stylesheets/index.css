@@ -1,7 +1,12 @@
 #logo {
-    padding-right:10px;
     display:inline-block
 }
+
+#plant{
+    padding-left:13px;
+    padding-right:13px;
+}
+
 
 #title {
     font:40px Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -59,7 +64,7 @@ html,body {
     margin:0
 }
 
-@media (max-width: 713px) {
+@media (max-width: 722px) {
     header {
         text-align:center;
         height:115px;
@@ -83,7 +88,7 @@ html,body {
     }
 }
 
-@media (max-width: 648px) {
+@media (max-width: 667px) {
     header {
         text-align:center;
         height:165px;
