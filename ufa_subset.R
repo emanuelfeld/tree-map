@@ -33,7 +33,7 @@ IntersectPtWithPoly <- function(x, y) {
 for(i in 0:228){
   index_bottom <- as.integer(i*1000)
   index_top <- as.integer((i+1)*1000)
-  url <- paste0("http://maps2.dcgis.dc.gov/dcgis/rest/services/DDOT/UFATrees2/MapServer/0/query?where=OBJECTID+%3E+",index_bottom,"+AND+OBJECTID+%3C+",index_top,"&text=&objectIds=&time=&geometry=&geometryType=esriGeometryPoint&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=OBJECTID%2CFACILITYID%2CVICINITY%2CTBOX_STAT%2CDATE_PLANT%2CDISEASE%2CPESTS%2CCONDITION%2CCONDITIODT%2COWNERSHIP&returnGeometry=true&maxAllowableOffset=&geometryPrecision=&outSR=%7B\"wkid\"+%3A+4326%7D&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&returnDistinctValues=false&f=pjson")
+  url <- paste0("http://maps2.dcgis.dc.gov/dcgis/rest/services/DDOT/UFATrees2/MapServer/0/query?where=OBJECTID+%3E+",index_bottom,"+AND+OBJECTID+%3C+",index_top,"&text=&objectIds=&time=&geometry=&geometryType=esriGeometryPoint&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=OBJECTID%2CFACILITYID%2CVICINITY%2CTBOX_STAT%2CDATE_PLANT%2CDISEASE%2CPESTS%2CCONDITION%2CCONDITIODT%2COWNERSHIP%2CSCI_NM%2CGENUS_NAME%2CFAM_NAME%2CCANOPY_KEEPER%2CCMMN_NM&returnGeometry=true&maxAllowableOffset=&geometryPrecision=&outSR=%7B\"wkid\"+%3A+4326%7D&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&returnDistinctValues=false&f=pjson")
   cat(i)
   cat('\n')
   mydata <- NULL
