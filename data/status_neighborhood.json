@@ -286,19 +286,19 @@
     },
     {
         "neighborhood": "Capitol View",
-        "freq.status.Open": 0.173,
-        "freq.status.Plant": 0.827,
+        "freq.status.Open": 0.174,
+        "freq.status.Plant": 0.826,
         "freq.status.Unknown": 0,
-        "count.status.Open": 247,
-        "count.status.Plant": 1181,
+        "count.status.Open": 249,
+        "count.status.Plant": 1179,
         "count.status.Unknown": 0
     },
     {
         "neighborhood": "Carver Langston",
-        "freq.status.Open": 0.209,
-        "freq.status.Plant": 0.791,
+        "freq.status.Open": 0.208,
+        "freq.status.Plant": 0.792,
         "freq.status.Unknown": 0,
-        "count.status.Open": 230,
+        "count.status.Open": 228,
         "count.status.Plant": 870,
         "count.status.Unknown": 0
     },
@@ -313,11 +313,11 @@
     },
     {
         "neighborhood": "Catholic University and other Catholic Institutions",
-        "freq.status.Open": 0.25,
-        "freq.status.Plant": 0.75,
+        "freq.status.Open": 0.251,
+        "freq.status.Plant": 0.749,
         "freq.status.Unknown": 0,
         "count.status.Open": 108,
-        "count.status.Plant": 324,
+        "count.status.Plant": 323,
         "count.status.Unknown": 0
     },
     {
@@ -397,7 +397,7 @@
         "freq.status.Open": 0.083,
         "freq.status.Plant": 0.917,
         "freq.status.Unknown": 0,
-        "count.status.Open": 106,
+        "count.status.Open": 107,
         "count.status.Plant": 1178,
         "count.status.Unknown": 0
     },
@@ -572,7 +572,7 @@
         "freq.status.Plant": 0.974,
         "freq.status.Unknown": 0,
         "count.status.Open": 33,
-        "count.status.Plant": 1236,
+        "count.status.Plant": 1233,
         "count.status.Unknown": 0
     },
     {
@@ -685,11 +685,11 @@
     },
     {
         "neighborhood": "Fort Totten",
-        "freq.status.Open": 0.136,
-        "freq.status.Plant": 0.864,
+        "freq.status.Open": 0.138,
+        "freq.status.Plant": 0.862,
         "freq.status.Unknown": 0,
-        "count.status.Open": 56,
-        "count.status.Plant": 357,
+        "count.status.Open": 57,
+        "count.status.Plant": 356,
         "count.status.Unknown": 0
     },
     {
@@ -934,20 +934,20 @@
     },
     {
         "neighborhood": "Kent",
-        "freq.status.Open": 0.066,
-        "freq.status.Plant": 0.934,
+        "freq.status.Open": 0.067,
+        "freq.status.Plant": 0.933,
         "freq.status.Unknown": 0,
-        "count.status.Open": 64,
-        "count.status.Plant": 899,
+        "count.status.Open": 65,
+        "count.status.Plant": 898,
         "count.status.Unknown": 0
     },
     {
         "neighborhood": "Kingman Park/Rosedale",
-        "freq.status.Open": 0.081,
-        "freq.status.Plant": 0.919,
+        "freq.status.Open": 0.08,
+        "freq.status.Plant": 0.92,
         "freq.status.Unknown": 0,
-        "count.status.Open": 122,
-        "count.status.Plant": 1389,
+        "count.status.Open": 120,
+        "count.status.Plant": 1386,
         "count.status.Unknown": 0
     },
     {
@@ -1042,11 +1042,11 @@
     },
     {
         "neighborhood": "Marshall Heights",
-        "freq.status.Open": 0.154,
-        "freq.status.Plant": 0.846,
+        "freq.status.Open": 0.155,
+        "freq.status.Plant": 0.845,
         "freq.status.Unknown": 0,
-        "count.status.Open": 218,
-        "count.status.Plant": 1196,
+        "count.status.Open": 219,
+        "count.status.Plant": 1195,
         "count.status.Unknown": 0
     },
     {
@@ -1324,8 +1324,8 @@
         "freq.status.Open": 0.058,
         "freq.status.Plant": 0.942,
         "freq.status.Unknown": 0,
-        "count.status.Open": 49,
-        "count.status.Plant": 803,
+        "count.status.Open": 50,
+        "count.status.Plant": 809,
         "count.status.Unknown": 0
     },
     {
@@ -1378,8 +1378,8 @@
         "freq.status.Open": 0.089,
         "freq.status.Plant": 0.911,
         "freq.status.Unknown": 0,
-        "count.status.Open": 414,
-        "count.status.Plant": 4232,
+        "count.status.Open": 413,
+        "count.status.Plant": 4233,
         "count.status.Unknown": 0
     },
     {
@@ -1429,11 +1429,11 @@
     },
     {
         "neighborhood": "Potomac Heights",
-        "freq.status.Open": 0.065,
-        "freq.status.Plant": 0.935,
+        "freq.status.Open": 0.067,
+        "freq.status.Plant": 0.933,
         "freq.status.Unknown": 0,
-        "count.status.Open": 29,
-        "count.status.Plant": 416,
+        "count.status.Open": 30,
+        "count.status.Plant": 415,
         "count.status.Unknown": 0
     },
     {
@@ -1447,11 +1447,11 @@
     },
     {
         "neighborhood": "Randle Highlands",
-        "freq.status.Open": 0.105,
-        "freq.status.Plant": 0.895,
+        "freq.status.Open": 0.107,
+        "freq.status.Plant": 0.893,
         "freq.status.Unknown": 0,
-        "count.status.Open": 85,
-        "count.status.Plant": 724,
+        "count.status.Open": 87,
+        "count.status.Plant": 725,
         "count.status.Unknown": 0
     },
     {
@@ -1564,11 +1564,11 @@
     },
     {
         "neighborhood": "Shipley Terrace",
-        "freq.status.Open": 0.157,
-        "freq.status.Plant": 0.843,
+        "freq.status.Open": 0.158,
+        "freq.status.Plant": 0.842,
         "freq.status.Unknown": 0,
-        "count.status.Open": 219,
-        "count.status.Plant": 1175,
+        "count.status.Open": 221,
+        "count.status.Plant": 1174,
         "count.status.Unknown": 0
     },
     {
@@ -1750,11 +1750,11 @@
     },
     {
         "neighborhood": "University Heights",
-        "freq.status.Open": 0.121,
-        "freq.status.Plant": 0.879,
+        "freq.status.Open": 0.126,
+        "freq.status.Plant": 0.874,
         "freq.status.Unknown": 0,
-        "count.status.Open": 95,
-        "count.status.Plant": 688,
+        "count.status.Open": 99,
+        "count.status.Plant": 686,
         "count.status.Unknown": 0
     },
     {
@@ -1921,8 +1921,8 @@
         "freq.status.Open": 0.147,
         "freq.status.Plant": 0.853,
         "freq.status.Unknown": 0,
-        "count.status.Open": 464,
-        "count.status.Plant": 2698,
+        "count.status.Open": 466,
+        "count.status.Plant": 2696,
         "count.status.Unknown": 0
     }
 ]
