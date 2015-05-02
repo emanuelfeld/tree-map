@@ -1,7 +1,7 @@
 "neighborhood","freq.status.Open","freq.status.Plant","freq.status.Unknown","count.status.Open","count.status.Plant","count.status.Unknown"
-"16th Street Heights",0.108,0.892,0,427,3537,0
+"16th Street Heights",0.109,0.891,0,431,3534,0
 "American University",0.122,0.878,0,19,137,0
-"American University Park",0.061,0.939,0,189,2926,0
+"American University Park",0.06,0.94,0,188,2929,0
 "Anacostia",0.226,0.774,0,218,745,0
 "Anacostia Boat Clubs",NA,NA,NA,0,0,0
 "Anacostia Park",1,0,0,19,0,0
@@ -13,18 +13,18 @@
 "Barney Circle",0.007,0.993,0,1,144,0
 "Barry Farm",0.249,0.751,0,63,190,0
 "Battery Kemble Park",0,1,0,0,6,0
-"Bellevue",0.159,0.841,0,237,1250,0
-"Benning",0.141,0.859,0,108,660,0
+"Bellevue",0.159,0.841,0,236,1251,0
+"Benning",0.142,0.858,0,109,659,0
 "Benning Heights/Simple City",0.064,0.936,0,19,280,0
 "Benning Ridge",0.064,0.936,0,117,1704,0
 "Berkley/Foxhall Crescents",0.119,0.881,0,65,482,0
-"Bloomingdale",0.085,0.915,0,108,1163,0
+"Bloomingdale",0.084,0.916,0,107,1164,0
 "Blue Plains",NA,NA,NA,0,0,0
 "Brentwood",0.308,0.692,0,245,550,0
 "Brentwood Railyard",NA,NA,NA,0,0,0
-"Brightwood",0.092,0.908,0,278,2743,0
+"Brightwood",0.093,0.907,0,280,2740,0
 "Brightwood Park",0.058,0.942,0,28,458,0
-"Brookland",0.134,0.866,0,361,2339,0
+"Brookland",0.135,0.865,0,364,2339,0
 "Buena Vista",0.16,0.84,0,81,425,0
 "Burleith",0.036,0.964,0,17,449,0
 "Burrville",0.135,0.865,0,37,238,0
@@ -34,38 +34,38 @@
 "Capitol Hill",0.024,0.976,0,219,8832,0
 "Capitol View",0.173,0.827,0,247,1181,0
 "Carver Langston",0.209,0.791,0,230,870,0
-"Cathedral Heights",0.035,0.965,0,29,792,0
+"Cathedral Heights",0.034,0.966,0,28,792,0
 "Catholic University and other Catholic Institutions",0.25,0.75,0,108,324,0
-"Chevy Chase",0.084,0.916,0,469,5125,0
+"Chevy Chase",0.084,0.916,0,470,5125,0
 "Civic Betterment",0.173,0.827,0,44,210,0
-"Cleveland Park",0.07,0.93,0,115,1531,0
-"Colonial Village",0.127,0.873,0,58,400,0
+"Cleveland Park",0.069,0.931,0,113,1533,0
+"Colonial Village",0.126,0.874,0,58,401,0
 "Colony Hill",0.071,0.929,0,8,105,0
 "Columbia Heights",0.02,0.98,0,50,2514,0
 "Congress Heights",0.114,0.886,0,307,2378,0
 "Congressional Cemetery",0.034,0.966,0,1,28,0
-"Crestwood",0.082,0.918,0,105,1179,0
+"Crestwood",0.083,0.917,0,106,1178,0
 "D.C. General Hospital and Prison",0.089,0.911,0,4,41,0
 "DC Village",0,1,0,0,17,0
 "DHS",0.054,0.946,0,2,35,0
 "Dalecarlia Reservoir",0.056,0.944,0,12,201,0
 "Deanwood",0.276,0.724,0,522,1367,0
 "Douglas",0.085,0.915,0,62,664,0
-"Downtown",0.024,0.976,0,84,3433,0
+"Downtown",0.024,0.976,0,85,3440,0
 "Dumbarton Oaks Park",NA,NA,NA,0,0,0
 "Dupont Circle",0.021,0.979,0,44,2007,0
 "Dupont Park",0.039,0.961,0,6,146,0
 "East Potomac Park",0,1,0,0,6,0
-"East Village Georgetown",0.05,0.95,0,77,1465,0
+"East Village Georgetown",0.049,0.951,0,76,1466,0
 "Eastland Gardens",0.098,0.902,0,61,564,0
-"Eckington",0.106,0.894,0,121,1016,0
+"Eckington",0.107,0.893,0,121,1015,0
 "Edgewood",0.205,0.795,0,174,673,0
 "Ellipse",NA,NA,NA,0,0,0
 "Fairfax Village",0.056,0.944,0,19,321,0
 "Fairlawn",0.073,0.927,0,133,1700,0
 "Federal Triangle",0.008,0.992,0,1,130,0
 "Foggy Bottom",0.026,0.974,0,33,1236,0
-"Forest Hills",0.097,0.903,0,152,1417,0
+"Forest Hills",0.096,0.904,0,151,1418,0
 "Fort Chaplin Park",0.22,0.78,0,18,64,0
 "Fort Circle Parkland",0.065,0.935,0,10,143,0
 "Fort Davis",0.101,0.899,0,96,859,0
@@ -105,9 +105,9 @@
 "Kalorama Triangle",0.004,0.996,0,2,522,0
 "Kenilworth",0.121,0.879,0,46,335,0
 "Kenilworth Aquatic Gardens",0.043,0.957,0,1,22,0
-"Kent",0.067,0.933,0,65,898,0
-"Kingman Park/Rosedale",0.081,0.919,0,123,1388,0
-"Knox Hill",0.107,0.893,0,21,176,0
+"Kent",0.066,0.934,0,64,899,0
+"Kingman Park/Rosedale",0.081,0.919,0,122,1389,0
+"Knox Hill",0.102,0.898,0,20,177,0
 "Lafayette Square",0,1,0,0,24,0
 "Lamond Riggs",0.113,0.886,0.002,73,574,1
 "Langdon",0.209,0.791,0,312,1180,0
@@ -137,15 +137,15 @@
 "Naylor Gardens",0.041,0.959,0,15,353,0
 "Near Northeast",0.045,0.955,0,118,2486,0
 "Near South East",0.03,0.97,0,27,862,0
-"NoMa",0.044,0.956,0,24,518,0
+"NoMa",0.044,0.956,0,24,521,0
 "Normanstone Parkway",0,1,0,0,31,0
-"North Cleveland Park",0.067,0.933,0,99,1389,0
+"North Cleveland Park",0.065,0.935,0,97,1391,0
 "North Michigan Park",0.107,0.893,0,127,1055,0
 "North Portal Estates",0.186,0.814,0,39,171,0
 "Northeast Boundary",0.219,0.781,0,273,976,0
 "Northwest One",0.052,0.948,0,18,325,0
 "Northwest Rectangle",0.027,0.973,0,10,354,0
-"Observatory Circle",0.028,0.972,0,15,513,0
+"Observatory Circle",0.027,0.973,0,14,514,0
 "Old Soldiers Home",0.189,0.811,0,18,77,0
 "Oxon Run Parkway",0.382,0.618,0,122,197,0
 "Palisades",0.058,0.942,0,49,803,0
@@ -154,7 +154,7 @@
 "Parkside",0.176,0.824,0,48,224,0
 "Penn Branch section of Dupont Park",0.071,0.929,0,47,613,0
 "Pepco Benning Road Plant",0.267,0.733,0,8,22,0
-"Petworth",0.088,0.912,0,410,4237,0
+"Petworth",0.089,0.911,0,414,4232,0
 "Pinehurst Parkway",0,1,0,0,1,0
 "Pleasant Hills",0.178,0.822,0,56,259,0
 "Pleasant Plains",0.013,0.987,0,6,454,0
@@ -164,10 +164,10 @@
 "Queens Chapel",0.12,0.88,0,51,374,0
 "Randle Highlands",0.105,0.895,0,85,724,0
 "Reed-Cooke",0.019,0.981,0,12,608,0
-"Riggs Park",0.112,0.888,0,184,1464,0
+"Riggs Park",0.112,0.888,0,185,1463,0
 "River Terrace",0.116,0.884,0,69,527,0
 "Rock Creek Cemetery",0.207,0.793,0,6,23,0
-"Rock Creek Gardens",0.141,0.859,0,44,267,0
+"Rock Creek Gardens",0.151,0.849,0,47,265,0
 "Rock Creek Park (north)",0.156,0.844,0,15,81,0
 "Rock Creek Park (south)",0.05,0.95,0,3,57,0
 "Rock Creek and  Potomac Parkway",0.146,0.854,0,7,41,0
@@ -181,7 +181,7 @@
 "Soapstone Valley Park",1,0,0,1,0,0
 "Southwest Federal Center",0.08,0.92,0,59,675,0
 "Southwest Waterfront",0.029,0.971,0,43,1461,0
-"Spring Valley",0.081,0.919,0,118,1344,0
+"Spring Valley",0.079,0.921,0,116,1346,0
 "St. Elizabeths Hospital East",0.131,0.869,0,8,53,0
 "St. Elizabeths Hospital West",0.038,0.962,0,2,51,0
 "Stadium/Armory Area",0.062,0.938,0,5,75,0
@@ -197,7 +197,7 @@
 "U Street",0.014,0.986,0,19,1366,0
 "Union Station",0,1,0,0,8,0
 "University Heights",0.121,0.879,0,95,688,0
-"Wakefield",0.039,0.961,0,30,742,0
+"Wakefield",0.038,0.962,0,29,743,0
 "Walter Reed Medical Center",0.104,0.896,0,5,43,0
 "Washington Hebrew Congregation Cemetery",0,1,0,0,9,0
 "Washington Heights",0.019,0.981,0,6,303,0
@@ -212,7 +212,7 @@
 "White House Grounds",0,1,0,0,44,0
 "Whitehaven Parkway",0,1,0,0,9,0
 "Woodland",0.142,0.858,0,17,103,0
-"Woodland-Normanstone Terrace",0.097,0.903,0,51,477,0
+"Woodland-Normanstone Terrace",0.098,0.902,0,52,476,0
 "Woodlawn/Payne Cemetery",NA,NA,NA,0,0,0
 "Woodley Park",0.03,0.97,0,39,1277,0
-"Woodridge",0.147,0.853,0,464,2697,0
+"Woodridge",0.147,0.853,0,464,2698,0
