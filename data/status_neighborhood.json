@@ -1604,7 +1604,7 @@
         "freq.status.Plant": 0.92,
         "freq.status.Unknown": 0,
         "count.status.Open": 59,
-        "count.status.Plant": 675,
+        "count.status.Plant": 676,
         "count.status.Unknown": 0
     },
     {
@@ -1672,10 +1672,10 @@
     },
     {
         "neighborhood": "Takoma",
-        "freq.status.Open": 0.079,
-        "freq.status.Plant": 0.921,
+        "freq.status.Open": 0.08,
+        "freq.status.Plant": 0.92,
         "freq.status.Unknown": 0,
-        "count.status.Open": 136,
+        "count.status.Open": 137,
         "count.status.Plant": 1584,
         "count.status.Unknown": 0
     },
