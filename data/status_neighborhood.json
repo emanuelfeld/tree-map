@@ -1,11 +1,11 @@
 [
     {
         "neighborhood": "16th Street Heights",
-        "freq.status.Open": 0.109,
-        "freq.status.Plant": 0.891,
+        "freq.status.Open": 0.11,
+        "freq.status.Plant": 0.89,
         "freq.status.Unknown": 0,
-        "count.status.Open": 431,
-        "count.status.Plant": 3534,
+        "count.status.Open": 435,
+        "count.status.Plant": 3532,
         "count.status.Unknown": 0
     },
     {
@@ -19,11 +19,11 @@
     },
     {
         "neighborhood": "American University Park",
-        "freq.status.Open": 0.06,
-        "freq.status.Plant": 0.94,
+        "freq.status.Open": 0.061,
+        "freq.status.Plant": 0.939,
         "freq.status.Unknown": 0,
-        "count.status.Open": 188,
-        "count.status.Plant": 2929,
+        "count.status.Open": 189,
+        "count.status.Plant": 2930,
         "count.status.Unknown": 0
     },
     {
@@ -196,11 +196,11 @@
     },
     {
         "neighborhood": "Brightwood",
-        "freq.status.Open": 0.093,
-        "freq.status.Plant": 0.907,
+        "freq.status.Open": 0.094,
+        "freq.status.Plant": 0.906,
         "freq.status.Unknown": 0,
-        "count.status.Open": 280,
-        "count.status.Plant": 2740,
+        "count.status.Open": 284,
+        "count.status.Plant": 2737,
         "count.status.Unknown": 0
     },
     {
@@ -214,11 +214,11 @@
     },
     {
         "neighborhood": "Brookland",
-        "freq.status.Open": 0.135,
-        "freq.status.Plant": 0.865,
+        "freq.status.Open": 0.138,
+        "freq.status.Plant": 0.862,
         "freq.status.Unknown": 0,
-        "count.status.Open": 364,
-        "count.status.Plant": 2339,
+        "count.status.Open": 373,
+        "count.status.Plant": 2337,
         "count.status.Unknown": 0
     },
     {
@@ -281,16 +281,16 @@
         "freq.status.Plant": 0.976,
         "freq.status.Unknown": 0,
         "count.status.Open": 219,
-        "count.status.Plant": 8832,
+        "count.status.Plant": 8833,
         "count.status.Unknown": 0
     },
     {
         "neighborhood": "Capitol View",
-        "freq.status.Open": 0.174,
-        "freq.status.Plant": 0.826,
+        "freq.status.Open": 0.175,
+        "freq.status.Plant": 0.825,
         "freq.status.Unknown": 0,
         "count.status.Open": 249,
-        "count.status.Plant": 1179,
+        "count.status.Plant": 1177,
         "count.status.Unknown": 0
     },
     {
@@ -298,7 +298,7 @@
         "freq.status.Open": 0.208,
         "freq.status.Plant": 0.792,
         "freq.status.Unknown": 0,
-        "count.status.Open": 228,
+        "count.status.Open": 229,
         "count.status.Plant": 870,
         "count.status.Unknown": 0
     },
@@ -325,7 +325,7 @@
         "freq.status.Open": 0.084,
         "freq.status.Plant": 0.916,
         "freq.status.Unknown": 0,
-        "count.status.Open": 470,
+        "count.status.Open": 471,
         "count.status.Plant": 5125,
         "count.status.Unknown": 0
     },
@@ -340,11 +340,11 @@
     },
     {
         "neighborhood": "Cleveland Park",
-        "freq.status.Open": 0.069,
-        "freq.status.Plant": 0.931,
+        "freq.status.Open": 0.07,
+        "freq.status.Plant": 0.93,
         "freq.status.Unknown": 0,
-        "count.status.Open": 113,
-        "count.status.Plant": 1533,
+        "count.status.Open": 115,
+        "count.status.Plant": 1531,
         "count.status.Unknown": 0
     },
     {
@@ -367,20 +367,20 @@
     },
     {
         "neighborhood": "Columbia Heights",
-        "freq.status.Open": 0.02,
-        "freq.status.Plant": 0.98,
+        "freq.status.Open": 0.019,
+        "freq.status.Plant": 0.981,
         "freq.status.Unknown": 0,
         "count.status.Open": 50,
-        "count.status.Plant": 2514,
+        "count.status.Plant": 2515,
         "count.status.Unknown": 0
     },
     {
         "neighborhood": "Congress Heights",
-        "freq.status.Open": 0.114,
-        "freq.status.Plant": 0.886,
+        "freq.status.Open": 0.115,
+        "freq.status.Plant": 0.885,
         "freq.status.Unknown": 0,
-        "count.status.Open": 307,
-        "count.status.Plant": 2378,
+        "count.status.Open": 309,
+        "count.status.Plant": 2377,
         "count.status.Unknown": 0
     },
     {
@@ -439,10 +439,10 @@
     },
     {
         "neighborhood": "Deanwood",
-        "freq.status.Open": 0.276,
-        "freq.status.Plant": 0.724,
+        "freq.status.Open": 0.277,
+        "freq.status.Plant": 0.723,
         "freq.status.Unknown": 0,
-        "count.status.Open": 522,
+        "count.status.Open": 523,
         "count.status.Plant": 1367,
         "count.status.Unknown": 0
     },
@@ -461,7 +461,7 @@
         "freq.status.Plant": 0.976,
         "freq.status.Unknown": 0,
         "count.status.Open": 85,
-        "count.status.Plant": 3440,
+        "count.status.Plant": 3449,
         "count.status.Unknown": 0
     },
     {
@@ -520,7 +520,7 @@
         "freq.status.Open": 0.107,
         "freq.status.Plant": 0.893,
         "freq.status.Unknown": 0,
-        "count.status.Open": 121,
+        "count.status.Open": 122,
         "count.status.Plant": 1015,
         "count.status.Unknown": 0
     },
@@ -553,8 +553,8 @@
         "freq.status.Open": 0.073,
         "freq.status.Plant": 0.927,
         "freq.status.Unknown": 0,
-        "count.status.Open": 133,
-        "count.status.Plant": 1700,
+        "count.status.Open": 134,
+        "count.status.Plant": 1699,
         "count.status.Unknown": 0
     },
     {
@@ -568,29 +568,29 @@
     },
     {
         "neighborhood": "Foggy Bottom",
-        "freq.status.Open": 0.026,
-        "freq.status.Plant": 0.974,
+        "freq.status.Open": 0.028,
+        "freq.status.Plant": 0.972,
         "freq.status.Unknown": 0,
-        "count.status.Open": 33,
-        "count.status.Plant": 1233,
+        "count.status.Open": 35,
+        "count.status.Plant": 1231,
         "count.status.Unknown": 0
     },
     {
         "neighborhood": "Forest Hills",
-        "freq.status.Open": 0.096,
-        "freq.status.Plant": 0.904,
+        "freq.status.Open": 0.097,
+        "freq.status.Plant": 0.903,
         "freq.status.Unknown": 0,
-        "count.status.Open": 151,
+        "count.status.Open": 152,
         "count.status.Plant": 1418,
         "count.status.Unknown": 0
     },
     {
         "neighborhood": "Fort Chaplin Park",
-        "freq.status.Open": 0.22,
-        "freq.status.Plant": 0.78,
+        "freq.status.Open": 0.232,
+        "freq.status.Plant": 0.768,
         "freq.status.Unknown": 0,
-        "count.status.Open": 18,
-        "count.status.Plant": 64,
+        "count.status.Open": 19,
+        "count.status.Plant": 63,
         "count.status.Unknown": 0
     },
     {
@@ -658,11 +658,11 @@
     },
     {
         "neighborhood": "Fort Slocum Park",
-        "freq.status.Open": 0.085,
-        "freq.status.Plant": 0.915,
+        "freq.status.Open": 0.123,
+        "freq.status.Plant": 0.877,
         "freq.status.Unknown": 0,
-        "count.status.Open": 6,
-        "count.status.Plant": 65,
+        "count.status.Open": 9,
+        "count.status.Plant": 64,
         "count.status.Unknown": 0
     },
     {
@@ -784,10 +784,10 @@
     },
     {
         "neighborhood": "Glover Park",
-        "freq.status.Open": 0.019,
-        "freq.status.Plant": 0.981,
+        "freq.status.Open": 0.018,
+        "freq.status.Plant": 0.982,
         "freq.status.Unknown": 0,
-        "count.status.Open": 23,
+        "count.status.Open": 22,
         "count.status.Plant": 1185,
         "count.status.Unknown": 0
     },
@@ -853,11 +853,11 @@
     },
     {
         "neighborhood": "Hillbrook",
-        "freq.status.Open": 0.162,
-        "freq.status.Plant": 0.838,
+        "freq.status.Open": 0.165,
+        "freq.status.Plant": 0.835,
         "freq.status.Unknown": 0,
-        "count.status.Open": 137,
-        "count.status.Plant": 707,
+        "count.status.Open": 139,
+        "count.status.Plant": 705,
         "count.status.Unknown": 0
     },
     {
@@ -880,11 +880,11 @@
     },
     {
         "neighborhood": "Ivy City",
-        "freq.status.Open": 0.298,
-        "freq.status.Plant": 0.702,
+        "freq.status.Open": 0.284,
+        "freq.status.Plant": 0.716,
         "freq.status.Unknown": 0,
-        "count.status.Open": 48,
-        "count.status.Plant": 113,
+        "count.status.Open": 46,
+        "count.status.Plant": 116,
         "count.status.Unknown": 0
     },
     {
@@ -1015,11 +1015,11 @@
     },
     {
         "neighborhood": "Logan Circle",
-        "freq.status.Open": 0.012,
-        "freq.status.Plant": 0.988,
+        "freq.status.Open": 0.014,
+        "freq.status.Plant": 0.986,
         "freq.status.Unknown": 0,
-        "count.status.Open": 17,
-        "count.status.Plant": 1351,
+        "count.status.Open": 19,
+        "count.status.Plant": 1350,
         "count.status.Unknown": 0
     },
     {
@@ -1033,10 +1033,10 @@
     },
     {
         "neighborhood": "Manor Park",
-        "freq.status.Open": 0.091,
-        "freq.status.Plant": 0.909,
+        "freq.status.Open": 0.093,
+        "freq.status.Plant": 0.907,
         "freq.status.Unknown": 0,
-        "count.status.Open": 158,
+        "count.status.Open": 161,
         "count.status.Plant": 1576,
         "count.status.Unknown": 0
     },
@@ -1105,11 +1105,11 @@
     },
     {
         "neighborhood": "Michigan Park",
-        "freq.status.Open": 0.172,
-        "freq.status.Plant": 0.828,
+        "freq.status.Open": 0.17,
+        "freq.status.Plant": 0.83,
         "freq.status.Unknown": 0,
-        "count.status.Open": 124,
-        "count.status.Plant": 599,
+        "count.status.Open": 123,
+        "count.status.Plant": 600,
         "count.status.Unknown": 0
     },
     {
@@ -1222,11 +1222,11 @@
     },
     {
         "neighborhood": "NoMa",
-        "freq.status.Open": 0.044,
-        "freq.status.Plant": 0.956,
+        "freq.status.Open": 0.042,
+        "freq.status.Plant": 0.958,
         "freq.status.Unknown": 0,
         "count.status.Open": 24,
-        "count.status.Plant": 521,
+        "count.status.Plant": 542,
         "count.status.Unknown": 0
     },
     {
@@ -1240,19 +1240,19 @@
     },
     {
         "neighborhood": "North Cleveland Park",
-        "freq.status.Open": 0.065,
-        "freq.status.Plant": 0.935,
+        "freq.status.Open": 0.066,
+        "freq.status.Plant": 0.934,
         "freq.status.Unknown": 0,
-        "count.status.Open": 97,
+        "count.status.Open": 98,
         "count.status.Plant": 1391,
         "count.status.Unknown": 0
     },
     {
         "neighborhood": "North Michigan Park",
-        "freq.status.Open": 0.107,
-        "freq.status.Plant": 0.893,
+        "freq.status.Open": 0.108,
+        "freq.status.Plant": 0.892,
         "freq.status.Unknown": 0,
-        "count.status.Open": 127,
+        "count.status.Open": 128,
         "count.status.Plant": 1055,
         "count.status.Unknown": 0
     },
@@ -1267,10 +1267,10 @@
     },
     {
         "neighborhood": "Northeast Boundary",
-        "freq.status.Open": 0.219,
-        "freq.status.Plant": 0.781,
+        "freq.status.Open": 0.221,
+        "freq.status.Plant": 0.779,
         "freq.status.Unknown": 0,
-        "count.status.Open": 273,
+        "count.status.Open": 277,
         "count.status.Plant": 976,
         "count.status.Unknown": 0
     },
@@ -1375,11 +1375,11 @@
     },
     {
         "neighborhood": "Petworth",
-        "freq.status.Open": 0.089,
-        "freq.status.Plant": 0.911,
+        "freq.status.Open": 0.093,
+        "freq.status.Plant": 0.907,
         "freq.status.Unknown": 0,
-        "count.status.Open": 413,
-        "count.status.Plant": 4233,
+        "count.status.Open": 433,
+        "count.status.Plant": 4223,
         "count.status.Unknown": 0
     },
     {
@@ -1429,11 +1429,11 @@
     },
     {
         "neighborhood": "Potomac Heights",
-        "freq.status.Open": 0.067,
-        "freq.status.Plant": 0.933,
+        "freq.status.Open": 0.07,
+        "freq.status.Plant": 0.93,
         "freq.status.Unknown": 0,
-        "count.status.Open": 30,
-        "count.status.Plant": 415,
+        "count.status.Open": 31,
+        "count.status.Plant": 414,
         "count.status.Unknown": 0
     },
     {
@@ -1447,11 +1447,11 @@
     },
     {
         "neighborhood": "Randle Highlands",
-        "freq.status.Open": 0.107,
-        "freq.status.Plant": 0.893,
+        "freq.status.Open": 0.116,
+        "freq.status.Plant": 0.884,
         "freq.status.Unknown": 0,
-        "count.status.Open": 87,
-        "count.status.Plant": 725,
+        "count.status.Open": 95,
+        "count.status.Plant": 723,
         "count.status.Unknown": 0
     },
     {
@@ -1528,11 +1528,11 @@
     },
     {
         "neighborhood": "Shaw",
-        "freq.status.Open": 0.017,
-        "freq.status.Plant": 0.983,
+        "freq.status.Open": 0.019,
+        "freq.status.Plant": 0.981,
         "freq.status.Unknown": 0,
-        "count.status.Open": 24,
-        "count.status.Plant": 1400,
+        "count.status.Open": 27,
+        "count.status.Plant": 1399,
         "count.status.Unknown": 0
     },
     {
@@ -1564,11 +1564,11 @@
     },
     {
         "neighborhood": "Shipley Terrace",
-        "freq.status.Open": 0.158,
-        "freq.status.Plant": 0.842,
+        "freq.status.Open": 0.159,
+        "freq.status.Plant": 0.841,
         "freq.status.Unknown": 0,
-        "count.status.Open": 221,
-        "count.status.Plant": 1174,
+        "count.status.Open": 222,
+        "count.status.Plant": 1173,
         "count.status.Unknown": 0
     },
     {
@@ -1613,7 +1613,7 @@
         "freq.status.Plant": 0.971,
         "freq.status.Unknown": 0,
         "count.status.Open": 43,
-        "count.status.Plant": 1461,
+        "count.status.Plant": 1460,
         "count.status.Unknown": 0
     },
     {
@@ -1685,7 +1685,7 @@
         "freq.status.Plant": 0.91,
         "freq.status.Unknown": 0,
         "count.status.Open": 81,
-        "count.status.Plant": 823,
+        "count.status.Plant": 824,
         "count.status.Unknown": 0
     },
     {
@@ -1705,11 +1705,11 @@
     },
     {
         "neighborhood": "Trinidad",
-        "freq.status.Open": 0.164,
-        "freq.status.Plant": 0.836,
+        "freq.status.Open": 0.166,
+        "freq.status.Plant": 0.834,
         "freq.status.Unknown": 0,
-        "count.status.Open": 229,
-        "count.status.Plant": 1166,
+        "count.status.Open": 231,
+        "count.status.Plant": 1164,
         "count.status.Unknown": 0
     },
     {
@@ -1723,11 +1723,11 @@
     },
     {
         "neighborhood": "Twining",
-        "freq.status.Open": 0.1,
-        "freq.status.Plant": 0.9,
+        "freq.status.Open": 0.099,
+        "freq.status.Plant": 0.901,
         "freq.status.Unknown": 0,
-        "count.status.Open": 64,
-        "count.status.Plant": 573,
+        "count.status.Open": 63,
+        "count.status.Plant": 574,
         "count.status.Unknown": 0
     },
     {
@@ -1840,10 +1840,10 @@
     },
     {
         "neighborhood": "West End",
-        "freq.status.Open": 0.017,
-        "freq.status.Plant": 0.983,
+        "freq.status.Open": 0.02,
+        "freq.status.Plant": 0.98,
         "freq.status.Unknown": 0,
-        "count.status.Open": 7,
+        "count.status.Open": 8,
         "count.status.Plant": 398,
         "count.status.Unknown": 0
     },
@@ -1858,11 +1858,11 @@
     },
     {
         "neighborhood": "West Village Georgetown",
-        "freq.status.Open": 0.037,
-        "freq.status.Plant": 0.963,
+        "freq.status.Open": 0.035,
+        "freq.status.Plant": 0.965,
         "freq.status.Unknown": 0,
-        "count.status.Open": 40,
-        "count.status.Plant": 1055,
+        "count.status.Open": 38,
+        "count.status.Plant": 1056,
         "count.status.Unknown": 0
     },
     {
@@ -1918,10 +1918,10 @@
     },
     {
         "neighborhood": "Woodridge",
-        "freq.status.Open": 0.147,
-        "freq.status.Plant": 0.853,
+        "freq.status.Open": 0.148,
+        "freq.status.Plant": 0.852,
         "freq.status.Unknown": 0,
-        "count.status.Open": 466,
+        "count.status.Open": 467,
         "count.status.Plant": 2696,
         "count.status.Unknown": 0
     }
