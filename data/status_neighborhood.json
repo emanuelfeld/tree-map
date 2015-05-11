@@ -148,11 +148,11 @@
     },
     {
         "neighborhood": "Benning Ridge",
-        "freq.status.Open": 0.064,
-        "freq.status.Plant": 0.936,
+        "freq.status.Open": 0.065,
+        "freq.status.Plant": 0.935,
         "freq.status.Unknown": 0,
-        "count.status.Open": 117,
-        "count.status.Plant": 1704,
+        "count.status.Open": 118,
+        "count.status.Plant": 1703,
         "count.status.Unknown": 0
     },
     {
@@ -472,10 +472,10 @@
     },
     {
         "neighborhood": "Dupont Circle",
-        "freq.status.Open": 0.021,
-        "freq.status.Plant": 0.979,
+        "freq.status.Open": 0.022,
+        "freq.status.Plant": 0.978,
         "freq.status.Unknown": 0,
-        "count.status.Open": 44,
+        "count.status.Open": 45,
         "count.status.Plant": 2007,
         "count.status.Unknown": 0
     },
@@ -550,11 +550,11 @@
     },
     {
         "neighborhood": "Fairlawn",
-        "freq.status.Open": 0.073,
-        "freq.status.Plant": 0.927,
+        "freq.status.Open": 0.074,
+        "freq.status.Plant": 0.926,
         "freq.status.Unknown": 0,
-        "count.status.Open": 134,
-        "count.status.Plant": 1699,
+        "count.status.Open": 135,
+        "count.status.Plant": 1698,
         "count.status.Unknown": 0
     },
     {
@@ -1019,7 +1019,7 @@
         "freq.status.Plant": 0.986,
         "freq.status.Unknown": 0,
         "count.status.Open": 19,
-        "count.status.Plant": 1350,
+        "count.status.Plant": 1349,
         "count.status.Unknown": 0
     },
     {
@@ -1036,7 +1036,7 @@
         "freq.status.Open": 0.093,
         "freq.status.Plant": 0.907,
         "freq.status.Unknown": 0,
-        "count.status.Open": 161,
+        "count.status.Open": 162,
         "count.status.Plant": 1576,
         "count.status.Unknown": 0
     },
@@ -1204,10 +1204,10 @@
     },
     {
         "neighborhood": "Near Northeast",
-        "freq.status.Open": 0.045,
-        "freq.status.Plant": 0.955,
+        "freq.status.Open": 0.046,
+        "freq.status.Plant": 0.954,
         "freq.status.Unknown": 0,
-        "count.status.Open": 118,
+        "count.status.Open": 119,
         "count.status.Plant": 2486,
         "count.status.Unknown": 0
     },
@@ -1348,11 +1348,11 @@
     },
     {
         "neighborhood": "Parkside",
-        "freq.status.Open": 0.176,
-        "freq.status.Plant": 0.824,
+        "freq.status.Open": 0.178,
+        "freq.status.Plant": 0.822,
         "freq.status.Unknown": 0,
         "count.status.Open": 48,
-        "count.status.Plant": 224,
+        "count.status.Plant": 221,
         "count.status.Unknown": 0
     },
     {
@@ -1375,10 +1375,10 @@
     },
     {
         "neighborhood": "Petworth",
-        "freq.status.Open": 0.093,
-        "freq.status.Plant": 0.907,
+        "freq.status.Open": 0.094,
+        "freq.status.Plant": 0.906,
         "freq.status.Unknown": 0,
-        "count.status.Open": 433,
+        "count.status.Open": 436,
         "count.status.Plant": 4223,
         "count.status.Unknown": 0
     },
@@ -1465,11 +1465,11 @@
     },
     {
         "neighborhood": "Riggs Park",
-        "freq.status.Open": 0.112,
-        "freq.status.Plant": 0.888,
+        "freq.status.Open": 0.113,
+        "freq.status.Plant": 0.887,
         "freq.status.Unknown": 0,
-        "count.status.Open": 185,
-        "count.status.Plant": 1463,
+        "count.status.Open": 187,
+        "count.status.Plant": 1461,
         "count.status.Unknown": 0
     },
     {
@@ -1727,7 +1727,7 @@
         "freq.status.Plant": 0.901,
         "freq.status.Unknown": 0,
         "count.status.Open": 63,
-        "count.status.Plant": 574,
+        "count.status.Plant": 575,
         "count.status.Unknown": 0
     },
     {
