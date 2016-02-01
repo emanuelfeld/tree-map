@@ -1,39 +1,56 @@
 {
-    "conformsTo": "http://codefordc.org/resources/specification.html",
-    "status": "Production",
-    "thumbnailUrl": "https://raw.githubusercontent.com/emanuelfeld/tree-map/gh-pages/assets/dc168green.png",
+    "name": "Get DC Trees", 
+    "description": "A user-friendly interface for requesting new tree plantings from the DDOT Urban Forestry Administration.", 
+    "license": "GPL-2.0", 
+    "status": "Production", 
+    "type": "Web App", 
+    "homepage": "http://getdctrees.org", 
+    "repository": "https://github.com/emanuelfeld/tree-map", 
+    "thumbnail": "https://raw.githubusercontent.com/emanuelfeld/tree-map/gh-pages/assets/dc168green.png", 
+    "geography": [
+        "DC"
+    ], 
     "contact": {
-        "name": "getdctrees.org",
-        "email": "getdctrees@gmail.com",
-        "twitter": "@evonfriedland"
-    },
-    "bornAt": "Code for DC",
-    "geography": "DC",
-    "politicalEntity": {
-        "District Department of Transportation": "http://ddot.dc.gov/",
-        "Urban Forestry Administration": "http://ddot.dc.gov/page/ddot-urban-forestry-administration-ufa"
-    },
-    "governmentPartner": {
-        "Urban Forestry Administration": "http://ddot.dc.gov/page/ddot-urban-forestry-administration-ufa"
-    },
-    "communityPartner": {},
-    "type": "Web App",
-    "data": {
-        "UFA Street Trees": "http://maps2.dcgis.dc.gov/dcgis/rest/services/DDOT/UFATrees2/MapServer/0/",
-        "Ward Boundaries": "http://opendata.dc.gov/datasets/071aa9b40a1a4b38a938f8f5058068a8_31",
-        "Neighborhood Boundaries": "http://www.opendatadc.org/dataset/neighborhood-boundaries-217-neighborhoods-washpost-justgrimes"
-    },
-    "needs": [],
-    "categories": [
+        "name": "getdctrees.org", 
+        "email": "getdctrees@gmail.com", 
+        "url": "https://twitter.com/@evonfriedland"
+    }, 
+    "partners": [
         {
-            "category": "Environment"
-        },
+            "url": "http://ddot.dc.gov/page/ddot-urban-forestry-administration-ufa", 
+            "name": "Urban Forestry Administration", 
+            "email": ""
+        }, 
         {
-            "category": "Land Use"
-        },
-        {
-            "category": "Infrastructure"
+            "url": "http://codefordc.org", 
+            "name": "Code for DC", 
+            "email": ""
         }
-    ],
-    "moreInfo": "http://getdctrees.org/about.html"
+    ], 
+    "data": [
+        {
+            "url": "http://maps2.dcgis.dc.gov/dcgis/rest/services/DDOT/UFATrees2/MapServer/0/", 
+            "name": "UFA Street Trees", 
+            "metadata": ""
+        }, 
+        {
+            "url": "http://www.opendatadc.org/dataset/neighborhood-boundaries-217-neighborhoods-washpost-justgrimes", 
+            "name": "Neighborhood Boundaries", 
+            "metadata": ""
+        }, 
+        {
+            "url": "http://opendata.dc.gov/datasets/071aa9b40a1a4b38a938f8f5058068a8_31", 
+            "name": "Ward Boundaries", 
+            "metadata": ""
+        }
+    ], 
+    "tags": [
+        "Environment", 
+        "Land Use", 
+        "Infrastructure"
+    ], 
+    "links": [
+        "http://getdctrees.org/about.html"
+    ], 
+    "id": "https://raw.githubusercontent.com/DCgov/civic.json/master/schemas/schema-v1.json"
 }
