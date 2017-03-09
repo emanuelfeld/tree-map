@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta property="og:title" content="getdctrees.org" />
+		<meta property="og:site_name" content="getdctrees.org" />
+		<meta property="og:description" content="plantemos el distrito" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://getdctrees.org/" />
+		<meta property="og:image" content="http://getdctrees.org/img/dc300green.png" />
+
+		<title>plantemos el distrito</title>
+		
+		<link rel="stylesheet" href="css/about.css">
+		<link rel="stylesheet" href="css/pygment_trac.css">
+		<link rel="shortcut icon" type="image/x-icon" href="img/dc16.ico" >
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!-- Go to www.addthis.com/dashboard to customize your tools -->
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-553071fc49386392" async="async"></script>
+		<!-- Load c3.css -->
+		<link href="css/c3.css" rel="stylesheet" type="text/css">
+		<!-- Load d3.js and c3.js -->
+		<script src="js/d3.v3.min.js" charset="utf-8"></script>
+		<script src="js/c3.min.js"></script>
+		<script src="js/analytics.js"></script>
+	</head>
+	
+	<body style="margin:0 auto">
+
+		<header>
+			<div id="logo"><a href="/es.html"><img alt="dctrees_logo" src="img/dc64white.png"></a></div>
+		</header>
+
+			<section>
+				<div id="about">
+					<h2><a class="anchor" href="#acerca" id="about"><span class="octicon octicon-link"></span></a>Acerca</h2>
+
+					<p>¿Te gustaría que hubiera más árboles en su vecindario de DC?</p>
+
+					<p>Los residentes pueden sugerir lugares nuevos para plantar a la <a href="http://ddot.dc.gov/page/ddot-urban-forestry" target="_blank">Administración Forestal Urbana del Distrito</a> (AFU). AFU entonces dará prioridad a las áreas solicitadas en su temporada de siembra de otoño.</p>
+
+					<p>Este sitio hace que sea fácil de ver donde hay cajas de árbol disponibles cerca de donde vive usted.</p>
+
+					<h2><a class="anchor" href="#about" id="about"><span class="octicon octicon-link"></span></a>Solicitud de un árbol</h2>
+
+					<p>Utilice la <a href="/es.html">página del mapa</a> para buscar direcciones, haga clic en uno de los arriates disponibles para plantar (que se muestran como puntos de color naranja), y marque 3-1-1 en su telefono para hacer su pedido. Tiene la opción para hacerlo en español, y las solicitudes son totalmente gratis!</p>
+
+					<p>Para ayudarle a describir la ubicación de la parcela en su solicitud, puede usar la vista conseguida a través del enlace de Google Street View proporcionado. Por supuesto, también usted puede salir a la calle y ver directamente lo que hay!</p>
+
+					<p>Si a usted le gustaría echar una mano en el cuidado de su nuevo árbol de calle, diga "Estoy interesado en el programa de Canopy Keepers" cuando marque 3-1-1. Convertirse en un guardián es una manera bastante simple de ayudar a asegurar que los árboles nuevos prosperen. Y es una gran ayuda para su arbolista local.</p>
+
+					<p>Si prefiere, también puede presentar su solicitud en línea en <a href="http://311.dc.gov/" target="_blank">311.dc.gov</a> (en Inglés) usando el enlace proporcionado. Sólo tiene que escribir la dirección del arriate en el formulario.</p>
+
+<!-- 					<p>¿Quiere saber dónde están las mayores oportunidades para plantar árboles en el Distrito?</p>
+
+					<p>UFA ha plantado más de 8.000 árboles nuevos en el último año y está trabajando agresivamente para igualar la distribución de los árboles en la ciudad, con un enfoque en las áreas al este del Anacostia. La tabla a continuación muestra el <span style="font-weight: bold; color:#055B97">porcentaje</span> y <span style="font-weight: bold; color:#D00046">número</span> de parcelas actualmente abiertos en cada "Ward" (circunscripción):</p> -->
+
+					<div id="status_chart"></div>
+
+					<h2><a class="anchor" href="#more-information" id="more-information"><span class="octicon octicon-link"></span></a>Más información</h2>
+
+
+					<p>El mapa de la página web y el gráfico de arriba se construyeron utilizando el conjunto de datos de <a href="http://maps2.dcgis.dc.gov/dcgis/rest/services/DDOT/UFATrees2/MapServer/0/" target="_blank">Árboles de Calle del UFA</a> de DDOT, usando <a href="http://opendata.dc.gov/datasets/0ef47379cbae44e88267c01eaec2ff6e_31" target="_blank">los límites de circunscripciónes del 2012</a> del sistema de información geografica de DC, y el archivo de <a href="http://www.opendatadc.org/dataset/neighborhood-boundaries-217-neighborhoods-washpost-justgrimes" target="_blank">los límites del vecindario</a> del Code for DC. Las actualizaciones son hechas a diario.</p>
+
+					<p>En el logo del sitio encontrará el contorno de una hoja de un árbol de arce de azúcar, uno de los más comunes en el Distrito.</p>
+
+					<p>Visite los siguientes sitios de web para aprender más sobre el bosque urbano de DC:</p>
+
+					<p>DDOT: <a href="http://ddot.dc.gov/page/ddot-urban-forestry" target="_blank">Página Administración Forestal Urbano</a>
+					<br>Casey Trees: <a href="http://translate.google.com/translate?u=http%3A%2F%2Fcaseytrees.org%2Fprograms%2Fplanting%2Fstreettrees%2F&hl=en&langpair=auto|es&tbb=1&ie=UTF-8" target="_blank">Información de árboles de calle</a>
+					<br>Greater Greater Washington: <a href="http://translate.google.com/translate?u=http%3A%2F%2Fgreatergreaterwashington.org%2Fpost%2F14542%2Fhave-an-empty-street-tree-box-ask-for-a-new-tree-now%2F&hl=en&langpair=auto|es&tbb=1&ie=windows-1252" target="_blank">¿Tienes una caja de árbol de la calle vacía? Pida un nuevo árbol ahora</a></p>
+					
+					<h2><a class="anchor" href="#contact" id="contact"><span class="octicon octicon-link"></span></a>Contacto</h2>
+
+					<p>Este sitio fue desarrollado por <a href="https://emanuelfeld.github.io" target="_blank">Emanuel Feld</a> y está afiliado con el proyecto DC Trees en <a href="http://codefordc.org/" target="_blank">Code for DC</a>.</p>
+
+					<p>Envíe sus preguntas, problemas, ideas, sugerencias de prestaciones, quejas, o elogios en <a href="https://twitter.com/evonfriedland" target="_blank">Twitter</a> o por correo electrónico a getdctrees arroba gmail punto com.</p>
+
+					<p>También puede ponerse en contacto con los expertos de árboles en UFA mediante el envío de un correo electrónico a earl punto eutsler arroba dc punto gov.</p>
+
+				</div>
+
+			</section>
+
+			<footer class="footer">
+				<p><a href="/es.html" class="link"> volver al mapa </a></p>
+				<p>
+					<!-- Go to www.addthis.com/dashboard to customize your tools -->
+					<div class="addthis_sharing_toolbox"></div>
+				</p>
+			</footer>	
+
+			<script>
+
+				var statusCallback = function() {
+					var status_ward = JSON.parse(this.responseText);
+					var chart = c3.generate({
+					    bindto: '#status_chart',
+						padding: {
+	        				left: 30,
+	        				bottom: 15
+						},
+						data: {
+					        columns: [
+				            ['porcentaje', status_ward[0]['freq.status.Open'],status_ward[1]['freq.status.Open'],status_ward[2]['freq.status.Open'],status_ward[3]['freq.status.Open'],status_ward[4]['freq.status.Open'],status_ward[5]['freq.status.Open'],status_ward[6]['freq.status.Open'],status_ward[7]['freq.status.Open']],
+				            ['número', status_ward[0]['count.status.Open'],status_ward[1]['count.status.Open'],status_ward[2]['count.status.Open'],status_ward[3]['count.status.Open'],status_ward[4]['count.status.Open'],status_ward[5]['count.status.Open'],status_ward[6]['count.status.Open'],status_ward[7]['count.status.Open']]
+					        ],
+					        type: "bar",
+					        axes: {
+					            número: 'y2'
+					        },			    
+					        colors: {
+					            porcentaje: '#055B97',
+					            número: '#D00046'
+					        },
+					    },
+					    bar: {
+					    	width: {
+					    		ratio: 0.5
+					    	}
+					    },
+					    axis: {
+					        x: {
+					            type: 'category',
+					            categories: ['ward 1', 'ward 2', 'ward 3', 'ward 4', 'ward 5', 'ward 6', 'ward 7', 'ward 8']
+					        },
+					        y: {
+					            label: 'porcentaje',
+					            tick: {
+					                format: d3.format("%")
+					            }
+	            			},
+					        y2: {
+					        	show: true,
+					            label: 'número'
+					        }
+					    },
+					    tooltip: {
+					        format: {
+					            value: function (value, ratio, id) {
+					                var format = id === 'porcentaje' ? d3.format('%') : d3.format(',');
+					                return format(value);
+					            }
+					        }
+					    }
+    				});
+				};
+
+				function httpGet(url, callback) {
+					 var req = new XMLHttpRequest();
+					 req.addEventListener("load", callback, false);
+					 req.open('GET', url);
+					 req.send(null);
+				}			
+
+				// httpGet("http://emanuelfeld.github.io/tree-map/data/status_ward.json",statusCallback);
+
+			</script>
+
+			<!-- Go to www.addthis.com/dashboard to customize your tools -->
+			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-553071fc49386392" async="async"></script>
+
+    		<script src="js/scale.fix.js"></script>
+  	</body>
+</html>

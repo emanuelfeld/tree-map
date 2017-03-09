@@ -1,0 +1,39 @@
+{
+    "conformsTo": "http://codefordc.org/resources/specification.html",
+    "status": "Production",
+    "thumbnailUrl": "https://raw.githubusercontent.com/emanuelfeld/tree-map/master/img/dc168green.png",
+    "contact": {
+        "name": "getdctrees.org",
+        "email": "getdctrees@gmail.com",
+        "twitter": "@evonfriedland"
+    },
+    "bornAt": "Code for DC",
+    "geography": "DC",
+    "politicalEntity": {
+        "District Department of Transportation": "http://ddot.dc.gov/",
+        "Urban Forestry Administration": "http://ddot.dc.gov/page/ddot-urban-forestry-administration-ufa"
+    },
+    "governmentPartner": {
+        "Urban Forestry Administration": "http://ddot.dc.gov/page/ddot-urban-forestry-administration-ufa"
+    },
+    "communityPartner": {},
+    "type": "Web App",
+    "data": {
+        "UFA Street Trees": "http://maps2.dcgis.dc.gov/dcgis/rest/services/DDOT/UFATrees2/MapServer/0/",
+        "Ward Boundaries": "http://opendata.dc.gov/datasets/071aa9b40a1a4b38a938f8f5058068a8_31",
+        "Neighborhood Boundaries": "http://www.opendatadc.org/dataset/neighborhood-boundaries-217-neighborhoods-washpost-justgrimes"
+    },
+    "needs": [],
+    "categories": [
+        {
+            "category": "Environment"
+        },
+        {
+            "category": "Land Use"
+        },
+        {
+            "category": "Infrastructure"
+        }
+    ],
+    "moreInfo": "http://getdctrees.org/about.html"
+}
